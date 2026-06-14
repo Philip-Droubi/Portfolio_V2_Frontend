@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Orbitron:wght@400;500;600;700;800;900&family=Outfit:wght@400;700&family=Raleway:wght@400;700&family=Rubik:wght@400;500;700&display=swap');
+@import "tailwindcss";
+@tailwind utilities;
+@plugin "tailwindcss-animated";
+@plugin 'tailwind-scrollbar';
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer components {
+  div[data-testid="ps-sidebar-container-test-id"]::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@theme {
+  --color-primary: #6366F1;
+  --color-secondary: #22D3EE;
+  --color-offwhite: #F8FAFC;
+  --color-description: #94A3B8;
+  --color-title: #FFFFFF;
+  --color-text: #CBD5E1;
+  --color-error: #bd1010;
+  --color-edit: #2563EB;
+  --color-oranged: #ff4500;
+  --color-mobile-navbar: #0F172A;
+}
+
+:root {
+  --color-primary: #6366F1;
+  --color-secondary: #22D3EE;
+  --color-offwhite: #F8FAFC;
+  --color-description: #94A3B8;
+  --color-title: #FFFFFF;
+  --color-text: #CBD5E1;
+  --color-error: #bd1010;
+  --color-edit: #2563EB;
+  --color-oranged: #ff4500;
+  --color-mobile-navbar: #162038;
+}
+
+body {
+  color: var(--color-text);
+  min-height: 100dvh;
+}
+
+html {
+  font-family: "Rubik", sans-serif !important;
+  scroll-behavior: smooth;
+}
+
+* {
+  font-family: "Rubik", sans-serif !important;
+}
+
+#outlet::-webkit-scrollbar {
+  width: 14px;
+}
+
+#outlet::-webkit-scrollbar-thumb {
+  background-color: #ffffff98;
+  border-radius: 4px;
+  box-shadow: inset 2px 0 2px 0 rgba(0, 0, 0, 0.233),
+    inset -2px 0 2px 0 rgba(0, 0, 0, 0.233);
+}
+
+#outlet::-webkit-scrollbar-track {
+  background-image: linear-gradient(180deg, var(--color-edit), rgb(109, 0, 136));
+  box-shadow: inset 1px 0 2px 0 rgba(0, 0, 0, 0.233),
+    inset -1px 0 2px 0 rgba(0, 0, 0, 0.233);
+}
+
+.section {
+  padding: var(--main-padding-top) 0;
+}
+
+.code-particle {
+  user-select: none;
+  will-change: transform, opacity;
+
+  text-shadow:
+    0 0 4px currentColor,
+    0 0 10px currentColor,
+    0 0 20px currentColor;
+
+  animation: codeTrail 1.8s ease-out forwards;
+}
+
+.terminal-particle {
+  animation:
+    codeTrail 1.8s ease-out forwards,
+    blinkCursor .8s step-end infinite;
+}
+
+@keyframes blinkCursor {
+  50% {
+    opacity: .3;
+  }
+}
+
+@keyframes codeTrail {
+  0% {
+    opacity: 1;
+
+    transform:
+      translate3d(0, 0, 0) rotate(0deg) scale(1);
+  }
+
+  50% {
+    opacity: .85;
+
+    transform:
+      translate3d(calc(var(--dx) * .6),
+        calc(var(--dy) * .5),
+        0) rotate(calc(var(--rotate) * .5)) scale(.9);
+  }
+
+  100% {
+    opacity: 0;
+
+    transform:
+      translate3d(var(--dx),
+        var(--dy),
+        0) rotate(var(--rotate)) scale(.35);
+  }
+}
+
+/*  */
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+
+  a:hover {
+    color: #747bff;
+  }
+
+  button {
+    background-color: #f9f9f9;
+  }
+}
