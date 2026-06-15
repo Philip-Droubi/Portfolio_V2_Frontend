@@ -41,11 +41,11 @@ export default function FooterLinks() {
                 </a>
 
                 <a
-                    href={SOCIAL.email}
+                    href={`mailto:${SOCIAL.email}`}
                     aria-label="Email"
                     className={className}
                 >
-                    < EmailRoundedIcon />
+                    <EmailRoundedIcon />
                 </a>
             </div>
         </>

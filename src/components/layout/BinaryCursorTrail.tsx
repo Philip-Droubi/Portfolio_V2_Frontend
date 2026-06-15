@@ -1,3 +1,8 @@
+/**
+ * @deprecated This system was replaced
+ * Use: CursorProvider (src/context/CursorProvider.tsx)
+ */
+
 import { useEffect, useState } from "react";
 
 const SYMBOLS = [
@@ -34,7 +39,7 @@ export default function BinaryCursorTrail() {
     useEffect(() => {
         let id = 0;
         let lastSpawn = 0;
-        const density = 110;
+        const density = 120;
 
         const handleMove = (e: MouseEvent) => {
             const target = e.target as HTMLElement;

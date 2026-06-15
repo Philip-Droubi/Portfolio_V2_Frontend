@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { NavLink } from "react-router-dom";
 
 import PLogo from "@/assets/images/Logo/p_logo.png";
@@ -6,8 +6,17 @@ import { getDir } from "@/utils/functions";
 import { t } from "i18next";
 import MobileNavMenu from "./MobileNavMenu";
 import MobileMenuButton from "./MobileMenuButton";
+import { useCursor } from "@/context/CursorContext";
 
 export default function MainNavbar() {
+  const ref = useRef<HTMLDivElement>(null);
+  const { registerZone, unregisterZone } = useCursor();
+
+  useEffect(() => {
+    registerZone(ref.current);
+    return () => unregisterZone(ref.current);
+  }, [registerZone, unregisterZone]);
+
   const [isOpen, setIsOpen] = useState(false);
 
   const navItems = [
@@ -31,6 +40,7 @@ export default function MainNavbar() {
 
   return (
     <header
+      ref={ref}
       dir={getDir()}
       className="
         sticky top-0 z-50
