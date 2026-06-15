@@ -7,12 +7,12 @@ export default function Background() {
                 <div
                     className="
                         absolute
-                        top-[-200px]
-                        left-[-200px]
-                        w-[700px]
-                        h-[700px]
+                        -top-50
+                        -left-50
+                        w-175
+                        h-175
                         rounded-full
-                        bg-[#6366F1]
+                        bg-primary
                         opacity-30
                         blur-[180px]
                     "
@@ -21,12 +21,12 @@ export default function Background() {
                 <div
                     className="
                         absolute
-                        bottom-[-200px]
-                        right-[-200px]
-                        w-[700px]
-                        h-[700px]
+                        -bottom-50
+                        -right-50
+                        w-175
+                        h-175
                         rounded-full
-                        bg-[#22D3EE]
+                        bg-secondary
                         opacity-20
                         blur-[180px]
                     "

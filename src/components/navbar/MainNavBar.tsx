@@ -88,7 +88,7 @@ export default function MainNavbar() {
         </NavLink>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex items-center gap-12">
+        <nav className="hidden md:flex items-center gap-8">
           {navItems.map((item) => (
             <a
               key={item.href}
