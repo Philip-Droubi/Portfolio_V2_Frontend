@@ -40,13 +40,12 @@
 body {
   color: var(--color-text);
   min-height: 100dvh;
+  background-color: var(--bg-mobile-navbar) !important;
 }
 
 html {
   font-family: "Rubik", sans-serif !important;
   scroll-behavior: smooth;
-  /* scrollbar-width: thin; */
-  /* scrollbar-color: var(--color-secondary) transparent; */
 }
 
 * {

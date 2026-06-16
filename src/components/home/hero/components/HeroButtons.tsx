@@ -1,6 +1,6 @@
 export default function HeroButtons() {
     return (
-        <div className="flex flex-wrap justify-center lg:justify-start items-center gap-4 pt-6">
+        <div className="flex flex-wrap justify-center lg:justify-start items-center gap-4 pt-6 select-none">
             <a
                 href="/cv/Philip_Droubi_Resume.pdf"
                 download

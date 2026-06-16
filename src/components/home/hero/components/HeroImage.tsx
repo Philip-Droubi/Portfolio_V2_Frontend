@@ -2,7 +2,7 @@ import profileImg from "@/assets/images/me/profileImage.jpeg";
 
 export default function HeroImage() {
     return (
-        <div className="flex-1 flex justify-center lg:justify-end">
+        <div className="flex-1 flex justify-center lg:justify-end select-none">
 
             <div className="relative">
 

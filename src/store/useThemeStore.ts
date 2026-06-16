@@ -6,7 +6,7 @@ export const useThemeStore = create<{
     mode: Mode;
     toggleMode: () => void;
 }>((set) => ({
-    mode: (localStorage.getItem("theme") as Mode) || "light",
+    mode: (localStorage.getItem("theme") as Mode) || "dark",
 
     toggleMode: () =>
         set((state) => {

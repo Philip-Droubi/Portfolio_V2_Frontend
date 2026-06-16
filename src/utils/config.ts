@@ -8,6 +8,9 @@ export const INFO = {
     full_name: "Philip Marwan Droubi",
     address: "Syria, Damascus",
     birth_date: "29-08-2001",
+    university: "Damascus University",
+    faculty: "Information Technology Engineering",
+    citizenship: " Arab Syrian",
 };
 
 export const SOCIAL = {

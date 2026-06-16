@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
-import HeroImage from "./hero/HeroImage";
-import HeroLinks from "./hero/HeroLinks";
-import HeroButtons from "./hero/HeroButtons";
+import HeroImage from "./components/HeroImage";
+import HeroLinks from "./components/HeroLinks";
+import HeroButtons from "./components/HeroButtons";
 
 export default function Hero() {
     return (
@@ -12,7 +12,7 @@ export default function Hero() {
                 items-center
                 justify-center lg:justify-between
                 gap-8 lg:gap-20
-                py-10
+                pt-10
                 "
         >
 

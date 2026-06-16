@@ -1,3 +1,5 @@
+import AboutMe from "./about/AboutMe";
+import EducationSkills from "./educationSkills/EducationSkills";
 import Hero from "./hero/Hero";
 
 export default function HomePage() {
@@ -5,6 +7,12 @@ export default function HomePage() {
         <>
             {/* Hero Section  */}
             <Hero />
+
+            {/* About Me Section */}
+            <AboutMe />
+
+            {/* Education & Skills */}
+            <EducationSkills />
         </>
     )
 }
