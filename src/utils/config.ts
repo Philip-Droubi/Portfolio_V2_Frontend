@@ -13,6 +13,17 @@ export const INFO = {
     citizenship: " Arab Syrian",
 };
 
+export const LANGUAGES = [
+    {
+        "lang": "Arabic",
+        "description": "Native Language",
+    },
+    {
+        "lang": "English",
+        "description": "Professional Proficiency Level",
+    }
+]
+
 export const SOCIAL = {
     email: "philipdroubi@gmail.com",
     linkedIn: "https://www.linkedin.com/in/philip-droubi",

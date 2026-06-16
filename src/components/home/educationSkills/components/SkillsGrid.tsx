@@ -26,7 +26,7 @@ export default function SkillsGrid() {
                             src={tech.icon}
                             //@ts-ignore
                             alt={tech[`name_${lang}` as keyof typeof tech]}
-                            className="w-10 h-10"
+                            className="w-10 h-10 select-none"
                         />
 
                         <span className="text-sm text-gray-300">

@@ -38,10 +38,10 @@ export default function InteractiveBackground() {
 
         const PARTICLE_COUNT = getParticleCount();
         const LINK_DISTANCE = 150;
-        const CURSOR_RADIUS = 180;
+        const CURSOR_RADIUS = 150;
         const EXPLOSION_FORCE = 4;
         const SHOCKWAVE_EFFECT = 250;
-        const PARTICLE_RUN_FROM_CURSOR_FORCE = 2.5;
+        const PARTICLE_RUN_FROM_CURSOR_FORCE = 2;
 
         const resize = () => {
             canvas.width = window.innerWidth;

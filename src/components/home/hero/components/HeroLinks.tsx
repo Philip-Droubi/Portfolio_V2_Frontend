@@ -17,7 +17,7 @@ export default function HeroLinks() {
                 <GitHubIcon fontSize="large" />
             </a>
 
-            <a href={`mailto:${SOCIAL.email}`} className={className}>
+            <a href={`mailto:${SOCIAL.email}`} className={className} target="_blank" rel="noopener noreferrer">
                 <EmailIcon fontSize="large" />
             </a>
 
