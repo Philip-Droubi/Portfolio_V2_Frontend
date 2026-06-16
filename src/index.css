@@ -45,27 +45,28 @@ body {
 html {
   font-family: "Rubik", sans-serif !important;
   scroll-behavior: smooth;
+  /* scrollbar-width: thin; */
+  /* scrollbar-color: var(--color-secondary) transparent; */
 }
 
 * {
   font-family: "Rubik", sans-serif !important;
 }
 
-#outlet::-webkit-scrollbar {
-  width: 14px;
+body::-webkit-scrollbar {
+  width: 10px;
 }
 
-#outlet::-webkit-scrollbar-thumb {
-  background-color: #ffffff98;
-  border-radius: 4px;
-  box-shadow: inset 2px 0 2px 0 rgba(0, 0, 0, 0.233),
-    inset -2px 0 2px 0 rgba(0, 0, 0, 0.233);
+body::-webkit-scrollbar-track {
+  background: var(--color-description);
 }
 
-#outlet::-webkit-scrollbar-track {
-  background-image: linear-gradient(180deg, var(--color-edit), rgb(109, 0, 136));
-  box-shadow: inset 1px 0 2px 0 rgba(0, 0, 0, 0.233),
-    inset -1px 0 2px 0 rgba(0, 0, 0, 0.233);
+body::-webkit-scrollbar-thumb {
+  background: var(--color-edit)
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  filter: brightness(1.15);
 }
 
 .section {

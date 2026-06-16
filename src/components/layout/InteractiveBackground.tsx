@@ -36,7 +36,7 @@ export default function InteractiveBackground() {
         const particles: Particle[] = [];
         const shockwaves: Shockwave[] = [];
 
-        const PARTICLE_COUNT = 170;
+        const PARTICLE_COUNT = getParticleCount();
         const LINK_DISTANCE = 150;
         const CURSOR_RADIUS = 180;
         const EXPLOSION_FORCE = 4;
@@ -498,3 +498,9 @@ export default function InteractiveBackground() {
         />
     );
 }
+
+const getParticleCount = () => {
+    if (window.innerWidth < 640) return 50;      // mobile
+    if (window.innerWidth < 1024) return 100;    // tablet
+    return 170;                                  // desktop
+};

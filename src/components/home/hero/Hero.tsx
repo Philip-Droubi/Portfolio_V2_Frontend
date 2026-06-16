@@ -41,10 +41,9 @@ export default function Hero() {
                     initial={{ opacity: 0, y: 30 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.2 }}
-                    className="text-gray-300 max-w-xl mx-auto lg:mx-0 leading-relaxed text-base sm:text-lg lg:text-xl">
-                    Hi, I’m Philip. I’m a Software Engineer who enjoys building
-                    modern web experiences, experimenting with UI effects, and
-                    turning ideas into clean code.
+                    className="text-gray-300 max-w-xl mx-auto lg:mx-0 leading-relaxed text-base sm:text-lg lg:text-xl backdrop-blur-xs">
+                    Hi, I'm Philip, a Software Engineer passionate about building modern web applications,
+                    creating clean user experiences, and turning ideas into real-world solutions.
                 </motion.p>
 
                 {/* Buttons */}
