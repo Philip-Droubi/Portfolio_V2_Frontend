@@ -4,6 +4,7 @@ import Background from "./Background";
 import { Outlet } from "react-router-dom";
 import Footer from "../footer/Footer";
 import CursorProvider from "@/context/CursorProvider";
+import ContactMe from "../contactMe/contactMe";
 
 export const MainLayout = () => {
   return (
@@ -19,6 +20,7 @@ export const MainLayout = () => {
 
           <main className="flex-1 max-w-330 mx-auto w-full px-4 sm:px-8 py-4">
             <Outlet />
+            <ContactMe />
           </main>
 
           <Footer />
