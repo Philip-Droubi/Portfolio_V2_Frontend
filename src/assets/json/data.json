@@ -2,12 +2,12 @@
     "projects": [
         {
             "id": 36,
-            "main_image": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781039341\/portfolio\/v2\/projects\/36\/qa78r3g6qievggf2ar4m.png",
+            "main_image": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781031920\/portfolio\/v2\/projects\/36\/media\/yggpbj05snmgyreptsyr.jpg",
             "slug": "dsadsa",
             "start_date": "2026-03-01",
             "end_date": null,
-            "url": null,
-            "live_url": null,
+            "url": "https://www.example.com",
+            "live_url": "https://www.example.com",
             "teches": [
                 {
                     "id": 12,
@@ -17,9 +17,9 @@
                 },
                 {
                     "id": 10,
-                    "icon": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781126055\/portfolio\/v2\/teches\/tktehpkjt9a0bojexkuo.svg",
-                    "name_ar": "Filament",
-                    "name_en": "Filament"
+                    "icon": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781126130\/portfolio\/v2\/teches\/ppy6xofy98ynp9bqab8n.svg",
+                    "name_ar": "Axios",
+                    "name_en": "Axios"
                 },
                 {
                     "id": 11,
@@ -45,64 +45,136 @@
                 {
                     "id": 22,
                     "media_url": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781031920\/portfolio\/v2\/projects\/36\/media\/yggpbj05snmgyreptsyr.jpg"
+                },
+                {
+                    "id": 22,
+                    "media_url": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781031920\/portfolio\/v2\/projects\/36\/media\/yggpbj05snmgyreptsyr.jpg"
+                },
+                {
+                    "id": 22,
+                    "media_url": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781031920\/portfolio\/v2\/projects\/36\/media\/yggpbj05snmgyreptsyr.jpg"
+                },
+                {
+                    "id": 22,
+                    "media_url": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781031920\/portfolio\/v2\/projects\/36\/media\/yggpbj05snmgyreptsyr.jpg"
+                },
+                {
+                    "id": 22,
+                    "media_url": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781031920\/portfolio\/v2\/projects\/36\/media\/yggpbj05snmgyreptsyr.jpg"
+                },
+                {
+                    "id": 22,
+                    "media_url": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781031920\/portfolio\/v2\/projects\/36\/media\/yggpbj05snmgyreptsyr.jpg"
+                },
+                {
+                    "id": 22,
+                    "media_url": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781031920\/portfolio\/v2\/projects\/36\/media\/yggpbj05snmgyreptsyr.jpg"
+                },
+                {
+                    "id": 22,
+                    "media_url": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781031920\/portfolio\/v2\/projects\/36\/media\/yggpbj05snmgyreptsyr.jpg"
+                },
+                {
+                    "id": 22,
+                    "media_url": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781031920\/portfolio\/v2\/projects\/36\/media\/yggpbj05snmgyreptsyr.jpg"
+                },
+                {
+                    "id": 22,
+                    "media_url": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781031920\/portfolio\/v2\/projects\/36\/media\/yggpbj05snmgyreptsyr.jpg"
+                },
+                {
+                    "id": 22,
+                    "media_url": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781031920\/portfolio\/v2\/projects\/36\/media\/yggpbj05snmgyreptsyr.jpg"
+                },
+                {
+                    "id": 22,
+                    "media_url": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781031920\/portfolio\/v2\/projects\/36\/media\/yggpbj05snmgyreptsyr.jpg"
+                },
+                {
+                    "id": 22,
+                    "media_url": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781031920\/portfolio\/v2\/projects\/36\/media\/yggpbj05snmgyreptsyr.jpg"
+                },
+                {
+                    "id": 22,
+                    "media_url": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781031920\/portfolio\/v2\/projects\/36\/media\/yggpbj05snmgyreptsyr.jpg"
+                },
+                {
+                    "id": 22,
+                    "media_url": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781031920\/portfolio\/v2\/projects\/36\/media\/yggpbj05snmgyreptsyr.jpg"
+                },
+                {
+                    "id": 22,
+                    "media_url": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781031920\/portfolio\/v2\/projects\/36\/media\/yggpbj05snmgyreptsyr.jpg"
                 }
             ],
             "name_ar": "klklk",
             "description_ar": "<p>klklkl<\/p>",
-            "tiny_description_ar": "klkl",
+            "tiny_description_ar": "Vigor is a home workout application allows user to practice exercises and stay healthy from thier homes. It's a gym in your pocket 💪🤳🏻.",
             "name_en": "dsadsa",
             "description_en": "<p>klklkl<\/p>",
-            "tiny_description_en": "klkl"
+            "tiny_description_en": "Vigor is a home workout application allows user to practice exercises and stay healthy from thier homes. It's a gym in your pocket 💪🤳🏻."
         }
     ],
     "teches": [
         {
-            "id": 3,
+            "id": 1,
+            "icon": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781725972\/portfolio\/v2\/teches\/ari32s0fgm5jgbsovpnw.svg",
+            "name_ar": "PHP",
+            "name_en": "PHP"
+        },
+        {
+            "id": 2,
             "icon": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781126319\/portfolio\/v2\/teches\/yz3uuyf4ve5khzopnhxi.svg",
             "name_ar": "Laravel",
             "name_en": "Laravel"
         },
         {
+            "id": 3,
+            "icon": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781726037\/portfolio\/v2\/teches\/acwvnqrgo0nqbes0b03i.svg",
+            "name_ar": "MySQL",
+            "name_en": "MySQL"
+        },
+        {
             "id": 4,
+            "icon": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781126055\/portfolio\/v2\/teches\/tktehpkjt9a0bojexkuo.svg",
+            "name_ar": "Filament",
+            "name_en": "Filament"
+        },
+        {
+            "id": 5,
             "icon": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781126294\/portfolio\/v2\/teches\/g0o7ycoypjdudyoj4lou.svg",
             "name_ar": "React JS",
             "name_en": "React JS"
         },
         {
-            "id": 5,
+            "id": 6,
             "icon": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781126257\/portfolio\/v2\/teches\/fmpxdgjclsadfmjmwoim.svg",
             "name_ar": "Zustand",
             "name_en": "Zustand"
         },
         {
-            "id": 6,
+            "id": 7,
             "icon": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781126225\/portfolio\/v2\/teches\/zscznjqflrp21ekoch4e.svg",
             "name_ar": "React Query",
             "name_en": "React Query"
         },
         {
-            "id": 7,
+            "id": 8,
             "icon": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781126190\/portfolio\/v2\/teches\/ecvhfhze7lxlgsoaeisv.svg",
             "name_ar": "React Router",
             "name_en": "React Router"
         },
         {
-            "id": 8,
+            "id": 9,
             "icon": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781126467\/portfolio\/v2\/teches\/z8ucvgypm5zwwnd5hib3.svg",
             "name_ar": "Material UI",
             "name_en": "Material UI"
         },
         {
-            "id": 9,
+            "id": 10,
             "icon": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781126130\/portfolio\/v2\/teches\/ppy6xofy98ynp9bqab8n.svg",
             "name_ar": "Axios",
             "name_en": "Axios"
-        },
-        {
-            "id": 10,
-            "icon": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781126055\/portfolio\/v2\/teches\/tktehpkjt9a0bojexkuo.svg",
-            "name_ar": "Filament",
-            "name_en": "Filament"
         },
         {
             "id": 11,
@@ -124,15 +196,33 @@
         },
         {
             "id": 14,
+            "icon": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781125850\/portfolio\/v2\/teches\/j0925zixhzjpmktuqgmi.svg",
+            "name_ar": "TypeScript",
+            "name_en": "TypeScript"
+        },
+        {
+            "id": 15,
             "icon": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781126436\/portfolio\/v2\/teches\/fwolgcvci88mhzr84mtf.svg",
             "name_ar": "Tailwind CSS",
             "name_en": "Tailwind CSS"
         },
         {
             "id": 16,
-            "icon": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781125850\/portfolio\/v2\/teches\/j0925zixhzjpmktuqgmi.svg",
-            "name_ar": "TypeScript",
-            "name_en": "TypeScript"
+            "icon": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781725859\/portfolio\/v2\/teches\/kc8ajos1jcxmq99sui48.svg",
+            "name_ar": "Git",
+            "name_en": "Git"
+        },
+        {
+            "id": 17,
+            "icon": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781725926\/portfolio\/v2\/teches\/mewsrtxkhfzuoovezwlv.svg",
+            "name_ar": "Postman",
+            "name_en": "Postman"
+        },
+        {
+            "id": 18,
+            "icon": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781726092\/portfolio\/v2\/teches\/xnzxgdmncpk5l9suvbsx.svg",
+            "name_ar": "JIRA",
+            "name_en": "JIRA"
         }
     ]
 }

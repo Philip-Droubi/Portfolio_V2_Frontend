@@ -8,7 +8,7 @@ export default function ContactMe() {
     return (
         <section
             id="contact"
-            className="relative pt-20 overflow-hidden"
+            className="relative pt-18"
         >
             <motion.div
                 variants={fadeUpMotion}

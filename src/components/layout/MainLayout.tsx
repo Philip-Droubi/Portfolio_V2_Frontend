@@ -4,7 +4,7 @@ import Background from "./Background";
 import { Outlet } from "react-router-dom";
 import Footer from "../footer/Footer";
 import CursorProvider from "@/context/CursorProvider";
-import ContactMe from "../contactMe/contactMe";
+import ContactMe from "../contactMe/ContactMe";
 
 export const MainLayout = () => {
   return (

@@ -1,3 +1,4 @@
+import ProjectsList from "../projects/ProjectsList";
 import AboutMe from "./about/AboutMe";
 import EducationSkills from "./educationSkills/EducationSkills";
 import Hero from "./hero/Hero";
@@ -13,6 +14,9 @@ export default function HomePage() {
 
             {/* Education & Skills */}
             <EducationSkills />
+
+            {/* Projects */}
+            <ProjectsList itemsLimit={8} />
         </>
     )
 }

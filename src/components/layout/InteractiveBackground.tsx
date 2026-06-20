@@ -502,5 +502,5 @@ export default function InteractiveBackground() {
 const getParticleCount = () => {
     if (window.innerWidth < 640) return 50;      // mobile
     if (window.innerWidth < 1024) return 100;    // tablet
-    return 170;                                  // desktop
+    return 154;                                  // desktop
 };
