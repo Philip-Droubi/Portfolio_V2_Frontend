@@ -62,7 +62,7 @@ export default function MediaGallery({
                     src={media[index]}
                     onClick={open}
                     sx={{
-                        // maxHeight: "100%",
+                        maxHeight: "100vh",
                         objectFit: "contain",
                         cursor: isOpen ? "auto" : "pointer",
                         transform: `scale(${zoom})`,
@@ -87,7 +87,6 @@ export default function MediaGallery({
                     >
                         <ArrowBackIos />
                     </IconButton>
-
 
                     <IconButton
                         onClick={next}
