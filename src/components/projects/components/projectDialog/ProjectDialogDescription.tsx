@@ -23,7 +23,7 @@ export default function ProjectDialogDescription({
     ];
 
     return (
-        <Box sx={{ flex: "1 1 600px", minWidth: 0 }}>
+        <div className="lg:w-8/12">
             <Box
                 sx={{
                     display: "flex",
@@ -39,10 +39,7 @@ export default function ProjectDialogDescription({
                         }}
                     >
 
-                        <Typography
-                            variant="h6"
-                            sx={{ color: "var(--color-secondary)", }}
-                        >
+                        <Typography variant="h6" sx={{ color: "var(--color-secondary)", }}>
                             {section.title}
                         </Typography>
 
@@ -61,6 +58,6 @@ export default function ProjectDialogDescription({
                     </Box>
                 ))}
             </Box>
-        </Box>
+        </div>
     );
 }

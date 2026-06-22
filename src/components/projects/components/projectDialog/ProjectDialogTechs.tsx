@@ -25,12 +25,12 @@ export default function ProjectDialogTechs({
 
                 <Divider />
 
-                <div className="flex flex-wrap gap-2 mt-4">
+                <div className="flex flex-wrap gap-2 mt-4 justify-around lg:justify-start">
                     {
                         techs?.map(tech => (
                             <div
                                 className="
-                                    border rounded-xl border-t border-gray-600 size-22 
+                                    border rounded-xl border-t border-gray-600 h-22 min-w-22
                                     flex flex-col items-center justify-center
                                     transition
                                     hover:bg-white/10

@@ -46,7 +46,8 @@ export default function EducationCard() {
             <div className="flex justify-center lg:justify-end mt-6">
                 <Link
                     to="/certificates"
-                    className="text-center w-full
+                    className="
+                        text-center w-full
                         px-6 py-3
                         rounded-xl
                         border border-secondary/40
@@ -54,7 +55,8 @@ export default function EducationCard() {
                         font-medium
                         transition-all duration-300
                         hover:bg-secondary/10
-                        hover:border-secondary">
+                        hover:border-secondary
+                        ">
                     View Certificates →
                 </Link>
             </div>

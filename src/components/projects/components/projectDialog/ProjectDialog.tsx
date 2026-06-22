@@ -51,9 +51,9 @@ export default function ProjectDialog({
                 {/* MEDIA */}
                 <MediaViewer media={media} />
 
-                <div dir={getDir()} className="flex gap-6 flex-wrap mt-8">
+                <div dir={getDir()} className="flex flex-wrap mt-8 justify-around gap-8 lg:gap-0">
                     <ProjectDialogDescription project={project} lang={lang} />
-                    <ProjectDialogInfo project={project} lang={lang} />
+                    <ProjectDialogInfo project={project} />
                 </div>
 
                 {/* TECH */}

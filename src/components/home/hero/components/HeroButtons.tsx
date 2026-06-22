@@ -1,8 +1,10 @@
 export default function HeroButtons() {
+    const resumeURL = `${import.meta.env.BASE_URL}cv/Philip_Droubi_Resume.pdf`;
+
     return (
         <div className="flex flex-wrap justify-center lg:justify-start items-center gap-4 pt-6 select-none">
             <a
-                href="/cv/Philip_Droubi_Resume.pdf"
+                href={resumeURL}
                 download
                 className="group relative overflow-hidden
                     px-6 py-3 sm:px-8 sm:py-4

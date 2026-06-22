@@ -124,3 +124,29 @@ export function formatMinutes(minutes?: number): string {
 
     return `${hours}:${remaining.toString().padStart(2, "0")} ${t("hour")}`;
 }
+
+export function getDuration(startDate: string, endDate?: string | null): string {
+    const start = new Date(startDate);
+    const end = endDate ? new Date(endDate) : new Date();
+
+    let years = end.getFullYear() - start.getFullYear();
+    let months = end.getMonth() - start.getMonth();
+
+    // Fix negative months
+    if (months < 0) {
+        years--;
+        months += 12;
+    }
+
+    const parts = [];
+
+    if (years > 0) {
+        parts.push(`${years} ${years === 1 ? "year" : "years"}`);
+    }
+
+    if (months > 0) {
+        parts.push(`${months} ${months === 1 ? "month" : "months"}`);
+    }
+
+    return parts.length > 0 ? parts.join(" & ") : "Less than a month";
+};
