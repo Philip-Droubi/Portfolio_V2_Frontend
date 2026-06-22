@@ -35,12 +35,12 @@ export default function NotFound() {
     const [lostPageClicks, setLostPageClicks] = useState(0);
 
     // Mouse position
-    const x = useMotionValue(0);
-    const y = useMotionValue(0);
+    const x = useMotionValue(window.innerWidth / 2);
+    const y = useMotionValue(window.innerHeight / 2);
 
     // Glow follows cursor
-    const glowX = useTransform(x, (v) => v - 750);
-    const glowY = useTransform(y, (v) => v - 350);
+    const glowX = useTransform(x, (v) => v - 100);
+    const glowY = useTransform(y, (v) => v - 100);
 
     // 404 rotates toward cursor
     const rotateY = useTransform(x, [0, window.innerWidth], [-15, 15]);
@@ -118,9 +118,11 @@ export default function NotFound() {
             {/* Cursor Glow */}
             <motion.div
                 style={{
-                    position: "absolute",
-                    width: 300,
-                    height: 300,
+                    position: "fixed",
+                    left: 0,
+                    top: 0,
+                    width: 200,
+                    height: 200,
                     borderRadius: "50%",
                     background: isDark
                         ? "rgba(0, 255, 255, 0.32)"
@@ -129,6 +131,7 @@ export default function NotFound() {
                     x: glowX,
                     y: glowY,
                     pointerEvents: "none",
+                    zIndex: 0,
                 }}
             />
 
