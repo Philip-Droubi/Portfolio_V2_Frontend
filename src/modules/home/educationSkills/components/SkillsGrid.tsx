@@ -13,7 +13,7 @@ export default function SkillsGrid() {
                 {teches.map((tech) => (
                     <div
                         key={tech.id}
-                        className="group rounded-xl border border-white/10 bg-white/5
+                        className="group rounded-xl border border-white/10 bg-[#162449] md:bg-white/5
                             backdrop-blur-md
                             p-4
                             flex flex-col
