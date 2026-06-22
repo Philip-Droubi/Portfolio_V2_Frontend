@@ -1,10 +1,10 @@
 import { getDir } from "@/utils/functions";
-import MainNavbar from "../navbar/MainNavBar";
 import Background from "./Background";
 import { Outlet } from "react-router-dom";
-import Footer from "../footer/Footer";
+import Footer from "./footer/Footer";
 import CursorProvider from "@/context/CursorProvider";
-import ContactMe from "../contactMe/ContactMe";
+import ContactMe from "@/modules/contactMe/ContactMe";
+import MainNavbar from "./navbar/MainNavBar";
 
 export const MainLayout = () => {
   return (

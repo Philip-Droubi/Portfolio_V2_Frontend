@@ -1,7 +1,7 @@
 import { Dialog, DialogContent } from "@mui/material";
 import type { ProjectType } from "../../types";
 import { getDir } from "@/utils/functions";
-import MediaViewer from "@/components/media/MediaViewer";
+import MediaViewer from "@/components/mediaViewer/MediaViewer";
 import ProjectDialogTechs from "./ProjectDialogTechs";
 import ProjectDialogTitle from "./ProjectDialogTitle";
 import ProjectDialogDescription from "./ProjectDialogDescription";

@@ -1,4 +1,4 @@
-import HomePage from "@/components/home/HomePage";
+import HomePage from "@/modules/home/HomePage";
 import { MainLayout } from "@/components/layout/MainLayout";
 import NotFound from "@/pages/errors/NotFound";
 import {
