@@ -43,18 +43,17 @@ export default function ProjectDialogDescription({
                             {section.title}
                         </Typography>
 
-                        <Typography
+                        <Box
                             sx={{
                                 mt: 1,
                                 p: 2,
                                 lineHeight: 1.8,
-                                whiteSpace: "pre-line",
                                 border: "1px dashed var(--color-description)",
                                 borderRadius: 3,
                             }}
                         >
                             <HtmlElementViewer html={DOMPurify.sanitize(section.content ?? "")} />
-                        </Typography>
+                        </Box>
                     </Box>
                 ))}
             </Box>

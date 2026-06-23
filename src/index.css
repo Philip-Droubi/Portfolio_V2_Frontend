@@ -91,6 +91,23 @@ body::-webkit-scrollbar-thumb:hover {
     blinkCursor .8s step-end infinite;
 }
 
+.html-element h1,
+.html-element h2,
+.html-element h3,
+.html-element h4,
+.html-element h5,
+.html-element h6,
+.html-element p {
+  font-size: revert;
+  font-weight: revert;
+}
+
+.html-element ul,
+.html-element ol {
+  list-style: revert;
+  padding: revert;
+}
+
 @keyframes blinkCursor {
   50% {
     opacity: .3;
