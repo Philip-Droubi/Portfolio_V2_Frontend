@@ -6,7 +6,7 @@ import { fadeUpMotion } from "@/utils/motions";
 
 export default function AboutMe() {
     return (
-        <section id="about" className="pt-18">
+        <section id="about">
 
             {/* Heading */}
             <motion.div

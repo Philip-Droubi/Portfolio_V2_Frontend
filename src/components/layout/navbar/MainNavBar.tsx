@@ -22,11 +22,11 @@ export default function MainNavbar() {
   const navItems = [
     {
       label: t("aboutMe"),
-      href: "#about",
+      href: "/#about",
     },
     {
       label: t("education"),
-      href: "#education-skills",
+      href: "/#education-skills",
     },
     {
       label: t("projects"),

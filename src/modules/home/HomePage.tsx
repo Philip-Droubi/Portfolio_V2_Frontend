@@ -1,4 +1,4 @@
-import ProjectsList from "../projects/ProjectsList";
+import ProjectsList from "../projects/components/ProjectsList";
 import AboutMe from "./about/AboutMe";
 import EducationSkills from "./educationSkills/EducationSkills";
 import Hero from "./hero/Hero";

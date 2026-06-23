@@ -5,6 +5,8 @@ import Footer from "./footer/Footer";
 import CursorProvider from "@/context/CursorProvider";
 import ContactMe from "@/modules/contactMe/ContactMe";
 import MainNavbar from "./navbar/MainNavBar";
+import ResetScrollComponent from "../misc/ResetScrollComponent";
+import ScrollToHash from "../misc/ScrollToHash";
 
 export const MainLayout = () => {
   return (
@@ -19,6 +21,8 @@ export const MainLayout = () => {
           <MainNavbar />
 
           <main className="flex-1 max-w-330 mx-auto w-full px-4 sm:px-8 py-4">
+            <ResetScrollComponent />
+            <ScrollToHash />
             <Outlet />
             <ContactMe />
           </main>
