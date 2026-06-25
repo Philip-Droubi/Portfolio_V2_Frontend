@@ -59,7 +59,7 @@ export default function ProjectsList({
                 {/* Header */}
                 <div className="text-center mb-12">
                     <h2 className="text-4xl sm:text-5xl font-bold text-white">
-                        Projects
+                        Projects & <span className="text-secondary">Experience</span>
                     </h2>
 
                     <p className="text-gray-400 mt-4 max-w-2xl mx-auto">

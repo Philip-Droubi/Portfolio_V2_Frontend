@@ -81,8 +81,8 @@ export default function ProjectDialogInfo({
                         }
                         {/* URL */}
                         {
-                            project.live_url &&
-                            <a href={project.live_url} target="_blank" rel="noopener noreferrer"
+                            project.url &&
+                            <a href={project.url} target="_blank" rel="noopener noreferrer"
                                 className={buttonClassName}
                             >
                                 <OpenInNew /> Website

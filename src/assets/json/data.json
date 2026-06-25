@@ -1,6 +1,68 @@
 {
     "projects": [
         {
+            "id": 2,
+            "main_image": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1782326722\/portfolio\/v2\/projects\/2\/ciprg1wsvmh6nuh3tidi.png",
+            "slug": "portfolio-v1",
+            "start_date": "2023-03-01",
+            "end_date": "2023-07-01",
+            "url": "https:\/\/github.com\/Philip-Droubi\/Portfolio_V1",
+            "live_url": "https:\/\/philip-droubi.github.io\/Portfolio_V1\/",
+            "teches": [
+                {
+                    "id": 11,
+                    "icon": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781126022\/portfolio\/v2\/teches\/rkgnze6zpmio4aygw5k3.svg",
+                    "name_ar": "HTML",
+                    "name_en": "HTML"
+                },
+                {
+                    "id": 12,
+                    "icon": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781125995\/portfolio\/v2\/teches\/qo6vdbizpqf5smfwhp3w.svg",
+                    "name_ar": "CSS",
+                    "name_en": "CSS"
+                },
+                {
+                    "id": 13,
+                    "icon": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781125967\/portfolio\/v2\/teches\/marklkliiihrmyj5qtsn.svg",
+                    "name_ar": "JavaScript",
+                    "name_en": "JavaScript"
+                },
+                {
+                    "id": 16,
+                    "icon": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781725859\/portfolio\/v2\/teches\/kc8ajos1jcxmq99sui48.svg",
+                    "name_ar": "Git",
+                    "name_en": "Git"
+                }
+            ],
+            "tags": [
+                {
+                    "id": 2,
+                    "name_ar": "Frontend - Web",
+                    "name_en": "Frontend - Web"
+                }
+            ],
+            "media": [
+                {
+                    "id": 5,
+                    "media_url": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1782326727\/portfolio\/v2\/projects\/2\/media\/exbnf7db74k7rcqpm8ja.png"
+                },
+                {
+                    "id": 6,
+                    "media_url": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1782326751\/portfolio\/v2\/projects\/2\/media\/ym8dzbsbkihbydjszeof.png"
+                },
+                {
+                    "id": 7,
+                    "media_url": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1782326757\/portfolio\/v2\/projects\/2\/media\/ygm1lsp1cxdn3fckishk.png"
+                }
+            ],
+            "name_ar": "Portfolio V1",
+            "description_ar": "<h1>\u0627\u0644\u0628\u0648\u0631\u062a\u0641\u0648\u0644\u064a\u0648 \u0627\u0644\u0625\u0635\u062f\u0627\u0631 \u0627\u0644\u0623\u0648\u0644<\/h1><br><p>\u0643\u0627\u0646 \u0647\u0630\u0627 \u0623\u0648\u0644 \u0645\u062d\u0627\u0648\u0644\u0629 \u0644\u064a \u0644\u0625\u0646\u0634\u0627\u0621 \u0645\u0648\u0642\u0639 \u0628\u0648\u0631\u062a\u0641\u0648\u0644\u064a\u0648 \u0623\u062b\u0646\u0627\u0621 \u062a\u0639\u0644\u0645\u064a \u0623\u0633\u0627\u0633\u064a\u0627\u062a HTML \u0648CSS \u0648JavaScript.<br>\u064a\u0645\u062b\u0644 \u0627\u0644\u0645\u0631\u062d\u0644\u0629 \u0627\u0644\u0623\u0648\u0644\u0649 \u0645\u0646 \u0631\u062d\u0644\u062a\u064a \u0641\u064a \u062a\u0637\u0648\u064a\u0631 \u0627\u0644\u0648\u064a\u0628\u060c \u0648\u0627\u0644\u0623\u0633\u0627\u0633 \u0627\u0644\u0630\u064a \u062a\u0637\u0648\u0631\u062a \u0645\u0646\u0647 \u0623\u0639\u0645\u0627\u0644\u064a \u0627\u0644\u0644\u0627\u062d\u0642\u0629.<\/p><br><p>\u062a\u0635\u0645\u064a\u0645 \u0628\u0633\u064a\u0637 \u0648\u062a\u062c\u0631\u064a\u0628\u064a \u0631\u0643\u0651\u0632 \u0639\u0644\u0649 \u0627\u0644\u062a\u062f\u0631\u064a\u0628 \u0639\u0644\u0649 \u0627\u0644\u0628\u0646\u064a\u0629 \u0648\u0627\u0644\u062a\u062e\u0637\u064a\u0637 \u0648\u0627\u0644\u062a\u0641\u0627\u0639\u0644\u0627\u062a \u0627\u0644\u0623\u0633\u0627\u0633\u064a\u0629 \u0642\u0628\u0644 \u0627\u0644\u0627\u0646\u062a\u0642\u0627\u0644 \u0625\u0644\u0649 \u0645\u0634\u0627\u0631\u064a\u0639 \u0623\u0643\u062b\u0631 \u0627\u062d\u062a\u0631\u0627\u0641\u064a\u0629.<\/p>",
+            "tiny_description_ar": "\u0623\u0648\u0644 \u0645\u0648\u0642\u0639 \u0628\u0648\u0631\u062a\u0641\u0648\u0644\u064a\u0648 \u0644\u064a\u060c \u0628\u0646\u064a\u062a\u0647 \u0623\u062b\u0646\u0627\u0621 \u062a\u0639\u0644\u0645\u064a HTML \u0648CSS \u0648JavaScript \u2014 \u0643\u0627\u0646 \u0646\u0642\u0637\u0629 \u0627\u0644\u0628\u062f\u0627\u064a\u0629 \u0627\u0644\u0628\u0633\u064a\u0637\u0629 \u0642\u0628\u0644 \u0623\u0646 \u0623\u062a\u0637\u0648\u0631 \u0623\u0643\u062b\u0631.",
+            "name_en": "Portfolio V1",
+            "description_en": "<h1>Portfolio V1<\/h1><br><p>This was my first attempt at creating a personal portfolio while learning the basics of HTML, CSS, and JavaScript.<br>It represents the early stage of my web development journey and the foundation that later evolved into more advanced work.<\/p><br><p>A simple and experimental design focused on practicing structure, layout, and basic interactivity before moving on to more polished projects.<\/p>",
+            "tiny_description_en": "My first portfolio, built while learning HTML\/CSS\/JS \u2014 a simple starting point before evolving further."
+        },
+        {
             "id": 1,
             "main_image": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1782178313\/portfolio\/v2\/projects\/1\/sbytzs54x5ziprqf0icd.jpg",
             "slug": "ant-war",
@@ -53,6 +115,58 @@
             "name_en": "Ant War",
             "description_en": "<p>This project was completed during the third year of university in the Computer Graphics course.<br>It was developed in C++ using the OpenGL legacy library.<\/p><br><h2>The project was created by:<\/h2><ul><li><p>Kawther Khadam AlJammeh<\/p><\/li><li><p>Philip Droubi<\/p><\/li><li><p>Mohammed Ala&#039;a Al\u2011Olabi<\/p><\/li><\/ul>",
             "tiny_description_en": "AntsWar Game is a university OpenGL project about a swarm of ants invading your PC. Your mission is to grab your weapon and fight off these chaotic, rowdy ants before they take over your system."
+        },
+        {
+            "id": 3,
+            "main_image": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1782359226\/portfolio\/v2\/projects\/3\/gkc9fe4qlu1a1szbkmdw.png",
+            "slug": "red-swap-blue",
+            "start_date": "2022-11-01",
+            "end_date": "2022-12-01",
+            "url": "https:\/\/github.com\/Philip-Droubi\/Red_Swap_Blue",
+            "live_url": "https:\/\/philip-droubi.github.io\/Red_Swap_Blue\/",
+            "teches": [
+                {
+                    "id": 11,
+                    "icon": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781126022\/portfolio\/v2\/teches\/rkgnze6zpmio4aygw5k3.svg",
+                    "name_ar": "HTML",
+                    "name_en": "HTML"
+                },
+                {
+                    "id": 12,
+                    "icon": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781125995\/portfolio\/v2\/teches\/qo6vdbizpqf5smfwhp3w.svg",
+                    "name_ar": "CSS",
+                    "name_en": "CSS"
+                },
+                {
+                    "id": 13,
+                    "icon": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781125967\/portfolio\/v2\/teches\/marklkliiihrmyj5qtsn.svg",
+                    "name_ar": "JavaScript",
+                    "name_en": "JavaScript"
+                }
+            ],
+            "tags": [
+                {
+                    "id": 3,
+                    "name_ar": "Game",
+                    "name_en": "Game"
+                }
+            ],
+            "media": [
+                {
+                    "id": 8,
+                    "media_url": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1782359229\/portfolio\/v2\/projects\/3\/media\/msrehlbfwuwxtj6k3bws.png"
+                },
+                {
+                    "id": 9,
+                    "media_url": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1782359232\/portfolio\/v2\/projects\/3\/media\/qo24kvwmvkzlbypx4tsp.png"
+                }
+            ],
+            "name_ar": "Red Swap Blue",
+            "description_ar": "<p>\u0645\u0634\u0631\u0648\u0639 \u0644\u0639\u0628\u0629 \u0648\u064a\u0628 \u062a\u0645 \u062a\u0637\u0648\u064a\u0631\u0647 \u0636\u0645\u0646 \u0645\u0642\u0631\u0631 \u062c\u0627\u0645\u0639\u064a.<br>\u064a\u0637\u0628\u0642 \u062e\u0648\u0627\u0631\u0632\u0645\u064a\u0627\u062a \u0627\u0644\u0628\u062d\u062b \u0627\u0644\u0643\u0644\u0627\u0633\u064a\u0643\u064a\u0629 \u2014 BFS \u0648DFS \u0648Uniform Cost Search \u0648A* \u2014 \u0645\u0639 \u0625\u062a\u0627\u062d\u0629 \u062a\u062c\u0631\u0628\u0629 \u0644\u0639\u0628 \u062a\u0641\u0627\u0639\u0644\u064a\u0629 \u0644\u0644\u0645\u0633\u062a\u062e\u062f\u0645.<\/p><br><p>\u064a\u0639\u0643\u0633 \u0647\u0630\u0627 \u0627\u0644\u0645\u0634\u0631\u0648\u0639 \u0645\u0632\u064a\u062c\u064b\u0627 \u0628\u064a\u0646 \u0627\u0644\u062a\u0639\u0644\u0645 \u0627\u0644\u0623\u0643\u0627\u062f\u064a\u0645\u064a \u0648\u0627\u0644\u062a\u0637\u0628\u064a\u0642 \u0627\u0644\u0639\u0645\u0644\u064a.<\/p>",
+            "tiny_description_ar": "\u0645\u0634\u0631\u0648\u0639 \u0644\u0639\u0628\u0629 \u0648\u064a\u0628 \u064a\u0633\u062a\u0639\u0631\u0636 \u062e\u0648\u0627\u0631\u0632\u0645\u064a\u0627\u062a BFS \u0648DFS \u0648Uniform Cost Search \u0648A*\u060c \u0645\u0639 \u062f\u0645\u062c \u062a\u062c\u0631\u0628\u0629 \u0644\u0639\u0628 \u062a\u0641\u0627\u0639\u0644\u064a\u0629 \u0644\u0644\u0645\u0633\u062a\u062e\u062f\u0645.",
+            "name_en": "Red Swap Blue",
+            "description_en": "<p>A web game project developed as part of a university course.<br>It implements classic search algorithms \u2014 BFS, DFS, Uniform Cost Search, and A* \u2014 while also allowing interactive user gameplay.<\/p><br><p>This project reflects both academic learning and creative application in a fun environment.<\/p>",
+            "tiny_description_en": "A web game project showcasing BFS, DFS, Uniform Cost Search, and A* algorithms, combined with interactive user gameplay."
         }
     ],
     "teches": [

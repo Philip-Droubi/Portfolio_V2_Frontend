@@ -13,7 +13,7 @@ export default function ProjectCardBody({
     return (
         <div className="p-5">
             {/* Description */}
-            <p className="text-gray-400 text-sm leading-relaxed line-clamp-3">
+            <p className="text-gray-400 h-17.25 text-sm leading-relaxed line-clamp-3">
                 {description}
             </p>
 
