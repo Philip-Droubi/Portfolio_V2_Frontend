@@ -1,35 +1,138 @@
 {
     "projects": [
         {
+            "id": 7,
+            "main_image": "https://res.cloudinary.com/djjulka78/image/upload/v1782415006/portfolio/v2/projects/7/t0wxfes8g05rpadhtqfu.png",
+            "slug": "kafo-freelancing-platform",
+            "start_date": "2024-04-01",
+            "end_date": "2024-09-01",
+            "url": null,
+            "live_url": null,
+            "teches": [
+                {
+                    "id": 2,
+                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781126319/portfolio/v2/teches/yz3uuyf4ve5khzopnhxi.svg",
+                    "name_ar": "Laravel",
+                    "name_en": "Laravel"
+                },
+                {
+                    "id": 5,
+                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781126294/portfolio/v2/teches/g0o7ycoypjdudyoj4lou.svg",
+                    "name_ar": "React JS",
+                    "name_en": "React JS"
+                },
+                {
+                    "id": 15,
+                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781126436/portfolio/v2/teches/fwolgcvci88mhzr84mtf.svg",
+                    "name_ar": "Tailwind CSS",
+                    "name_en": "Tailwind CSS"
+                },
+                {
+                    "id": 14,
+                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781125850/portfolio/v2/teches/j0925zixhzjpmktuqgmi.svg",
+                    "name_ar": "TypeScript",
+                    "name_en": "TypeScript"
+                },
+                {
+                    "id": 6,
+                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781126257/portfolio/v2/teches/fmpxdgjclsadfmjmwoim.svg",
+                    "name_ar": "Zustand",
+                    "name_en": "Zustand"
+                },
+                {
+                    "id": 8,
+                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781126190/portfolio/v2/teches/ecvhfhze7lxlgsoaeisv.svg",
+                    "name_ar": "React Router",
+                    "name_en": "React Router"
+                },
+                {
+                    "id": 7,
+                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781126225/portfolio/v2/teches/zscznjqflrp21ekoch4e.svg",
+                    "name_ar": "React Query",
+                    "name_en": "React Query"
+                },
+                {
+                    "id": 3,
+                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781726037/portfolio/v2/teches/acwvnqrgo0nqbes0b03i.svg",
+                    "name_ar": "MySQL",
+                    "name_en": "MySQL"
+                },
+                {
+                    "id": 9,
+                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781126467/portfolio/v2/teches/z8ucvgypm5zwwnd5hib3.svg",
+                    "name_ar": "Material UI",
+                    "name_en": "Material UI"
+                },
+                {
+                    "id": 10,
+                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781126130/portfolio/v2/teches/ppy6xofy98ynp9bqab8n.svg",
+                    "name_ar": "Axios",
+                    "name_en": "Axios"
+                }
+            ],
+            "tags": [
+                {
+                    "id": 1,
+                    "name_ar": "Backend",
+                    "name_en": "Backend"
+                },
+                {
+                    "id": 2,
+                    "name_ar": "Frontend - Web",
+                    "name_en": "Frontend - Web"
+                }
+            ],
+            "media": [
+                {
+                    "id": 43,
+                    "media_url": "https://res.cloudinary.com/djjulka78/image/upload/v1782415940/portfolio/v2/projects/7/media/nxaweiaoozfmq32vlskv.png"
+                },
+                {
+                    "id": 44,
+                    "media_url": "https://res.cloudinary.com/djjulka78/image/upload/v1782415977/portfolio/v2/projects/7/media/r05taetbxxxf3xrmol6u.png"
+                },
+                {
+                    "id": 45,
+                    "media_url": "https://res.cloudinary.com/djjulka78/image/upload/v1782415985/portfolio/v2/projects/7/media/tibuiao3x703ewrsele5.png"
+                }
+            ],
+            "name_ar": "منصة كفو للعمل الحر",
+            "description_ar": "<h1 style=\"text-align:center\">منصّة كفو للعمل الحر</h1><br><p>كفو هو مشروع تخرّج لعام 2024 تم تطويره بالتعاون مع شركة Peak Link IT.  يهدف المشروع إلى إنشاء منصّة سورية للعمل الحر تساعد على تحسين التواصل والتعاون بين المستقلين وأصحاب المشاريع، وتوفير بيئة منظّمة لإدارة العمل الحر.</p><br><h2>1. دوري في المشروع</h2><p>كنت مسؤولًا عن تحليل النظام وتصميم هيكلية المنصّة لضمان بناء نظام واضح وقابل للتوسّع.  وعلى الجانب التقني، قمت بتطوير الخلفية باستخدام إطار <strong>Laravel</strong>، بما يشمل نظام المستخدمين، تسجيل الدخول، إدارة المشاريع، والأدوار والصلاحيات.  كما شاركت في تطوير واجهة المستخدم باستخدام <strong>React.js</strong>، مع التركيز على تصميم واجهة سهلة الاستخدام وسلسة.</p><br><h2>2. نظرة عامة على المشروع</h2><p>تهدف منصّة كفو إلى ربط المستقلين بأصحاب المشاريع بطريقة سلسة ومنظّمة.  تدعم المنصّة نشر المشاريع، تقديم العروض، التواصل، ومتابعة سير العمل — مما يجعل عملية التعاون أكثر وضوحًا وكفاءة.</p><br><h2>3. التعاون مع شركة Peak Link IT</h2><p>تم تنفيذ المشروع ضمن تدريب عملي مع شركة Peak Link IT، مما منحني خبرة حقيقية في بيئة تطوير برمجيات احترافية.  ساعدني العمل مع فريق متخصص على تطوير مهاراتي التقنية وتحسين أسلوب عملي وفهم كيفية بناء أنظمة جاهزة للإنتاج.</p><br><p>يمثّل مشروع كفو خطوة مهمة في مسيرتي الأكاديمية والمهنية — حيث يجمع بين تحليل الأنظمة، تطوير الخلفية، وبرمجة الواجهة الأمامية في منصّة متكاملة واقعية.</p>",
+            "tiny_description_ar": "مشروع تخرّج بالتعاون مع شركة Peak Link IT، وهو منصّة للعمل الحر عملت فيها على تحليل النظام وتطوير الخلفية باستخدام Laravel، إضافةً إلى تطوير واجهة المستخدم بـ React.js.",
+            "name_en": "Kafo - Freelancing Platform",
+            "description_en": "<h1 style=\"text-align:center\">Kafo Freelancing Platform</h1><br><p>Kafo is my 2024 graduation project, developed in collaboration with Peak Link IT Company.  It is a Syrian freelancing platform designed to improve communication and collaboration between freelancers and project owners, providing a structured and reliable environment for managing freelance work.</p><br><h2>1. My Role in the Project</h2><p>I was responsible for the system analysis and architectural design of the platform, ensuring a clear and scalable structure for all core features.  On the technical side, I developed the backend using the <strong>Laravel</strong> framework, implementing authentication, project workflows, user roles, and platform logic.  Additionally, I contributed to building the user-facing website using <strong>React.js</strong>, focusing on creating a clean, user-friendly interface.</p><br><h2>2. Project Overview</h2><p>Kafo aims to connect freelancers with clients in a smooth and organized way.  The platform supports project posting, bidding, communication, and progress tracking — all designed to make freelance collaboration more efficient and transparent.</p><br><h2>3. Collaboration With Peak Link IT Company</h2><p>This project was developed as part of an internship with Peak Link IT Company, giving me valuable real-world experience in professional software development.  Working with industry mentors helped refine my technical skills, improve my workflow, and understand how production-level systems are built and delivered.</p><br><p>Kafo represents a major milestone in my academic and professional journey — combining system analysis, backend engineering, and frontend development into a complete, real-world platform.</p>",
+            "tiny_description_en": "A graduation project built with Peak Link IT Company — a freelancing platform where I handled system analysis, backend development with Laravel, and the React.js user website."
+        },
+        {
             "id": 2,
-            "main_image": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1782326722\/portfolio\/v2\/projects\/2\/ciprg1wsvmh6nuh3tidi.png",
+            "main_image": "https://res.cloudinary.com/djjulka78/image/upload/v1782326722/portfolio/v2/projects/2/ciprg1wsvmh6nuh3tidi.png",
             "slug": "portfolio-v1",
             "start_date": "2023-03-01",
             "end_date": "2023-07-01",
-            "url": "https:\/\/github.com\/Philip-Droubi\/Portfolio_V1",
-            "live_url": "https:\/\/philip-droubi.github.io\/Portfolio_V1\/",
+            "url": "https://github.com/Philip-Droubi/Portfolio_V1",
+            "live_url": "https://philip-droubi.github.io/Portfolio_V1/",
             "teches": [
                 {
                     "id": 11,
-                    "icon": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781126022\/portfolio\/v2\/teches\/rkgnze6zpmio4aygw5k3.svg",
+                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781126022/portfolio/v2/teches/rkgnze6zpmio4aygw5k3.svg",
                     "name_ar": "HTML",
                     "name_en": "HTML"
                 },
                 {
                     "id": 12,
-                    "icon": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781125995\/portfolio\/v2\/teches\/qo6vdbizpqf5smfwhp3w.svg",
+                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781125995/portfolio/v2/teches/qo6vdbizpqf5smfwhp3w.svg",
                     "name_ar": "CSS",
                     "name_en": "CSS"
                 },
                 {
                     "id": 13,
-                    "icon": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781125967\/portfolio\/v2\/teches\/marklkliiihrmyj5qtsn.svg",
+                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781125967/portfolio/v2/teches/marklkliiihrmyj5qtsn.svg",
                     "name_ar": "JavaScript",
                     "name_en": "JavaScript"
                 },
                 {
                     "id": 16,
-                    "icon": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781725859\/portfolio\/v2\/teches\/kc8ajos1jcxmq99sui48.svg",
+                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781725859/portfolio/v2/teches/kc8ajos1jcxmq99sui48.svg",
                     "name_ar": "Git",
                     "name_en": "Git"
                 }
@@ -44,27 +147,27 @@
             "media": [
                 {
                     "id": 5,
-                    "media_url": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1782326727\/portfolio\/v2\/projects\/2\/media\/exbnf7db74k7rcqpm8ja.png"
+                    "media_url": "https://res.cloudinary.com/djjulka78/image/upload/v1782326727/portfolio/v2/projects/2/media/exbnf7db74k7rcqpm8ja.png"
                 },
                 {
                     "id": 6,
-                    "media_url": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1782326751\/portfolio\/v2\/projects\/2\/media\/ym8dzbsbkihbydjszeof.png"
+                    "media_url": "https://res.cloudinary.com/djjulka78/image/upload/v1782326751/portfolio/v2/projects/2/media/ym8dzbsbkihbydjszeof.png"
                 },
                 {
                     "id": 7,
-                    "media_url": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1782326757\/portfolio\/v2\/projects\/2\/media\/ygm1lsp1cxdn3fckishk.png"
+                    "media_url": "https://res.cloudinary.com/djjulka78/image/upload/v1782326757/portfolio/v2/projects/2/media/ygm1lsp1cxdn3fckishk.png"
                 }
             ],
             "name_ar": "Portfolio V1",
-            "description_ar": "<h1>\u0627\u0644\u0628\u0648\u0631\u062a\u0641\u0648\u0644\u064a\u0648 \u0627\u0644\u0625\u0635\u062f\u0627\u0631 \u0627\u0644\u0623\u0648\u0644<\/h1><br><p>\u0643\u0627\u0646 \u0647\u0630\u0627 \u0623\u0648\u0644 \u0645\u062d\u0627\u0648\u0644\u0629 \u0644\u064a \u0644\u0625\u0646\u0634\u0627\u0621 \u0645\u0648\u0642\u0639 \u0628\u0648\u0631\u062a\u0641\u0648\u0644\u064a\u0648 \u0623\u062b\u0646\u0627\u0621 \u062a\u0639\u0644\u0645\u064a \u0623\u0633\u0627\u0633\u064a\u0627\u062a HTML \u0648CSS \u0648JavaScript.<br>\u064a\u0645\u062b\u0644 \u0627\u0644\u0645\u0631\u062d\u0644\u0629 \u0627\u0644\u0623\u0648\u0644\u0649 \u0645\u0646 \u0631\u062d\u0644\u062a\u064a \u0641\u064a \u062a\u0637\u0648\u064a\u0631 \u0627\u0644\u0648\u064a\u0628\u060c \u0648\u0627\u0644\u0623\u0633\u0627\u0633 \u0627\u0644\u0630\u064a \u062a\u0637\u0648\u0631\u062a \u0645\u0646\u0647 \u0623\u0639\u0645\u0627\u0644\u064a \u0627\u0644\u0644\u0627\u062d\u0642\u0629.<\/p><br><p>\u062a\u0635\u0645\u064a\u0645 \u0628\u0633\u064a\u0637 \u0648\u062a\u062c\u0631\u064a\u0628\u064a \u0631\u0643\u0651\u0632 \u0639\u0644\u0649 \u0627\u0644\u062a\u062f\u0631\u064a\u0628 \u0639\u0644\u0649 \u0627\u0644\u0628\u0646\u064a\u0629 \u0648\u0627\u0644\u062a\u062e\u0637\u064a\u0637 \u0648\u0627\u0644\u062a\u0641\u0627\u0639\u0644\u0627\u062a \u0627\u0644\u0623\u0633\u0627\u0633\u064a\u0629 \u0642\u0628\u0644 \u0627\u0644\u0627\u0646\u062a\u0642\u0627\u0644 \u0625\u0644\u0649 \u0645\u0634\u0627\u0631\u064a\u0639 \u0623\u0643\u062b\u0631 \u0627\u062d\u062a\u0631\u0627\u0641\u064a\u0629.<\/p>",
-            "tiny_description_ar": "\u0623\u0648\u0644 \u0645\u0648\u0642\u0639 \u0628\u0648\u0631\u062a\u0641\u0648\u0644\u064a\u0648 \u0644\u064a\u060c \u0628\u0646\u064a\u062a\u0647 \u0623\u062b\u0646\u0627\u0621 \u062a\u0639\u0644\u0645\u064a HTML \u0648CSS \u0648JavaScript \u2014 \u0643\u0627\u0646 \u0646\u0642\u0637\u0629 \u0627\u0644\u0628\u062f\u0627\u064a\u0629 \u0627\u0644\u0628\u0633\u064a\u0637\u0629 \u0642\u0628\u0644 \u0623\u0646 \u0623\u062a\u0637\u0648\u0631 \u0623\u0643\u062b\u0631.",
+            "description_ar": "<h1>البورتفوليو الإصدار الأول</h1><br><p>كان هذا أول محاولة لي لإنشاء موقع بورتفوليو أثناء تعلمي أساسيات HTML وCSS وJavaScript.<br>يمثل المرحلة الأولى من رحلتي في تطوير الويب، والأساس الذي تطورت منه أعمالي اللاحقة.</p><br><p>تصميم بسيط وتجريبي ركّز على التدريب على البنية والتخطيط والتفاعلات الأساسية قبل الانتقال إلى مشاريع أكثر احترافية.</p>",
+            "tiny_description_ar": "أول موقع بورتفوليو لي، بنيته أثناء تعلمي HTML وCSS وJavaScript — كان نقطة البداية البسيطة قبل أن أتطور أكثر.",
             "name_en": "Portfolio V1",
-            "description_en": "<h1>Portfolio V1<\/h1><br><p>This was my first attempt at creating a personal portfolio while learning the basics of HTML, CSS, and JavaScript.<br>It represents the early stage of my web development journey and the foundation that later evolved into more advanced work.<\/p><br><p>A simple and experimental design focused on practicing structure, layout, and basic interactivity before moving on to more polished projects.<\/p>",
-            "tiny_description_en": "My first portfolio, built while learning HTML\/CSS\/JS \u2014 a simple starting point before evolving further."
+            "description_en": "<h1>Portfolio V1</h1><br><p>This was my first attempt at creating a personal portfolio while learning the basics of HTML, CSS, and JavaScript.<br>It represents the early stage of my web development journey and the foundation that later evolved into more advanced work.</p><br><p>A simple and experimental design focused on practicing structure, layout, and basic interactivity before moving on to more polished projects.</p>",
+            "tiny_description_en": "My first portfolio, built while learning HTML/CSS/JS — a simple starting point before evolving further."
         },
         {
             "id": 1,
-            "main_image": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1782178313\/portfolio\/v2\/projects\/1\/sbytzs54x5ziprqf0icd.jpg",
+            "main_image": "https://res.cloudinary.com/djjulka78/image/upload/v1782178313/portfolio/v2/projects/1/sbytzs54x5ziprqf0icd.jpg",
             "slug": "ant-war",
             "start_date": "2022-11-01",
             "end_date": "2023-01-01",
@@ -73,13 +176,13 @@
             "teches": [
                 {
                     "id": 19,
-                    "icon": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1782176583\/portfolio\/v2\/teches\/irr1717wofpkzfzh9pzi.svg",
+                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1782176583/portfolio/v2/teches/irr1717wofpkzfzh9pzi.svg",
                     "name_ar": "C++",
                     "name_en": "C++"
                 },
                 {
                     "id": 20,
-                    "icon": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1782176614\/portfolio\/v2\/teches\/vimbltr3u7j3elvythrg.svg",
+                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1782176614/portfolio/v2/teches/vimbltr3u7j3elvythrg.svg",
                     "name_ar": "OpenGL",
                     "name_en": "OpenGL"
                 }
@@ -94,52 +197,52 @@
             "media": [
                 {
                     "id": 1,
-                    "media_url": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1782178320\/portfolio\/v2\/projects\/1\/media\/ykdsamdfzdbleyygjqmv.jpg"
+                    "media_url": "https://res.cloudinary.com/djjulka78/image/upload/v1782178320/portfolio/v2/projects/1/media/ykdsamdfzdbleyygjqmv.jpg"
                 },
                 {
                     "id": 2,
-                    "media_url": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1782178329\/portfolio\/v2\/projects\/1\/media\/rqviyosxnfdqpw1vmxwl.jpg"
+                    "media_url": "https://res.cloudinary.com/djjulka78/image/upload/v1782178329/portfolio/v2/projects/1/media/rqviyosxnfdqpw1vmxwl.jpg"
                 },
                 {
                     "id": 3,
-                    "media_url": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1782178339\/portfolio\/v2\/projects\/1\/media\/ng6xkz5vbkw4jxfzsmii.jpg"
+                    "media_url": "https://res.cloudinary.com/djjulka78/image/upload/v1782178339/portfolio/v2/projects/1/media/ng6xkz5vbkw4jxfzsmii.jpg"
                 },
                 {
                     "id": 4,
-                    "media_url": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1782178349\/portfolio\/v2\/projects\/1\/media\/g5sph4c7ailu46lkkiip.jpg"
+                    "media_url": "https://res.cloudinary.com/djjulka78/image/upload/v1782178349/portfolio/v2/projects/1/media/g5sph4c7ailu46lkkiip.jpg"
                 }
             ],
-            "name_ar": "\u062d\u0631\u0628 \u0627\u0644\u0646\u0645\u0644",
-            "description_ar": "<p>\u062a\u0645 \u0625\u0646\u062c\u0627\u0632 \u0647\u0630\u0627 \u0627\u0644\u0645\u0634\u0631\u0648\u0639 \u062e\u0644\u0627\u0644 \u0627\u0644\u0633\u0646\u0629 \u0627\u0644\u062c\u0627\u0645\u0639\u064a\u0629 \u0627\u0644\u062b\u0627\u0644\u062b\u0629 \u0636\u0645\u0646 \u0645\u0627\u062f\u0629 \u0627\u0644\u0631\u0633\u0648\u0645\u064a\u0627\u062a \u0627\u0644\u062d\u0627\u0633\u0648\u0628\u064a\u0629 (Computer Graphics).<br>\u0648\u0642\u062f \u062a\u0645 \u062a\u0637\u0648\u064a\u0631\u0647 \u0628\u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0644\u063a\u0629 ++C \u0648\u0645\u0643\u062a\u0628\u0629 OpenGL \u0627\u0644\u0642\u062f\u064a\u0645\u0629.<\/p><br><h2>\u062a\u0645 \u062a\u0646\u0641\u064a\u0630 \u0627\u0644\u0645\u0634\u0631\u0648\u0639 \u0628\u0648\u0627\u0633\u0637\u0629:<\/h2><ul><li><p>\u0643\u0648\u062b\u0631 \u062e\u0636\u0627\u0645 \u0627\u0644\u062c\u0627\u0645\u0639<\/p><\/li><li><p>\u0641\u064a\u0644\u064a\u0628 \u062f\u0631\u0648\u0628\u064a<\/p><\/li><li><p>\u0645\u062d\u0645\u062f \u0639\u0644\u0627\u0621 \u0627\u0644\u0639\u0644\u0628\u064a<\/p><\/li><\/ul>",
-            "tiny_description_ar": "\u0644\u0639\u0628\u0629 AntsWar \u0647\u064a \u0645\u0634\u0631\u0648\u0639 \u062c\u0627\u0645\u0639\u064a \u0628\u0627\u0633\u062a\u062e\u062f\u0627\u0645 OpenGL\u060c \u0648\u062a\u062f\u0648\u0631 \u062d\u0648\u0644 \u063a\u0632\u0648 \u0645\u062c\u0645\u0648\u0639\u0629 \u0645\u0646 \u0627\u0644\u0646\u0645\u0644 \u0644\u062c\u0647\u0627\u0632 \u0627\u0644\u0643\u0645\u0628\u064a\u0648\u062a\u0631 \u0627\u0644\u062e\u0627\u0635 \u0628\u0643. \u0645\u0647\u0645\u062a\u0643 \u0647\u064a \u062d\u0645\u0644 \u0633\u0644\u0627\u062d\u0643 \u0648\u0645\u062d\u0627\u0631\u0628\u0629 \u0647\u0630\u0627 \u0627\u0644\u0646\u0645\u0644 \u0627\u0644\u0645\u0634\u0627\u063a\u0628 \u0642\u0628\u0644 \u0623\u0646 \u064a\u0633\u064a\u0637\u0631 \u0639\u0644\u0649 \u062c\u0647\u0627\u0632\u0643.",
+            "name_ar": "حرب النمل",
+            "description_ar": "<p>تم إنجاز هذا المشروع خلال السنة الجامعية الثالثة ضمن مادة الرسوميات الحاسوبية (Computer Graphics).<br>وقد تم تطويره باستخدام لغة ++C ومكتبة OpenGL القديمة.</p><br><h2>تم تنفيذ المشروع بواسطة:</h2><ul><li><p>كوثر خضام الجامع</p></li><li><p>فيليب دروبي</p></li><li><p>محمد علاء العلبي</p></li></ul>",
+            "tiny_description_ar": "لعبة AntsWar هي مشروع جامعي باستخدام OpenGL، وتدور حول غزو مجموعة من النمل لجهاز الكمبيوتر الخاص بك. مهمتك هي حمل سلاحك ومحاربة هذا النمل المشاغب قبل أن يسيطر على جهازك.",
             "name_en": "Ant War",
-            "description_en": "<p>This project was completed during the third year of university in the Computer Graphics course.<br>It was developed in C++ using the OpenGL legacy library.<\/p><br><h2>The project was created by:<\/h2><ul><li><p>Kawther Khadam AlJammeh<\/p><\/li><li><p>Philip Droubi<\/p><\/li><li><p>Mohammed Ala&#039;a Al\u2011Olabi<\/p><\/li><\/ul>",
+            "description_en": "<p>This project was completed during the third year of university in the Computer Graphics course.<br>It was developed in C++ using the OpenGL legacy library.</p><br><h2>The project was created by:</h2><ul><li><p>Kawther Khadam AlJammeh</p></li><li><p>Philip Droubi</p></li><li><p>Mohammed Ala&#039;a Al‑Olabi</p></li></ul>",
             "tiny_description_en": "AntsWar Game is a university OpenGL project about a swarm of ants invading your PC. Your mission is to grab your weapon and fight off these chaotic, rowdy ants before they take over your system."
         },
         {
             "id": 3,
-            "main_image": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1782359226\/portfolio\/v2\/projects\/3\/gkc9fe4qlu1a1szbkmdw.png",
+            "main_image": "https://res.cloudinary.com/djjulka78/image/upload/v1782359226/portfolio/v2/projects/3/gkc9fe4qlu1a1szbkmdw.png",
             "slug": "red-swap-blue",
             "start_date": "2022-11-01",
             "end_date": "2022-12-01",
-            "url": "https:\/\/github.com\/Philip-Droubi\/Red_Swap_Blue",
-            "live_url": "https:\/\/philip-droubi.github.io\/Red_Swap_Blue\/",
+            "url": "https://github.com/Philip-Droubi/Red_Swap_Blue",
+            "live_url": "https://philip-droubi.github.io/Red_Swap_Blue/",
             "teches": [
                 {
                     "id": 11,
-                    "icon": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781126022\/portfolio\/v2\/teches\/rkgnze6zpmio4aygw5k3.svg",
+                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781126022/portfolio/v2/teches/rkgnze6zpmio4aygw5k3.svg",
                     "name_ar": "HTML",
                     "name_en": "HTML"
                 },
                 {
                     "id": 12,
-                    "icon": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781125995\/portfolio\/v2\/teches\/qo6vdbizpqf5smfwhp3w.svg",
+                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781125995/portfolio/v2/teches/qo6vdbizpqf5smfwhp3w.svg",
                     "name_ar": "CSS",
                     "name_en": "CSS"
                 },
                 {
                     "id": 13,
-                    "icon": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781125967\/portfolio\/v2\/teches\/marklkliiihrmyj5qtsn.svg",
+                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781125967/portfolio/v2/teches/marklkliiihrmyj5qtsn.svg",
                     "name_ar": "JavaScript",
                     "name_en": "JavaScript"
                 }
@@ -149,132 +252,285 @@
                     "id": 3,
                     "name_ar": "Game",
                     "name_en": "Game"
+                },
+                {
+                    "id": 2,
+                    "name_ar": "Frontend - Web",
+                    "name_en": "Frontend - Web"
                 }
             ],
             "media": [
                 {
                     "id": 8,
-                    "media_url": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1782359229\/portfolio\/v2\/projects\/3\/media\/msrehlbfwuwxtj6k3bws.png"
+                    "media_url": "https://res.cloudinary.com/djjulka78/image/upload/v1782359229/portfolio/v2/projects/3/media/msrehlbfwuwxtj6k3bws.png"
                 },
                 {
                     "id": 9,
-                    "media_url": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1782359232\/portfolio\/v2\/projects\/3\/media\/qo24kvwmvkzlbypx4tsp.png"
+                    "media_url": "https://res.cloudinary.com/djjulka78/image/upload/v1782359232/portfolio/v2/projects/3/media/qo24kvwmvkzlbypx4tsp.png"
                 }
             ],
             "name_ar": "Red Swap Blue",
-            "description_ar": "<p>\u0645\u0634\u0631\u0648\u0639 \u0644\u0639\u0628\u0629 \u0648\u064a\u0628 \u062a\u0645 \u062a\u0637\u0648\u064a\u0631\u0647 \u0636\u0645\u0646 \u0645\u0642\u0631\u0631 \u062c\u0627\u0645\u0639\u064a.<br>\u064a\u0637\u0628\u0642 \u062e\u0648\u0627\u0631\u0632\u0645\u064a\u0627\u062a \u0627\u0644\u0628\u062d\u062b \u0627\u0644\u0643\u0644\u0627\u0633\u064a\u0643\u064a\u0629 \u2014 BFS \u0648DFS \u0648Uniform Cost Search \u0648A* \u2014 \u0645\u0639 \u0625\u062a\u0627\u062d\u0629 \u062a\u062c\u0631\u0628\u0629 \u0644\u0639\u0628 \u062a\u0641\u0627\u0639\u0644\u064a\u0629 \u0644\u0644\u0645\u0633\u062a\u062e\u062f\u0645.<\/p><br><p>\u064a\u0639\u0643\u0633 \u0647\u0630\u0627 \u0627\u0644\u0645\u0634\u0631\u0648\u0639 \u0645\u0632\u064a\u062c\u064b\u0627 \u0628\u064a\u0646 \u0627\u0644\u062a\u0639\u0644\u0645 \u0627\u0644\u0623\u0643\u0627\u062f\u064a\u0645\u064a \u0648\u0627\u0644\u062a\u0637\u0628\u064a\u0642 \u0627\u0644\u0639\u0645\u0644\u064a.<\/p>",
-            "tiny_description_ar": "\u0645\u0634\u0631\u0648\u0639 \u0644\u0639\u0628\u0629 \u0648\u064a\u0628 \u064a\u0633\u062a\u0639\u0631\u0636 \u062e\u0648\u0627\u0631\u0632\u0645\u064a\u0627\u062a BFS \u0648DFS \u0648Uniform Cost Search \u0648A*\u060c \u0645\u0639 \u062f\u0645\u062c \u062a\u062c\u0631\u0628\u0629 \u0644\u0639\u0628 \u062a\u0641\u0627\u0639\u0644\u064a\u0629 \u0644\u0644\u0645\u0633\u062a\u062e\u062f\u0645.",
+            "description_ar": "<p>مشروع لعبة ويب تم تطويره ضمن مقرر جامعي.<br>يطبق خوارزميات البحث الكلاسيكية — BFS وDFS وUniform Cost Search وA* — مع إتاحة تجربة لعب تفاعلية للمستخدم.</p><br><p>يعكس هذا المشروع مزيجًا بين التعلم الأكاديمي والتطبيق العملي.</p>",
+            "tiny_description_ar": "مشروع لعبة ويب يستعرض خوارزميات BFS وDFS وUniform Cost Search وA*، مع دمج تجربة لعب تفاعلية للمستخدم.",
             "name_en": "Red Swap Blue",
-            "description_en": "<p>A web game project developed as part of a university course.<br>It implements classic search algorithms \u2014 BFS, DFS, Uniform Cost Search, and A* \u2014 while also allowing interactive user gameplay.<\/p><br><p>This project reflects both academic learning and creative application in a fun environment.<\/p>",
+            "description_en": "<p>A web game project developed as part of a university course.<br>It implements classic search algorithms — BFS, DFS, Uniform Cost Search, and A* — while also allowing interactive user gameplay.</p><br><p>This project reflects both academic learning and creative application in a fun environment.</p>",
             "tiny_description_en": "A web game project showcasing BFS, DFS, Uniform Cost Search, and A* algorithms, combined with interactive user gameplay."
+        },
+        {
+            "id": 6,
+            "main_image": "https://res.cloudinary.com/djjulka78/image/upload/v1782411227/portfolio/v2/projects/6/jyfjlucar2rvhatoinjn.jpg",
+            "slug": "vigor-app",
+            "start_date": "2022-05-01",
+            "end_date": "2022-08-01",
+            "url": null,
+            "live_url": null,
+            "teches": [
+                {
+                    "id": 2,
+                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781126319/portfolio/v2/teches/yz3uuyf4ve5khzopnhxi.svg",
+                    "name_ar": "Laravel",
+                    "name_en": "Laravel"
+                },
+                {
+                    "id": 16,
+                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781725859/portfolio/v2/teches/kc8ajos1jcxmq99sui48.svg",
+                    "name_ar": "Git",
+                    "name_en": "Git"
+                },
+                {
+                    "id": 3,
+                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781726037/portfolio/v2/teches/acwvnqrgo0nqbes0b03i.svg",
+                    "name_ar": "MySQL",
+                    "name_en": "MySQL"
+                }
+            ],
+            "tags": [
+                {
+                    "id": 1,
+                    "name_ar": "Backend",
+                    "name_en": "Backend"
+                }
+            ],
+            "media": [
+                {
+                    "id": 19,
+                    "media_url": "https://res.cloudinary.com/djjulka78/image/upload/v1782411232/portfolio/v2/projects/6/media/ow3nxjvwzjvhnbkax70v.jpg"
+                },
+                {
+                    "id": 20,
+                    "media_url": "https://res.cloudinary.com/djjulka78/image/upload/v1782411237/portfolio/v2/projects/6/media/krimbnuovejwkdn4rwl3.jpg"
+                },
+                {
+                    "id": 21,
+                    "media_url": "https://res.cloudinary.com/djjulka78/image/upload/v1782411242/portfolio/v2/projects/6/media/gfgu78epvkjk7g50wxko.jpg"
+                },
+                {
+                    "id": 22,
+                    "media_url": "https://res.cloudinary.com/djjulka78/image/upload/v1782411248/portfolio/v2/projects/6/media/f2kxu6wnlx1nar0s33ya.jpg"
+                },
+                {
+                    "id": 23,
+                    "media_url": "https://res.cloudinary.com/djjulka78/image/upload/v1782411254/portfolio/v2/projects/6/media/shyk0fwckw9ucr14fhcl.jpg"
+                },
+                {
+                    "id": 24,
+                    "media_url": "https://res.cloudinary.com/djjulka78/image/upload/v1782411260/portfolio/v2/projects/6/media/vc1y1hxi7xklqepfimnv.jpg"
+                },
+                {
+                    "id": 25,
+                    "media_url": "https://res.cloudinary.com/djjulka78/image/upload/v1782411268/portfolio/v2/projects/6/media/tqjukebpfz20vk9qm74d.jpg"
+                },
+                {
+                    "id": 34,
+                    "media_url": "https://res.cloudinary.com/djjulka78/image/upload/v1782411838/portfolio/v2/projects/6/media/wf4trh3p5i5kquqztuw2.jpg"
+                },
+                {
+                    "id": 35,
+                    "media_url": "https://res.cloudinary.com/djjulka78/image/upload/v1782411853/portfolio/v2/projects/6/media/iucln1bxwlfisaqkqvpe.jpg"
+                },
+                {
+                    "id": 36,
+                    "media_url": "https://res.cloudinary.com/djjulka78/image/upload/v1782412043/portfolio/v2/projects/6/media/da1d9jq42p4jvdz2fa2v.jpg"
+                },
+                {
+                    "id": 37,
+                    "media_url": "https://res.cloudinary.com/djjulka78/image/upload/v1782412051/portfolio/v2/projects/6/media/lmestvrxamgyjqe4senb.jpg"
+                },
+                {
+                    "id": 38,
+                    "media_url": "https://res.cloudinary.com/djjulka78/image/upload/v1782412110/portfolio/v2/projects/6/media/fuivxzl1iffoeeu8sppg.jpg"
+                },
+                {
+                    "id": 39,
+                    "media_url": "https://res.cloudinary.com/djjulka78/image/upload/v1782412123/portfolio/v2/projects/6/media/yxpunj02o3ezyjlke0as.jpg"
+                },
+                {
+                    "id": 40,
+                    "media_url": "https://res.cloudinary.com/djjulka78/image/upload/v1782412128/portfolio/v2/projects/6/media/o6kvgnzvb4kzgneqe0q1.jpg"
+                }
+            ],
+            "name_ar": "Vigor App",
+            "description_ar": "<h1 style=\"text-align: center;\">منصّة Vigor للّياقة</h1><br><p>Vigor هو مشروع جامعي تم تطويره بهدف تعلّم كيفية تصميم وبناء منصّة متكاملة. يجمع بين التمارين المنزلية، والأنظمة الغذائية، وتجربة شبكة اجتماعية تربط المدربين وأخصائيي التغذية والمتدربين — ليقدّم نظام لياقة شامل في مكان واحد.</p><br><h2>1. ما هو Vigor؟</h2><p>Vigor هو تطبيق للتمارين المنزلية يساعد المستخدمين على ممارسة الرياضة، متابعة الأنظمة الغذائية، والحفاظ على صحتهم دون الحاجة للذهاب إلى النوادي أو المراكز الصحية. كما يحتوي على شبكة اجتماعية مدمجة تربط المتدربين بالمدربين وأخصائيي التغذية، مما يجعل التجربة أكثر تفاعلًا ومتعة.</p><br><h2>2. الميزات الرئيسية</h2><h3>• نظام المستخدمين</h3><ul><li><p>أدوار متعددة: <strong>مدير عام، مديرون، مدربون، أخصائيو تغذية، متدربون</strong>.</p></li><li><p>إنشاء حساب عبر البريد الإلكتروني أو Google.</p></li><li><p>ميزات متقدمة للتحكم بالحساب وتخصيص الملف الشخصي.</p></li><li><p>مستوى أمان عالٍ عبر رمز OTP وتفعيل البريد الإلكتروني.</p></li><li><p>إمكانية حذف الحساب واستعادته خلال 30 يومًا.</p></li><li><p>نظام إشعارات وبريد إلكتروني مدمج.</p></li><li><p>إمكانية التقدّم ليصبح المستخدم مدربًا أو أخصائي تغذية عبر إرسال السيرة الذاتية.</p></li><li><p>البحث عن التمارين، التحديات، الأنظمة الغذائية، المستخدمين والمزيد.</p></li></ul><br><h3>• نظام التمارين والأنظمة الغذائية</h3><ul><li><p>يمكن للمدربين إنشاء وتحديث التمارين والتحديات المنظمة.</p></li><li><p>يمكن لأخصائيي التغذية إنشاء وتحديث الأنظمة الغذائية التفصيلية.</p></li><li><p>يمكن للمتدربين الاشتراك، التقييم، أو الإبلاغ عن التمارين والتحديات والأنظمة الغذائية.</p></li><li><p>يدعم تحديات تعتمد على حساسات الجهاز مثل المشي والجري وتمارين الضغط.</p></li></ul><br><h3>• الشبكة الاجتماعية</h3><ul><li><p>يمكن للمدربين وأخصائيي التغذية والمديرين نشر ثلاثة أنواع من المنشورات: منشورات متعددة الوسائط، استطلاعات متعددة الخيارات، منشورات نصائح.</p></li><li><p>متابعة المستخدمين أو حظرهم.</p></li><li><p>يمكن للمتدربين التفاعل مع المنشورات، التعليق، الحفظ، أو الإبلاغ.</p></li><li><p>نظام محادثة فورية مدمج.</p></li></ul><br><h3>• لوحة التحكم وإدارة التطبيق</h3><ul><li><p>لوحة تحكم كاملة لإدارة المنصّة.</p></li><li><p>إمكانية إيقاف التطبيق أو تعطيل ميزات معينة.</p></li><li><p>مراجعة البلاغات، حظر المستخدمين، قبول أو رفض طلبات السيرة الذاتية، والمزيد.</p></li><li><p>تقارير تحليلية دورية حول أداء التطبيق.</p></li></ul><br><p>يمثل Vigor خطوة تعليمية كبيرة — منصّة متكاملة بُنيت من الصفر، تجمع بين المنطق البرمجي وتجربة المستخدم وتصميم الأنظمة الواقعية.</p>",
+            "tiny_description_ar": "Vigor هو مشروع جامعي لمنصّة لياقة تجمع بين التمارين المنزلية، والإرشاد الغذائي، وشبكة اجتماعية للمدربين والمتدربين — لتقديم تجربة لياقة متكاملة في مكان واحد.",
+            "name_en": "Vigor App",
+            "description_en": "<h1 style=\"text-align: center;\">Vigor Fitness Platform</h1><br><p>Vigor is a university project built to learn how to design and develop a complete, full‑featured platform. It combines home workouts, nutrition systems, and a social media experience for trainers, dietitians, and trainees — creating an all‑in‑one fitness ecosystem.</p><br><h2>1. What is Vigor?</h2><p>Vigor is a home workout and fitness application designed to help users exercise, follow diet plans, and stay healthy without needing to visit gyms or health centers. It also includes a built‑in social network that connects trainees with coaches and dietitians, making the experience more engaging and interactive.</p><br><h2>2. Key Features</h2><h3>• User System</h3><ul><li><p>Multiple roles: <strong>Admin, Managers, Coaches, Dietitians, Trainees</strong>.</p></li><li><p>Account creation via email or Google.</p></li><li><p>Advanced account management and profile customization.</p></li><li><p>OTP and email verification for high security.</p></li><li><p>Account deletion with 30‑day recovery.</p></li><li><p>Integrated notification &amp; email system.</p></li><li><p>Apply to become a coach or dietitian by submitting a CV.</p></li><li><p>Search across workouts, diets, challenges, users, and more.</p></li></ul><br><h3>• Workouts &amp; Diets System</h3><ul><li><p>Coaches can create and update structured workouts and challenges.</p></li><li><p>Dietitians can create and update detailed diet plans.</p></li><li><p>Trainees can subscribe, rate, and report workouts, challenges, and diets.</p></li><li><p>Uses device sensors for activity‑based challenges (walking, running, push‑ups).</p></li></ul><br><h3>• Social Network System</h3><ul><li><p>Coaches, Dietitians, and Admins can publish three types of posts: Multimedia posts, Multiple‑choice polls, Tips polls.</p></li><li><p>Follow or block other users.</p></li><li><p>Trainees can react, comment, save, or report posts.</p></li><li><p>Real‑time chat system included.</p></li></ul><br><h3>• Dashboards &amp; Control Panel</h3><ul><li><p>Full admin dashboard for managing the entire platform.</p></li><li><p>Ability to shut down the app or disable specific features.</p></li><li><p>Review reports, ban users, approve CVs, and more.</p></li><li><p>Periodic detailed analytics and system reports.</p></li></ul><br><p>Vigor represents a major learning milestone — a complete platform built from scratch, combining backend logic, user experience, and real‑world system design.</p>",
+            "tiny_description_en": "Vigor is a university fitness platform project that combines home workouts, nutrition guidance, and a social network for trainers and trainees — offering a complete fitness experience in one place."
+        },
+        {
+            "id": 4,
+            "main_image": "https://res.cloudinary.com/djjulka78/image/upload/v1782409496/portfolio/v2/projects/4/sjzeyidvgoonddwhz9di.png",
+            "slug": "frontend-mentor",
+            "start_date": "2021-06-01",
+            "end_date": "2024-12-01",
+            "url": "https://www.frontendmentor.io/profile/Philip-Droubi",
+            "live_url": null,
+            "teches": [
+                {
+                    "id": 11,
+                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781126022/portfolio/v2/teches/rkgnze6zpmio4aygw5k3.svg",
+                    "name_ar": "HTML",
+                    "name_en": "HTML"
+                },
+                {
+                    "id": 12,
+                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781125995/portfolio/v2/teches/qo6vdbizpqf5smfwhp3w.svg",
+                    "name_ar": "CSS",
+                    "name_en": "CSS"
+                },
+                {
+                    "id": 13,
+                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781125967/portfolio/v2/teches/marklkliiihrmyj5qtsn.svg",
+                    "name_ar": "JavaScript",
+                    "name_en": "JavaScript"
+                }
+            ],
+            "tags": [
+                {
+                    "id": 2,
+                    "name_ar": "Frontend - Web",
+                    "name_en": "Frontend - Web"
+                }
+            ],
+            "media": [
+                {
+                    "id": 10,
+                    "media_url": "https://res.cloudinary.com/djjulka78/image/upload/v1782409500/portfolio/v2/projects/4/media/qwronscmtk9no0opxe4r.png"
+                }
+            ],
+            "name_ar": "Frontend Mentor",
+            "description_ar": "<h1 style=\"text-align: center;\">ملف Frontend Mentor</h1><br><p>يعرض ملفي على Frontend Mentor رحلتي العملية في تطوير الواجهات الأمامية، حيث أنجزت أكثر من <strong>30 تحديًا حقيقيًا</strong> تشمل تصميم الصفحات، وبناء المكوّنات، والتصميم المتجاوب، والسلوك التفاعلي للواجهة.<br>ساهمت هذه التحديات في تعزيز مهاراتي في <strong>HTML وCSS وJavaScript وإتاحة الوصول وتنفيذ واجهات نظيفة واحترافية</strong>.</p><br><h2>ماذا يمثل هذا الملف؟</h2><p>يمثل مسار تعلم مستمر يركز على كتابة كود نظيف وقابل للصيانة، وتحسين مهارات حل المشكلات من خلال مهام عملية واقعية.<br>كل تحدٍ ساعدني على تحسين سير العمل، وزيادة الدقة في التفاصيل، ورفع مستوى قدراتي في تطوير الواجهات الأمامية.</p><br><p>يمكنك استكشاف جميع التحديات التي أنجزتها، والحلول، وطريقة التنفيذ البرمجية من خلال ملفي على Frontend Mentor.</p>",
+            "tiny_description_ar": "ملفي الشخصي على Frontend Mentor يضم أكثر من 30 تحديًا منجزًا، مما يعكس تطورًا مستمرًا في مهارات HTML وCSS وJavaScript وتقنيات الواجهة الأمامية الحديثة.",
+            "name_en": "Frontend Mentor",
+            "description_en": "<h1 style=\"text-align: center;\">Frontend Mentor Profile</h1><br><p>My Frontend Mentor profile showcases my hands‑on journey in frontend development, where I have completed over <strong>30 real‑world challenges</strong> covering layouts, components, responsive design, and interactive UI behavior.<br>These challenges helped me strengthen my skills in <strong>HTML, CSS, JavaScript, accessibility, and clean UI implementation</strong>.</p><br><h2>What This Profile Represents</h2><p>A continuous learning path focused on writing clean, maintainable code and improving problem‑solving through practical, real‑world tasks.<br>Each challenge contributed to refining my workflow, sharpening my attention to detail, and elevating my frontend capabilities.</p><br><p>You can explore all my completed challenges, solutions, and code implementations directly on my Frontend Mentor profile.</p>",
+            "tiny_description_en": "My Frontend Mentor profile showcasing 30+ completed challenges, reflecting steady growth in HTML, CSS, JavaScript, and modern frontend development."
         }
     ],
     "teches": [
         {
             "id": 1,
-            "icon": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781725972\/portfolio\/v2\/teches\/ari32s0fgm5jgbsovpnw.svg",
+            "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781725972/portfolio/v2/teches/ari32s0fgm5jgbsovpnw.svg",
             "name_ar": "PHP",
             "name_en": "PHP"
         },
         {
             "id": 2,
-            "icon": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781126319\/portfolio\/v2\/teches\/yz3uuyf4ve5khzopnhxi.svg",
+            "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781126319/portfolio/v2/teches/yz3uuyf4ve5khzopnhxi.svg",
             "name_ar": "Laravel",
             "name_en": "Laravel"
         },
         {
             "id": 3,
-            "icon": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781726037\/portfolio\/v2\/teches\/acwvnqrgo0nqbes0b03i.svg",
+            "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781726037/portfolio/v2/teches/acwvnqrgo0nqbes0b03i.svg",
             "name_ar": "MySQL",
             "name_en": "MySQL"
         },
         {
             "id": 4,
-            "icon": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781126055\/portfolio\/v2\/teches\/tktehpkjt9a0bojexkuo.svg",
+            "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781126055/portfolio/v2/teches/tktehpkjt9a0bojexkuo.svg",
             "name_ar": "Filament",
             "name_en": "Filament"
         },
         {
             "id": 5,
-            "icon": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781126294\/portfolio\/v2\/teches\/g0o7ycoypjdudyoj4lou.svg",
+            "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781126294/portfolio/v2/teches/g0o7ycoypjdudyoj4lou.svg",
             "name_ar": "React JS",
             "name_en": "React JS"
         },
         {
             "id": 6,
-            "icon": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781126257\/portfolio\/v2\/teches\/fmpxdgjclsadfmjmwoim.svg",
+            "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781126257/portfolio/v2/teches/fmpxdgjclsadfmjmwoim.svg",
             "name_ar": "Zustand",
             "name_en": "Zustand"
         },
         {
             "id": 7,
-            "icon": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781126225\/portfolio\/v2\/teches\/zscznjqflrp21ekoch4e.svg",
+            "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781126225/portfolio/v2/teches/zscznjqflrp21ekoch4e.svg",
             "name_ar": "React Query",
             "name_en": "React Query"
         },
         {
             "id": 8,
-            "icon": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781126190\/portfolio\/v2\/teches\/ecvhfhze7lxlgsoaeisv.svg",
+            "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781126190/portfolio/v2/teches/ecvhfhze7lxlgsoaeisv.svg",
             "name_ar": "React Router",
             "name_en": "React Router"
         },
         {
             "id": 9,
-            "icon": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781126467\/portfolio\/v2\/teches\/z8ucvgypm5zwwnd5hib3.svg",
+            "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781126467/portfolio/v2/teches/z8ucvgypm5zwwnd5hib3.svg",
             "name_ar": "Material UI",
             "name_en": "Material UI"
         },
         {
             "id": 10,
-            "icon": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781126130\/portfolio\/v2\/teches\/ppy6xofy98ynp9bqab8n.svg",
+            "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781126130/portfolio/v2/teches/ppy6xofy98ynp9bqab8n.svg",
             "name_ar": "Axios",
             "name_en": "Axios"
         },
         {
             "id": 11,
-            "icon": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781126022\/portfolio\/v2\/teches\/rkgnze6zpmio4aygw5k3.svg",
+            "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781126022/portfolio/v2/teches/rkgnze6zpmio4aygw5k3.svg",
             "name_ar": "HTML",
             "name_en": "HTML"
         },
         {
             "id": 12,
-            "icon": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781125995\/portfolio\/v2\/teches\/qo6vdbizpqf5smfwhp3w.svg",
+            "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781125995/portfolio/v2/teches/qo6vdbizpqf5smfwhp3w.svg",
             "name_ar": "CSS",
             "name_en": "CSS"
         },
         {
             "id": 13,
-            "icon": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781125967\/portfolio\/v2\/teches\/marklkliiihrmyj5qtsn.svg",
+            "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781125967/portfolio/v2/teches/marklkliiihrmyj5qtsn.svg",
             "name_ar": "JavaScript",
             "name_en": "JavaScript"
         },
         {
             "id": 14,
-            "icon": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781125850\/portfolio\/v2\/teches\/j0925zixhzjpmktuqgmi.svg",
+            "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781125850/portfolio/v2/teches/j0925zixhzjpmktuqgmi.svg",
             "name_ar": "TypeScript",
             "name_en": "TypeScript"
         },
         {
             "id": 15,
-            "icon": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781126436\/portfolio\/v2\/teches\/fwolgcvci88mhzr84mtf.svg",
+            "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781126436/portfolio/v2/teches/fwolgcvci88mhzr84mtf.svg",
             "name_ar": "Tailwind CSS",
             "name_en": "Tailwind CSS"
         },
         {
             "id": 16,
-            "icon": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781725859\/portfolio\/v2\/teches\/kc8ajos1jcxmq99sui48.svg",
+            "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781725859/portfolio/v2/teches/kc8ajos1jcxmq99sui48.svg",
             "name_ar": "Git",
             "name_en": "Git"
         },
         {
             "id": 17,
-            "icon": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781725926\/portfolio\/v2\/teches\/mewsrtxkhfzuoovezwlv.svg",
+            "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781725926/portfolio/v2/teches/mewsrtxkhfzuoovezwlv.svg",
             "name_ar": "Postman",
             "name_en": "Postman"
         },
         {
             "id": 18,
-            "icon": "https:\/\/res.cloudinary.com\/djjulka78\/image\/upload\/v1781726092\/portfolio\/v2\/teches\/xnzxgdmncpk5l9suvbsx.svg",
+            "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781726092/portfolio/v2/teches/xnzxgdmncpk5l9suvbsx.svg",
             "name_ar": "JIRA",
             "name_en": "JIRA"
         }

@@ -138,7 +138,7 @@ export function getDuration(startDate: string, endDate?: string | null): string 
         months += 12;
     }
 
-    const parts = [];
+    const parts: string[] = [];
 
     if (years > 0) {
         parts.push(`${years} ${years === 1 ? "year" : "years"}`);
@@ -148,5 +148,10 @@ export function getDuration(startDate: string, endDate?: string | null): string 
         parts.push(`${months} ${months === 1 ? "month" : "months"}`);
     }
 
-    return parts.length > 0 ? parts.join(" & ") : "Less than a month";
-};
+    // If both are zero
+    if (parts.length === 0) {
+        return "Couple Weeks";
+    }
+
+    return parts.join(" & ");
+}

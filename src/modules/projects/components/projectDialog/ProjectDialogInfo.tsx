@@ -13,12 +13,12 @@ export default function ProjectDialogInfo({
         {
             title: "Start",
             icon: <DateRange color="warning" />,
-            content: project.start_date,
+            content: project.start_date?.slice(0, 7), // "YYYY-MM"
         },
         {
             title: "End",
             icon: <DateRange color="warning" />,
-            content: project.end_date ?? "Present",
+            content: project.end_date ? project.end_date.slice(0, 7) : "Present",
         },
         {
             title: "Techs",

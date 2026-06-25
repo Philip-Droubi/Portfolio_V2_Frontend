@@ -62,11 +62,14 @@ export default function MediaGallery({
                     src={media[index]}
                     onClick={open}
                     sx={{
-                        maxHeight: "100vh",
+                        maxWidth: "100%",
+                        maxHeight: isOpen ? "100svh" : "60svh",
                         objectFit: "contain",
                         cursor: isOpen ? "auto" : "pointer",
                         transform: `scale(${zoom})`,
                         transition: "transform .25s",
+                        display: "block",
+                        margin: "0 auto",
                     }}
                 />
             </Box>
