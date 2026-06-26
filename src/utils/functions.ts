@@ -132,6 +132,8 @@ export function getDuration(startDate: string, endDate?: string | null): string 
     let years = end.getFullYear() - start.getFullYear();
     let months = end.getMonth() - start.getMonth();
 
+    if (months > 1) months++;
+
     // Fix negative months
     if (months < 0) {
         years--;

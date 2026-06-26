@@ -8,6 +8,7 @@ export type ProjectType = {
     end_date: string | null,
     url: string | null,
     live_url: string | null,
+    is_company: boolean,
     teches?: TechType[],
     tags?: TagType[],
     media?: mediaType[],

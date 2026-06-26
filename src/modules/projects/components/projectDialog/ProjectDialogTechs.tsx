@@ -46,7 +46,7 @@ export default function ProjectDialogTechs({
                                         objectFit: "contain",
                                     }}
                                 />
-                                <p className="text-sm mt-1 text-description">
+                                <p className="text-sm mt-1 text-description px-1">
                                     {tech[`name_${lang}`]}
                                 </p>
                             </div>

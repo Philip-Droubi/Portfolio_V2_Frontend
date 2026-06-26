@@ -1,6 +1,7 @@
 import { CustomCloseButton } from "@/components/buttons/CustomCloseButton";
 import { Chip, DialogTitle, Typography } from "@mui/material";
 import type { ProjectType } from "../../types";
+import { Apartment } from "@mui/icons-material";
 
 export default function ProjectDialogTitle({
     project,
@@ -37,6 +38,17 @@ export default function ProjectDialogTitle({
                                     borderRadius: "8px"
                                 }} />
                         ))
+                    }
+                    {
+                        project.is_company &&
+                        <Chip label={'company'}
+                            icon={<Apartment className="text-orange-400!" />}
+                            sx={{
+                                color: "var(--color-orange-400)",
+                                border: "1px solid",
+                                borderColor: "var(--color-orange-400)",
+                                borderRadius: "8px"
+                            }} />
                     }
                 </div>
             </Typography>

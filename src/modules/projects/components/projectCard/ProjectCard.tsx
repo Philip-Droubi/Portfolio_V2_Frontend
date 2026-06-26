@@ -75,7 +75,7 @@ export default function ProjectCard({
                         hover:shadow-[0_0_30px_rgba(34,211,238,0.25)]">
 
                     {/* IMAGE */}
-                    <ProjectCardImage project={project} name={name} lang={lang} />
+                    <ProjectCardImage project={project} name={name} />
 
                     {/* CONTENT */}
                     <ProjectCardBody project={project} lang={lang} />

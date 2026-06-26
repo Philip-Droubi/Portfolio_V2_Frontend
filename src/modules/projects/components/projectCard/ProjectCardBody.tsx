@@ -1,4 +1,4 @@
-import { Stack, Tooltip } from "@mui/material";
+import { Chip, Stack, Tooltip } from "@mui/material";
 import type { ProjectType } from "../../types";
 
 export default function ProjectCardBody({
@@ -11,7 +11,20 @@ export default function ProjectCardBody({
     const description = project[`tiny_description_${lang}` as keyof ProjectType] as string;
 
     return (
-        <div className="p-5">
+        <div className="px-5 py-3">
+            <div className="flex flex-wrap gap-2 mb-2">
+                {
+                    project.tags?.map((tag) => (
+                        <Chip label={tag[`name_${lang}`]}
+                            size="small"
+                            sx={{
+                                border: "1px solid",
+                                borderColor: "var(--color-secondary)",
+                                borderRadius: "8px"
+                            }} />
+                    ))
+                }
+            </div>
             {/* Description */}
             <p className="text-gray-400 h-17.25 text-sm leading-relaxed line-clamp-3">
                 {description}
@@ -48,7 +61,7 @@ export default function ProjectCardBody({
 
             {/* FOOTER */}
             < div
-                className="mt-10 text-lg flex items-center justify-between text-secondary font-semibold">
+                className="mt-6 text-lg flex items-center justify-between text-secondary font-semibold">
                 <span>
                     View Project
                 </span>
