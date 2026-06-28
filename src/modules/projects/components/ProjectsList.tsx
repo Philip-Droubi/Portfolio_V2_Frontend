@@ -25,7 +25,7 @@ export default function ProjectsList({
     const [currentPage, setCurrentPage] = useState(1);
 
     const lang = i18next.language;
-    const pageSize = itemsLimit || 16;
+    const pageSize = 16;
 
     const allProjects = data.projects as ProjectType[];
 
@@ -41,11 +41,15 @@ export default function ProjectsList({
     // 2. PAGINATION
     const totalPages = Math.ceil(filteredProjects.length / pageSize);
 
-    const paginatedProjects = useMemo(() => {
+    let paginatedProjects = useMemo(() => {
         const start = (currentPage - 1) * pageSize;
         const end = start + pageSize;
         return filteredProjects.slice(start, end);
     }, [filteredProjects, currentPage, pageSize]);
+
+    if (!fromProjectsPage) {
+        paginatedProjects = paginatedProjects.slice(0, itemsLimit);
+    }
 
     return (
         <section id="projects" className={fromProjectsPage ? "" : "pt-18"}>

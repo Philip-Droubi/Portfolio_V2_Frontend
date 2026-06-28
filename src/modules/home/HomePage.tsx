@@ -16,7 +16,7 @@ export default function HomePage() {
             <EducationSkills />
 
             {/* Projects */}
-            <ProjectsList itemsLimit={8} />
+            <ProjectsList itemsLimit={6} />
         </>
     )
 }

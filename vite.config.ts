@@ -6,7 +6,7 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vitejs.dev/config/
 export default defineConfig(({ command }) => {
   return {
-    base: command === 'serve' ? '/' : '/Portfolio_V2_Test/',
+    base: command === 'serve' ? '/' : '/Philip_Droubi_portfolio/',
 
     resolve: {
       alias: {
