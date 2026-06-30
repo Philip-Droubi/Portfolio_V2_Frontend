@@ -36,10 +36,18 @@ export default function ProjectDialog({
                         background: "#171c1e",
                         borderRadius: "24px",
                         color: "#fff",
+
+                        width: {
+                            xs: "95%",   // mobile
+                            sm: "90%",   // small screens
+                            md: "85%",   // medium screens
+                            lg: "80%",   // large screens
+                        },
                     },
                 },
             }}
         >
+
             {/* Dialog Title */}
             <ProjectDialogTitle
                 project={project}
@@ -47,7 +55,12 @@ export default function ProjectDialog({
                 lang={lang}
             />
 
-            <DialogContent dividers>
+            <DialogContent
+                dividers
+                sx={{
+                    px: { xs: "12px", sm: "24px" }
+                }}
+            >
                 {/* MEDIA */}
                 <MediaViewer media={media} />
 

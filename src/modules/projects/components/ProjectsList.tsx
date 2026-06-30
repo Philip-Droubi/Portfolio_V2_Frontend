@@ -106,6 +106,7 @@ export default function ProjectsList({
                         <Link
                             to="/projects"
                             className="group inline-flex items-center gap-2
+                            text-xl
                                 bg-secondary/10 backdrop-blur-xs
                                 px-6 py-3 rounded-xl
                                 border border-secondary/40
@@ -119,7 +120,6 @@ export default function ProjectsList({
                             <span className="text-lg opacity-70">
                                 ({filteredProjects.length})
                             </span>
-                            Projects
                             <span className="transition-transform duration-300 group-hover:translate-x-3">
                                 →
                             </span>

@@ -1,6 +1,63 @@
 {
     "projects": [
         {
+            "id": 9,
+            "main_image": "https://res.cloudinary.com/djjulka78/image/upload/v1782788062/portfolio/v2/projects/9/wtqr91ughmnsfislkebr.png",
+            "slug": "mova-car",
+            "start_date": "2025-08-01",
+            "end_date": "2025-12-01",
+            "url": null,
+            "live_url": null,
+            "is_company": false,
+            "teches": [
+                {
+                    "id": 2,
+                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781126319/portfolio/v2/teches/yz3uuyf4ve5khzopnhxi.svg",
+                    "name_ar": "Laravel",
+                    "name_en": "Laravel"
+                },
+                {
+                    "id": 3,
+                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781726037/portfolio/v2/teches/acwvnqrgo0nqbes0b03i.svg",
+                    "name_ar": "MySQL",
+                    "name_en": "MySQL"
+                },
+                {
+                    "id": 1,
+                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781725972/portfolio/v2/teches/ari32s0fgm5jgbsovpnw.svg",
+                    "name_ar": "PHP",
+                    "name_en": "PHP"
+                }
+            ],
+            "tags": [
+                {
+                    "id": 1,
+                    "name_ar": "Backend",
+                    "name_en": "Backend"
+                }
+            ],
+            "media": [
+                {
+                    "id": 46,
+                    "media_url": "https://res.cloudinary.com/djjulka78/image/upload/v1782790288/portfolio/v2/projects/9/media/rnovtcxmcaautktflqxr.jpg"
+                },
+                {
+                    "id": 47,
+                    "media_url": "https://res.cloudinary.com/djjulka78/image/upload/v1782790292/portfolio/v2/projects/9/media/fl4ua815zsufrenlxknt.jpg"
+                },
+                {
+                    "id": 48,
+                    "media_url": "https://res.cloudinary.com/djjulka78/image/upload/v1782790295/portfolio/v2/projects/9/media/n4fvskxg2stpiztkiu5i.jpg"
+                }
+            ],
+            "name_ar": "Mova Car",
+            "description_ar": "<p><strong>MovaCar Taxi System (Laravel + Reverb)</strong></p><p>MovaCar هو نظام تاكسي في سوريا تم تطويره خلال مسيرتي في شركة <strong>Future Code</strong>، حيث عملت كمدير مشروع وقائد فريق. يستهدف النظام سيارات الأجرة الصفراء ويوفّر تجربة لحظية متكاملة للسائقين والركاب.</p><p>قمت بتنفيذ تتبّع السائقين لحظياً باستخدام <strong>Laravel Reverb</strong> مع عرض الموقع على الخريطة بشكل مباشر. كما طوّرت صفحة مخصّصة لمشاركة الرحلات، وقدّمت تحديثات لحظية لحالة الرحلة، التسعير، وحركة السائق.</p><ul><li><p>تتبّع لحظي للسائقين باستخدام Laravel Reverb مع تحديثات مباشرة على الخريطة</p></li><li><p>صفحة مخصّصة لمشاركة الرحلات</p></li><li><p>تحديثات لحظية لحالة الرحلة، التسعير، وحركة السائق</p></li><li><p>دعم وربط النظام بأنظمة داخلية (نقاط البيع، خدمة العملاء، أدوات الإدارة)</p></li><li><p>المساهمة في بناء محرك تسعير معقّد (كوبونات، ورديات، مواسم، تعويضات)</p></li><li><p>قيادة المشروع كمدير مشروع وقائد فريق</p></li></ul>",
+            "tiny_description_ar": "MovaCar هو نظام تاكسي لحظي في سوريا، عملت عليه خلال مسيرتي في Future Code كمدير مشروع وقائد فريق, حيث يعتبر واحد من أكبر المشاريع التي قمت بتنفيذها واشرفت عليها.",
+            "name_en": "Mova Car",
+            "description_en": "<p><strong>MovaCar Taxi System (Laravel + Reverb)</strong></p><p>MovaCar is a real-time Syrian taxi platform developed during my journey at <strong>Future Code</strong>, where I served as the Project Manager and Team Leader. The system targets yellow taxis and provides a fully interactive, real-time experience for both drivers and passengers.</p><p>I implemented real-time driver tracking using <strong>Laravel Reverb</strong>, enabling live location updates on the map. I also built a custom trip-sharing web page and delivered real-time updates for trip status, pricing, and driver movement.</p><ul><li><p>Real-time driver tracking with Laravel Reverb and live map updates</p></li><li><p>Custom trip-sharing page with dynamic session handling</p></li><li><p>Real-time updates for trip status, pricing, and driver movement</p></li><li><p>Integration with internal systems (POS, customer service, admin tools)</p></li><li><p>Contribution to a complex pricing engine (coupons, shifts, seasons, compensation)</p></li><li><p>Led the project as Project Manager &amp; Team Leader</p></li></ul><br>",
+            "tiny_description_en": "MovaCar is a real-time taxi system in Syria that I worked on during my journey at Future Code as the Project Manager and Team Leader. It is considered one of the largest projects I developed and supervised."
+        },
+        {
             "id": 8,
             "main_image": "https://res.cloudinary.com/djjulka78/image/upload/v1782442764/portfolio/v2/projects/8/lfhbb92jgmxwybzghqop.png",
             "slug": "future-code",
@@ -38,11 +95,11 @@
             ],
             "media": [],
             "name_ar": "Future Code",
-            "description_ar": "<p>.</p>",
-            "tiny_description_ar": ".",
+            "description_ar": "<p><strong>Future Code (كانون الثاني 2025 – أيار 2026)</strong></p><p>عملت كمهندس Backend وقائد فريق، حيث طوّرت واجهات Laravel قابلة للتوسع لتطبيقات الويب والموبايل في <strong>مجالات التجارة الإلكترونية</strong> و<strong>إدارة الأعمال</strong> و<strong>التطبيقات الزمن الحقيقي (real-time)</strong>. قدت عملية الانتقال من نظام العملة الواحدة إلى <strong>نظام متعدد العملات</strong>، بما في ذلك إعادة تصميم المنطق المالي وإعادة هيكلة قواعد البيانات لضمان الدقة والقابلية للتوسع.<br></p><ul><li><p>المساهمة في تطوير نحو 15 مشروعاً بالتعاون مع فرق الواجهة الأمامية وفرق الجودة</p></li><li><p>تصميم قالب جاهز للـ Backend ليعتمد بواسطة الشركة يشمل الصلاحيات، إدارة المستخدمين، الإشعارات، هيكلة الـ API، ومعالجة الأخطاء</p></li><li><p>تقليل وقت بدء المشاريع بنسبة 30–40% بسبب استخدام القالب</p></li><li><p>قيادة فريق متعدد التخصصات مكوّن من 6–7 أعضاء (Flutter، Web، QA)</p></li><li><p>تخطيط المهام، والإشراف على التسليم مع الاستمرار في تطوير الـ Backend</p></li></ul>",
+            "tiny_description_ar": "مهندس Backend وقائد فريق في Future Code، عملت على أنظمة Laravel قابلة للتوسع، أقود فريقاً متعدد التخصصات.",
             "name_en": "Future Code",
-            "description_en": "<p>.</p>",
-            "tiny_description_en": "."
+            "description_en": "<p><strong>Future Code (Jan 2025 – May 2026)</strong></p><p>I worked as a Backend Software Engineer and Team Leader, where I developed scalable Laravel APIs for mobile and web applications in <strong>e‑commerce</strong>, <strong>business management</strong>, and <strong>real‑time systems</strong>. I led the migration from single‑currency platforms to a <strong>multi‑currency architecture</strong>, including redesigning financial logic and restructuring databases to ensure accuracy and scalability.<br></p><ul><li><p>Contributed to ~15 projects in collaboration with frontend and QA teams</p></li><li><p>Designed a reusable backend template adopted by the company, including roles, user management, notifications, API structure, and error handling</p></li><li><p>Reduced project startup time by 30–40% through the reusable architecture</p></li><li><p>Led a cross‑functional team of 6–7 members (Flutter, Web, QA)</p></li><li><p>Planned tasks, supervised delivery, and continued hands‑on backend development</p></li></ul>",
+            "tiny_description_en": "Backend Software Engineer & Team Leader at Future Code, building scalable Laravel systems, leading a cross‑functional team."
         },
         {
             "id": 7,
@@ -150,7 +207,7 @@
         },
         {
             "id": 2,
-            "main_image": "https://res.cloudinary.com/djjulka78/image/upload/v1782326722/portfolio/v2/projects/2/ciprg1wsvmh6nuh3tidi.png",
+            "main_image": "https://res.cloudinary.com/djjulka78/image/upload/v1782766353/portfolio/v2/projects/2/tqlra9mrudd3uo9dco3l.png",
             "slug": "portfolio-v1",
             "start_date": "2023-03-01",
             "end_date": "2023-07-01",
@@ -297,14 +354,14 @@
             ],
             "tags": [
                 {
-                    "id": 3,
-                    "name_ar": "Game",
-                    "name_en": "Game"
-                },
-                {
                     "id": 2,
                     "name_ar": "Frontend - Web",
                     "name_en": "Frontend - Web"
+                },
+                {
+                    "id": 3,
+                    "name_ar": "Game",
+                    "name_en": "Game"
                 }
             ],
             "media": [
@@ -427,7 +484,7 @@
         },
         {
             "id": 4,
-            "main_image": "https://res.cloudinary.com/djjulka78/image/upload/v1782409496/portfolio/v2/projects/4/sjzeyidvgoonddwhz9di.png",
+            "main_image": "https://res.cloudinary.com/djjulka78/image/upload/v1782765294/portfolio/v2/projects/4/vznzqnxpsrzinxujlfb6.png",
             "slug": "frontend-mentor",
             "start_date": "2021-06-01",
             "end_date": "2024-12-01",

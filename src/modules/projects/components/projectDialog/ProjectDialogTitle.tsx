@@ -27,7 +27,7 @@ export default function ProjectDialogTitle({
                     fontWeight: 700
                 }}
             >
-                <div className="flex flex-wrap gap-2 mt-1 items-center">
+                <div className="flex flex-wrap gap-2 mt-1 items-center text-sm md:text-lg">
                     {project[`name_${lang}`] ?? ""}
                     {
                         project.tags?.map((tag) => (
