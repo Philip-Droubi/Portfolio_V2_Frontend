@@ -1,6 +1,124 @@
 {
     "projects": [
         {
+            "id": 11,
+            "main_image": "https://res.cloudinary.com/djjulka78/image/upload/v1782934502/portfolio/v2/projects/11/ueiussh6wg34e09jtntd.png",
+            "slug": "wayak-taxi",
+            "start_date": "2026-03-01",
+            "end_date": "2026-05-01",
+            "url": null,
+            "live_url": null,
+            "is_company": false,
+            "teches": [
+                {
+                    "id": 2,
+                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781126319/portfolio/v2/teches/yz3uuyf4ve5khzopnhxi.svg",
+                    "name_ar": "Laravel",
+                    "name_en": "Laravel"
+                },
+                {
+                    "id": 3,
+                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781726037/portfolio/v2/teches/acwvnqrgo0nqbes0b03i.svg",
+                    "name_ar": "MySQL",
+                    "name_en": "MySQL"
+                },
+                {
+                    "id": 1,
+                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781725972/portfolio/v2/teches/ari32s0fgm5jgbsovpnw.svg",
+                    "name_ar": "PHP",
+                    "name_en": "PHP"
+                },
+                {
+                    "id": 5,
+                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781126294/portfolio/v2/teches/g0o7ycoypjdudyoj4lou.svg",
+                    "name_ar": "React JS",
+                    "name_en": "React JS"
+                },
+                {
+                    "id": 14,
+                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781125850/portfolio/v2/teches/j0925zixhzjpmktuqgmi.svg",
+                    "name_ar": "TypeScript",
+                    "name_en": "TypeScript"
+                },
+                {
+                    "id": 15,
+                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781126436/portfolio/v2/teches/fwolgcvci88mhzr84mtf.svg",
+                    "name_ar": "Tailwind CSS",
+                    "name_en": "Tailwind CSS"
+                },
+                {
+                    "id": 10,
+                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781126130/portfolio/v2/teches/ppy6xofy98ynp9bqab8n.svg",
+                    "name_ar": "Axios",
+                    "name_en": "Axios"
+                },
+                {
+                    "id": 9,
+                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781126467/portfolio/v2/teches/z8ucvgypm5zwwnd5hib3.svg",
+                    "name_ar": "Material UI",
+                    "name_en": "Material UI"
+                },
+                {
+                    "id": 7,
+                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781126225/portfolio/v2/teches/zscznjqflrp21ekoch4e.svg",
+                    "name_ar": "React Query",
+                    "name_en": "React Query"
+                },
+                {
+                    "id": 8,
+                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781126190/portfolio/v2/teches/ecvhfhze7lxlgsoaeisv.svg",
+                    "name_ar": "React Router",
+                    "name_en": "React Router"
+                },
+                {
+                    "id": 6,
+                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781126257/portfolio/v2/teches/fmpxdgjclsadfmjmwoim.svg",
+                    "name_ar": "Zustand",
+                    "name_en": "Zustand"
+                }
+            ],
+            "tags": [
+                {
+                    "id": 1,
+                    "name_ar": "Backend",
+                    "name_en": "Backend"
+                },
+                {
+                    "id": 2,
+                    "name_ar": "Frontend - Web",
+                    "name_en": "Frontend - Web"
+                }
+            ],
+            "media": [
+                {
+                    "id": 52,
+                    "media_url": "https://res.cloudinary.com/djjulka78/image/upload/v1782934557/portfolio/v2/projects/11/media/pjkfgjfd4ypy7mkowvg1.png"
+                },
+                {
+                    "id": 53,
+                    "media_url": "https://res.cloudinary.com/djjulka78/image/upload/v1782934563/portfolio/v2/projects/11/media/nbdfegj4gk12qubpzywk.png"
+                },
+                {
+                    "id": 54,
+                    "media_url": "https://res.cloudinary.com/djjulka78/image/upload/v1782934612/portfolio/v2/projects/11/media/qxxiwlyebasznkxdupzc.png"
+                },
+                {
+                    "id": 55,
+                    "media_url": "https://res.cloudinary.com/djjulka78/image/upload/v1782934629/portfolio/v2/projects/11/media/nxn7rx3k7v55uri2wh0m.png"
+                },
+                {
+                    "id": 56,
+                    "media_url": "https://res.cloudinary.com/djjulka78/image/upload/v1782934649/portfolio/v2/projects/11/media/sqakbw0lkijw1bmyqeok.png"
+                }
+            ],
+            "name_ar": "تاكسي ويّاك",
+            "description_ar": "<p><strong>Wayak Taxi Application (Laravel + Reverb Real-Time Tracking)</strong></p><p>Wayak هو تطبيق تاكسي لحظي تم تطويره <strong>كمشروع مستقل (Freelancing)</strong> للسوق العراقي. يوفّر تجربة تفاعلية كاملة للسائقين والركاب، مع تتبّع لحظي، إدارة للرحلات، وتحديثات فورية.</p><br><p>قمت بتنفيذ تتبّع السائقين لحظياً باستخدام أدوات البث في Laravel، مما يتيح تحديث الموقع على الخريطة بشكل مباشر. كما يوفّر النظام إنشاء الرحلات وإدارتها، منطق تسعير ديناميكي، وتحديثات لحظية لحركة السائق وحالة الرحلة وإشعارات الركاب.</p><br><ul><li><p>تتبّع لحظي للسائقين مع تحديثات مباشرة على الخريطة</p></li><li><p>إنشاء الرحلات وإدارتها ومعالجة الجلسات</p></li><li><p>تحديثات لحظية لحالة الرحلة، التسعير، وحركة السائق</p></li><li><p>ربط مع أدوات داخلية لدعم العمليات والإدارة</p></li><li><p>محرك تسعير ديناميكي مخصّص للسوق العراقي</p></li><li><p>تسليم المشروع بالكامل كمشروع Freelancing مع تنفيذ كامل للـ Backend</p></li></ul>",
+            "tiny_description_ar": "ويّاك هو تطبيق تاكسي في العراق، قمت بتطويره كمشروع مستقل (Freelancing). يوفّر تتبّعاً للسائقين وإدارة للرحلات وتحديثات فورية, تطبيق مخصّص للسوق العراقي.",
+            "name_en": "Wayak Taxi",
+            "description_en": "<p><strong>Wayak Taxi Application (Laravel + Reverb Real-Time Tracking)</strong></p><p>Wayak is a real-time taxi platform developed as a <strong>freelancing project</strong> for the Iraqi market. It provides a fully interactive experience for both drivers and passengers, offering live tracking, trip management, and real-time operational updates.</p><br><p>I implemented real-time driver tracking using Laravel’s broadcasting tools, enabling live location updates on the map. The system also includes trip creation and management, dynamic pricing logic, and real-time updates for driver movement, trip status, and passenger notifications.</p><br><ul><li><p>Real-time driver tracking with live map updates</p></li><li><p>Trip creation, management, and session handling</p></li><li><p>Real-time updates for trip status, pricing, and driver movement</p></li><li><p>Integration with internal tools for operations and support</p></li><li><p>Dynamic pricing engine adapted for the Iraqi market</p></li><li><p>Delivered as a complete freelancing project with full backend implementation</p></li></ul><br>",
+            "tiny_description_en": "Wayak is a real-time taxi application in Iraq that I developed as a freelancing project. It provides live driver tracking, trip management, and real-time updates, built specifically for the Iraqi market."
+        },
+        {
             "id": 9,
             "main_image": "https://res.cloudinary.com/djjulka78/image/upload/v1782788062/portfolio/v2/projects/9/wtqr91ughmnsfislkebr.png",
             "slug": "mova-car",
@@ -51,10 +169,10 @@
                 }
             ],
             "name_ar": "Mova Car",
-            "description_ar": "<p><strong>MovaCar Taxi System (Laravel + Reverb)</strong></p><p>MovaCar هو نظام تاكسي في سوريا تم تطويره خلال مسيرتي في شركة <strong>Future Code</strong>، حيث عملت كمدير مشروع وقائد فريق. يستهدف النظام سيارات الأجرة الصفراء ويوفّر تجربة لحظية متكاملة للسائقين والركاب.</p><p>قمت بتنفيذ تتبّع السائقين لحظياً باستخدام <strong>Laravel Reverb</strong> مع عرض الموقع على الخريطة بشكل مباشر. كما طوّرت صفحة مخصّصة لمشاركة الرحلات، وقدّمت تحديثات لحظية لحالة الرحلة، التسعير، وحركة السائق.</p><ul><li><p>تتبّع لحظي للسائقين باستخدام Laravel Reverb مع تحديثات مباشرة على الخريطة</p></li><li><p>صفحة مخصّصة لمشاركة الرحلات</p></li><li><p>تحديثات لحظية لحالة الرحلة، التسعير، وحركة السائق</p></li><li><p>دعم وربط النظام بأنظمة داخلية (نقاط البيع، خدمة العملاء، أدوات الإدارة)</p></li><li><p>المساهمة في بناء محرك تسعير معقّد (كوبونات، ورديات، مواسم، تعويضات)</p></li><li><p>قيادة المشروع كمدير مشروع وقائد فريق</p></li></ul>",
+            "description_ar": "<p><strong>MovaCar Taxi System (Laravel + Reverb)</strong></p><p>MovaCar هو نظام تاكسي في سوريا تم تطويره خلال مسيرتي في شركة <strong>Future Code</strong>، حيث عملت كمدير مشروع وقائد فريق.<br>يستهدف النظام سيارات الأجرة الصفراء ويوفّر تجربة لحظية متكاملة للسائقين والركاب.</p><br><p>قمت بتنفيذ تتبّع السائقين لحظياً باستخدام <strong>Laravel Reverb</strong> مع عرض الموقع على الخريطة بشكل مباشر. كما طوّرت صفحة مخصّصة لمشاركة الرحلات، وقدّمت تحديثات لحظية لحالة الرحلة، التسعير، وحركة السائق.</p><br><ul><li><p>تتبّع لحظي للسائقين باستخدام Laravel Reverb مع تحديثات مباشرة على الخريطة</p></li><li><p>صفحة مخصّصة لمشاركة الرحلات</p></li><li><p>تحديثات لحظية لحالة الرحلة، التسعير، وحركة السائق</p></li><li><p>دعم وربط النظام بأنظمة داخلية (نقاط البيع، خدمة العملاء، أدوات الإدارة)</p></li><li><p>المساهمة في بناء محرك تسعير معقّد (قسائم، ورديات، مواسم، تعويضات)</p></li><li><p>قيادة المشروع كمدير مشروع وقائد فريق</p></li></ul>",
             "tiny_description_ar": "MovaCar هو نظام تاكسي لحظي في سوريا، عملت عليه خلال مسيرتي في Future Code كمدير مشروع وقائد فريق, حيث يعتبر واحد من أكبر المشاريع التي قمت بتنفيذها واشرفت عليها.",
             "name_en": "Mova Car",
-            "description_en": "<p><strong>MovaCar Taxi System (Laravel + Reverb)</strong></p><p>MovaCar is a real-time Syrian taxi platform developed during my journey at <strong>Future Code</strong>, where I served as the Project Manager and Team Leader. The system targets yellow taxis and provides a fully interactive, real-time experience for both drivers and passengers.</p><p>I implemented real-time driver tracking using <strong>Laravel Reverb</strong>, enabling live location updates on the map. I also built a custom trip-sharing web page and delivered real-time updates for trip status, pricing, and driver movement.</p><ul><li><p>Real-time driver tracking with Laravel Reverb and live map updates</p></li><li><p>Custom trip-sharing page with dynamic session handling</p></li><li><p>Real-time updates for trip status, pricing, and driver movement</p></li><li><p>Integration with internal systems (POS, customer service, admin tools)</p></li><li><p>Contribution to a complex pricing engine (coupons, shifts, seasons, compensation)</p></li><li><p>Led the project as Project Manager &amp; Team Leader</p></li></ul><br>",
+            "description_en": "<p><strong>MovaCar Taxi System (Laravel + Reverb)</strong></p><p>MovaCar is a real-time Syrian taxi platform developed during my journey at <strong>Future Code</strong>, where I served as the Project Manager and Team Leader.<br>The system targets yellow taxis and provides a fully interactive, real-time experience for both drivers and passengers.</p><br><p>I implemented real-time driver tracking using <strong>Laravel Reverb</strong>, enabling live location updates on the map. I also built a custom trip-sharing web page and delivered real-time updates for trip status, pricing, and driver movement.</p><br><ul><li><p>Real-time driver tracking with Laravel Reverb and live map updates</p></li><li><p>Custom trip-sharing page with dynamic session handling</p></li><li><p>Real-time updates for trip status, pricing, and driver movement</p></li><li><p>Integration with internal systems (POS, customer service, admin tools)</p></li><li><p>Contribution to a complex pricing engine (coupons, shifts, seasons, compensation)</p></li><li><p>Led the project as Project Manager &amp; Team Leader</p></li></ul><br>",
             "tiny_description_en": "MovaCar is a real-time taxi system in Syria that I worked on during my journey at Future Code as the Project Manager and Team Leader. It is considered one of the largest projects I developed and supervised."
         },
         {
@@ -232,12 +350,6 @@
                     "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781125967/portfolio/v2/teches/marklkliiihrmyj5qtsn.svg",
                     "name_ar": "JavaScript",
                     "name_en": "JavaScript"
-                },
-                {
-                    "id": 16,
-                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781725859/portfolio/v2/teches/kc8ajos1jcxmq99sui48.svg",
-                    "name_ar": "Git",
-                    "name_en": "Git"
                 }
             ],
             "tags": [
@@ -267,6 +379,53 @@
             "name_en": "Portfolio V1",
             "description_en": "<h1>Portfolio V1</h1><br><p>This was my first attempt at creating a personal portfolio while learning the basics of HTML, CSS, and JavaScript.<br>It represents the early stage of my web development journey and the foundation that later evolved into more advanced work.</p><br><p>A simple and experimental design focused on practicing structure, layout, and basic interactivity before moving on to more polished projects.</p>",
             "tiny_description_en": "My first portfolio, built while learning HTML/CSS/JS — a simple starting point before evolving further."
+        },
+        {
+            "id": 10,
+            "main_image": "https://res.cloudinary.com/djjulka78/image/upload/v1782851066/portfolio/v2/projects/10/iwcogzb8oqsnvqdgp1mh.png",
+            "slug": "blind-care-association",
+            "start_date": "2023-03-01",
+            "end_date": "2023-07-01",
+            "url": null,
+            "live_url": null,
+            "is_company": false,
+            "teches": [
+                {
+                    "id": 2,
+                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781126319/portfolio/v2/teches/yz3uuyf4ve5khzopnhxi.svg",
+                    "name_ar": "Laravel",
+                    "name_en": "Laravel"
+                },
+                {
+                    "id": 3,
+                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781726037/portfolio/v2/teches/acwvnqrgo0nqbes0b03i.svg",
+                    "name_ar": "MySQL",
+                    "name_en": "MySQL"
+                }
+            ],
+            "tags": [
+                {
+                    "id": 1,
+                    "name_ar": "Backend",
+                    "name_en": "Backend"
+                }
+            ],
+            "media": [
+                {
+                    "id": 50,
+                    "media_url": "https://res.cloudinary.com/djjulka78/image/upload/v1782850804/portfolio/v2/projects/10/media/nsvyhqtgf3o6ttk9kdjz.png"
+                },
+                {
+                    "id": 51,
+                    "media_url": "https://res.cloudinary.com/djjulka78/image/upload/v1782851421/portfolio/v2/projects/10/media/i1hyivwez9ftvwpyn6yl.jpg"
+                }
+            ],
+            "name_ar": "جمعيّة رعاية المكفوفين",
+            "description_ar": "<p>نظام <strong>جمعية رعاية المكفوفين</strong> هو منصة مؤتمتة بالكامل تم تطويرها لاستبدال العمل الورقي التقليدي داخل جمعية رعاية المكفوفين في دمشق. عملت كمهندس Backend باستخدام إطار Laravel، يحوي النظام تطبيق ويب خاص بالإدارة بالإضافة إلى تطبيق أندرويد خاص بالمستفيدين.</p><br><p>يتيح النظام تسجيل المستفيدين والمتطوعين والموظفين، وإدارة طلبات الإعانة، وتسجيل التبرعات، وتنظيم عمليات توزيع الإعانات بشكل كامل. كما يوفر نظام تقييم ديناميكي لتصنيف المستفيدين حسب درجة الحاجة، ونظام إشعارات مؤتمت لإبلاغ المستفيدين بعمليات التوزيع، إضافة إلى تقارير تفصيلية حول المستفيدين والتبرعات والنشاطات المالية.</p><br><p>خلال فترة عملي التطوعي من آذار 2023 حتى كانون الثاني 2024، لعبت دوراً أساسياً في تصميم وتنفيذ البنية الخلفية للنظام، وضمان توافقه مع معايير إمكانية الوصول للمكفوفين، وتحقيق أداء عالٍ، وتأمين النظام عبر طبقات صلاحيات متعددة، ودعم الإشعارات عبر FCM. تم تسليم المشروع بنجاح في تشرين الثاني 2023، وحصلت على رسالة توصية رسمية من رئيس مجلس الإدارة تقديراً لجهودي وتأثير النظام على الجمعية.</p><br><ul><li><p>أتمتة تسجيل المستفيدين وطلبات الإعانة والتقييمات</p></li><li><p>نظام توزيع إعانات متكامل مع التحقق عبر QR</p></li><li><p>إدارة الصلاحيات والمتطوعين والموظفين بشكل ديناميكي</p></li><li><p>تقارير شاملة (PDF/Excel) حول التبرعات والمستفيدين</p></li><li><p>تطبيقات أندرويد للمستفيدين والإدارة</p></li><li><p>دعم إمكانية الوصول للمكفوفين (قارئ الشاشة)</p></li><li><p>تسليم ناجح مدعوم برسالة توصية رسمية</p></li></ul>",
+            "tiny_description_ar": "نظام جمعية رعاية المكفوفين هو منصة مؤتمتة بالكامل طُوّرت لإدارة تسجيل المستفيدين، توزيع الإعانات، عمل المتطوعين، والتواصل داخل الجمعية في دمشق.",
+            "name_en": "Blind Care Association",
+            "description_en": "<p></p><p><strong>The Blind Care Association System</strong> is a fully automated platform developed to replace the traditional paper‑based workflow used by the Blind Care Association in Damascus. I worked as a Backend Engineer using the Laravel framework, where the system includes an administration web application along with a dedicated Android application for beneficiaries.</p><p><br></p><p>The system enables registration and management of beneficiaries, volunteers, and staff, handling aid requests, recording donations, and organizing complete aid distribution operations. It also provides a dynamic evaluation system to classify beneficiaries based on need, an automated notification system for distribution events, and detailed reporting tools covering beneficiaries, donations, and financial activities.</p><p><br></p><p>During my volunteer period from March 2023 to January 2024, I played a key role in designing and implementing the backend architecture, ensuring accessibility for blind users, high performance, multi-layered security, and reliable communication through FCM notifications. The project was successfully delivered in November 2023, and I received an official recommendation letter from the Chairman of the Blind Care Association in recognition of my efforts and the positive impact of the system.</p><p><br></p><ul><li><p>Automated registration, aid requests, and beneficiary evaluations</p></li><li><p>Integrated aid distribution system with QR-based verification</p></li><li><p>Dynamic roles, permissions, and volunteer/staff management</p></li><li><p>Comprehensive reporting (PDF/Excel) for donations and beneficiaries</p></li><li><p>Android applications for beneficiaries and administrators</p></li><li><p>Accessibility support for blind users (screen reader compatibility)</p></li><li><p>Successfully delivered and supported by an official recommendation letter</p></li></ul><p><br></p>",
+            "tiny_description_en": "Blind Care Association System is a full automation platform built to manage beneficiary registration, aid distribution, volunteer workflows, and communication for the Blind Care Association in Damascus."
         },
         {
             "id": 1,

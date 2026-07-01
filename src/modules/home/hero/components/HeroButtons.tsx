@@ -8,6 +8,7 @@ export default function HeroButtons() {
                 download
                 className="group relative overflow-hidden
                     px-6 py-3 sm:px-8 sm:py-4
+                    w-full sm:w-fit
                     rounded-2xl
                     font-semibold
                     text-slate-900
@@ -36,6 +37,7 @@ export default function HeroButtons() {
             <a
                 href="#projects"
                 className="group
+                    w-full sm:w-fit
                     px-6 py-3 sm:px-8 sm:py-4
                     rounded-2xl
                     border border-secondary/40
@@ -47,7 +49,7 @@ export default function HeroButtons() {
                     hover:border-secondary
                     hover:bg-cyan-500/10"
             >
-                <span className="flex items-center gap-2">
+                <span className="flex items-center gap-2 justify-center sm:justify-start">
                     View Projects
                     <span className="transition-transform duration-300 group-hover:translate-x-3">
                         →

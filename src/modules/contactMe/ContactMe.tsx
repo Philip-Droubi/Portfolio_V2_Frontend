@@ -19,7 +19,7 @@ export default function ContactMe() {
                 className="relative z-10"
             >
                 <div className="text-center mb-14">
-                    <h2 className="text-4xl sm:text-5xl font-bold text-white">
+                    <h2 className="text-3xl sm:text-5xl font-bold text-white">
                         Contact <span className="text-secondary">Me</span>
                     </h2>
 

@@ -15,7 +15,7 @@ export default function EducationSkills() {
                 transition={{ duration: 0.4 }}
             >
                 <div className="text-center mb-12">
-                    <h2 className="text-4xl sm:text-5xl font-bold text-white">
+                    <h2 className="text-3xl sm:text-5xl font-bold text-white">
                         Education & <span className="text-secondary">Skills</span>
                     </h2>
 

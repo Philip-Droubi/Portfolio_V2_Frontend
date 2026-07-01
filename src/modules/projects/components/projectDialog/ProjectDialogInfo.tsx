@@ -23,7 +23,7 @@ export default function ProjectDialogInfo({
         {
             title: "Techs",
             icon: <Code color="warning" />,
-            content: String(project.teches?.length ?? 0),
+            content: String(project.teches?.length ?? 0) + ' Used',
         },
         {
             title: "Duration",
