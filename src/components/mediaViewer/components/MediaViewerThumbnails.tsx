@@ -49,6 +49,7 @@ export default function MediaViewerThumbnails({
                     src={img}
                     onClick={() => selectImage(i)}
                     sx={{
+                        userSelect: "none",
                         width: 70,
                         height: 50,
                         objectFit: "cover",

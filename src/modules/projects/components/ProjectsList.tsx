@@ -25,7 +25,7 @@ export default function ProjectsList({
     const [currentPage, setCurrentPage] = useState(1);
 
     const lang = i18next.language;
-    const pageSize = 16;
+    const pageSize = 15;
 
     const allProjects = data.projects as ProjectType[];
 

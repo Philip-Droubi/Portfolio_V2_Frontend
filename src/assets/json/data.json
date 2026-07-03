@@ -1,6 +1,85 @@
 {
     "projects": [
         {
+            "id": 12,
+            "main_image": "https://res.cloudinary.com/djjulka78/image/upload/v1783023582/portfolio/v2/projects/12/wjaqbzr0ncsornezezfn.png",
+            "slug": "cargo-x",
+            "start_date": "2026-04-01",
+            "end_date": null,
+            "url": null,
+            "live_url": null,
+            "is_company": false,
+            "teches": [
+                {
+                    "id": 5,
+                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781126294/portfolio/v2/teches/g0o7ycoypjdudyoj4lou.svg",
+                    "name_ar": "React JS",
+                    "name_en": "React JS"
+                },
+                {
+                    "id": 14,
+                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781125850/portfolio/v2/teches/j0925zixhzjpmktuqgmi.svg",
+                    "name_ar": "TypeScript",
+                    "name_en": "TypeScript"
+                },
+                {
+                    "id": 15,
+                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781126436/portfolio/v2/teches/fwolgcvci88mhzr84mtf.svg",
+                    "name_ar": "Tailwind CSS",
+                    "name_en": "Tailwind CSS"
+                },
+                {
+                    "id": 10,
+                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781126130/portfolio/v2/teches/ppy6xofy98ynp9bqab8n.svg",
+                    "name_ar": "Axios",
+                    "name_en": "Axios"
+                },
+                {
+                    "id": 9,
+                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781126467/portfolio/v2/teches/z8ucvgypm5zwwnd5hib3.svg",
+                    "name_ar": "Material UI",
+                    "name_en": "Material UI"
+                },
+                {
+                    "id": 7,
+                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781126225/portfolio/v2/teches/zscznjqflrp21ekoch4e.svg",
+                    "name_ar": "React Query",
+                    "name_en": "React Query"
+                },
+                {
+                    "id": 8,
+                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781126190/portfolio/v2/teches/ecvhfhze7lxlgsoaeisv.svg",
+                    "name_ar": "React Router",
+                    "name_en": "React Router"
+                },
+                {
+                    "id": 6,
+                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781126257/portfolio/v2/teches/fmpxdgjclsadfmjmwoim.svg",
+                    "name_ar": "Zustand",
+                    "name_en": "Zustand"
+                }
+            ],
+            "tags": [
+                {
+                    "id": 2,
+                    "name_ar": "Frontend - Web",
+                    "name_en": "Frontend - Web"
+                }
+            ],
+            "media": [
+                {
+                    "id": 57,
+                    "media_url": "https://res.cloudinary.com/djjulka78/image/upload/v1783023592/portfolio/v2/projects/12/media/vzktfi0jrtsbfuk5ymaa.png"
+                }
+            ],
+            "name_ar": "Cargo X",
+            "description_ar": "<p><strong>لوحة تحكم CargoX (React.js)</strong></p><p>CargoX هو نظام سعودي لخدمات النقل والشحن والتخليص الجمركي. عملت كمطوّر واجهات أمامية لبناء لوحة التحكم باستخدام <strong>React.js</strong>، مع التركيز على تطوير واجهات سريعة ومنظمة وقابلة للتوسّع لإدارة العمليات الأساسية للنظام.</p><br><p>توفّر لوحة التحكم أدوات لإدارة الشحنات، السائقين، العملاء، عمليات التوصيل، ومسارات التخليص الجمركي. قمت بتنفيذ مكوّنات واجهة مستخدم متجاوبة، وتحسين إدارة الحالة، وضمان تفاعل سلس بين الواجهة الأمامية والخدمات الخلفية لدعم العمليات التشغيلية في الوقت الفعلي.</p><br><ul><li><p>تطوير لوحة التحكم باستخدام React.js</p></li><li><p>بناء واجهات إدارة وتتبع الشحنات</p></li><li><p>إنشاء وحدات لإدارة السائقين والعملاء</p></li><li><p>تنفيذ واجهات خاصة بعمليات التخليص الجمركي</p></li><li><p>تحسين الأداء وإدارة الحالة للتعامل مع البيانات الكبيرة</p></li><li><p>تسليم لوحة تحكم متجاوبة وجاهزة للإنتاج لخدمات النقل والشحن في السعودية</p></li></ul>",
+            "tiny_description_ar": "CargoX هو نظام سعودي لخدمات النقل والشحن والتخليص الجمركي، عملت فيه كمطوّر واجهات أمامية لبناء لوحة التحكم باستخدام React.js، حيث طوّرت واجهات إدارة الشحنات والسائقين والعملاء والعمليات التشغيلية.",
+            "name_en": "Cargo X",
+            "description_en": "<p><strong>CargoX Admin Dashboard (React.js)</strong></p><p>CargoX is a logistics and customs‑clearance platform operating in Saudi Arabia. I worked as a Frontend Developer to build the administration dashboard using <strong>React.js</strong>, focusing on creating fast, clean, and scalable interfaces for managing the platform’s core operations.</p><br><p>The dashboard provides tools for managing shipments, drivers, clients, delivery operations, and customs‑clearance workflows. I implemented responsive UI components, optimized state management, and ensured smooth interaction between the frontend and backend services to support real‑time operational needs.</p><br><ul><li><p>Developed the admin dashboard using React.js</p></li><li><p>Built interfaces for shipment management and tracking</p></li><li><p>Created modules for driver and client management</p></li><li><p>Implemented UI for customs‑clearance workflows</p></li><li><p>Optimized performance and state handling for large datasets</p></li><li><p>Delivered a responsive, production‑ready dashboard for Saudi logistics operations</p></li></ul><br>",
+            "tiny_description_en": "CargoX is a Saudi logistics and customs‑clearance platform where I worked as a Frontend Developer to build the admin dashboard using React.js. I developed interfaces for managing shipments, drivers, clients, and operational workflows."
+        },
+        {
             "id": 11,
             "main_image": "https://res.cloudinary.com/djjulka78/image/upload/v1782934502/portfolio/v2/projects/11/ueiussh6wg34e09jtntd.png",
             "slug": "wayak-taxi",
@@ -112,11 +191,11 @@
                 }
             ],
             "name_ar": "تاكسي ويّاك",
-            "description_ar": "<p><strong>Wayak Taxi Application (Laravel + Reverb Real-Time Tracking)</strong></p><p>Wayak هو تطبيق تاكسي لحظي تم تطويره <strong>كمشروع مستقل (Freelancing)</strong> للسوق العراقي. يوفّر تجربة تفاعلية كاملة للسائقين والركاب، مع تتبّع لحظي، إدارة للرحلات، وتحديثات فورية.</p><br><p>قمت بتنفيذ تتبّع السائقين لحظياً باستخدام أدوات البث في Laravel، مما يتيح تحديث الموقع على الخريطة بشكل مباشر. كما يوفّر النظام إنشاء الرحلات وإدارتها، منطق تسعير ديناميكي، وتحديثات لحظية لحركة السائق وحالة الرحلة وإشعارات الركاب.</p><br><ul><li><p>تتبّع لحظي للسائقين مع تحديثات مباشرة على الخريطة</p></li><li><p>إنشاء الرحلات وإدارتها ومعالجة الجلسات</p></li><li><p>تحديثات لحظية لحالة الرحلة، التسعير، وحركة السائق</p></li><li><p>ربط مع أدوات داخلية لدعم العمليات والإدارة</p></li><li><p>محرك تسعير ديناميكي مخصّص للسوق العراقي</p></li><li><p>تسليم المشروع بالكامل كمشروع Freelancing مع تنفيذ كامل للـ Backend</p></li></ul>",
-            "tiny_description_ar": "ويّاك هو تطبيق تاكسي في العراق، قمت بتطويره كمشروع مستقل (Freelancing). يوفّر تتبّعاً للسائقين وإدارة للرحلات وتحديثات فورية, تطبيق مخصّص للسوق العراقي.",
+            "description_ar": "<p><strong>Wayak Taxi Application (Laravel + React.JS + Reverb Real-Time Tracking)</strong></p><p>Wayak هو تطبيق تاكسي لحظي تم تطويره <strong>كمشروع مستقل (Full-Stack Freelancing)</strong> للسوق العراقي. يوفّر تجربة تفاعلية كاملة للسائقين والركاب، مع تتبّع لحظي، إدارة للرحلات، وتحديثات فورية.</p><br><p>قمت بتنفيذ تتبّع السائقين لحظياً باستخدام أدوات البث في Laravel، مما يتيح تحديث الموقع على الخريطة بشكل مباشر. كما يوفّر النظام إنشاء الرحلات وإدارتها، منطق تسعير ديناميكي، وتحديثات لحظية لحركة السائق وحالة الرحلة وإشعارات الركاب.</p><br><ul><li><p>تتبّع لحظي للسائقين مع تحديثات مباشرة على الخريطة</p></li><li><p>إنشاء الرحلات وإدارتها ومعالجة الجلسات</p></li><li><p>تحديثات لحظية لحالة الرحلة، التسعير، وحركة السائق</p></li><li><p>ربط مع أدوات داخلية لدعم العمليات والإدارة</p></li><li><p>محرك تسعير ديناميكي مخصّص للسوق العراقي</p></li><li><p>تسليم المشروع بالكامل كمشروع Freelancing مع تنفيذ كامل للـ Backend</p></li></ul>",
+            "tiny_description_ar": "ويّاك هو تطبيق تاكسي في العراق، قمت بتطويره كمشروع مستقل (Freelancing Full-Stack). يوفّر تتبّعاً للسائقين وإدارة للرحلات وتحديثات فورية, تطبيق مخصّص للسوق العراقي.",
             "name_en": "Wayak Taxi",
-            "description_en": "<p><strong>Wayak Taxi Application (Laravel + Reverb Real-Time Tracking)</strong></p><p>Wayak is a real-time taxi platform developed as a <strong>freelancing project</strong> for the Iraqi market. It provides a fully interactive experience for both drivers and passengers, offering live tracking, trip management, and real-time operational updates.</p><br><p>I implemented real-time driver tracking using Laravel’s broadcasting tools, enabling live location updates on the map. The system also includes trip creation and management, dynamic pricing logic, and real-time updates for driver movement, trip status, and passenger notifications.</p><br><ul><li><p>Real-time driver tracking with live map updates</p></li><li><p>Trip creation, management, and session handling</p></li><li><p>Real-time updates for trip status, pricing, and driver movement</p></li><li><p>Integration with internal tools for operations and support</p></li><li><p>Dynamic pricing engine adapted for the Iraqi market</p></li><li><p>Delivered as a complete freelancing project with full backend implementation</p></li></ul><br>",
-            "tiny_description_en": "Wayak is a real-time taxi application in Iraq that I developed as a freelancing project. It provides live driver tracking, trip management, and real-time updates, built specifically for the Iraqi market."
+            "description_en": "<p><strong>Wayak Taxi Application (Laravel + React.JS + Reverb Real-Time Tracking)</strong></p><p>Wayak is a real-time taxi platform developed as a <strong>freelancing Full-Stack project</strong> for the Iraqi market. It provides a fully interactive experience for both drivers and passengers, offering live tracking, trip management, and real-time operational updates.</p><br><p>I implemented real-time driver tracking using Laravel’s broadcasting tools, enabling live location updates on the map. The system also includes trip creation and management, dynamic pricing logic, and real-time updates for driver movement, trip status, and passenger notifications.</p><br><ul><li><p>Real-time driver tracking with live map updates</p></li><li><p>Trip creation, management, and session handling</p></li><li><p>Real-time updates for trip status, pricing, and driver movement</p></li><li><p>Integration with internal tools for operations and support</p></li><li><p>Dynamic pricing engine adapted for the Iraqi market</p></li><li><p>Delivered as a complete freelancing project with full backend implementation</p></li></ul><br>",
+            "tiny_description_en": "Wayak is a real-time taxi application in Iraq that I developed as a freelancing Full-Stack project. It provides live driver tracking, trip management, and real-time updates, built specifically for the Iraqi market."
         },
         {
             "id": 9,
@@ -213,10 +292,10 @@
             ],
             "media": [],
             "name_ar": "Future Code",
-            "description_ar": "<p><strong>Future Code (كانون الثاني 2025 – أيار 2026)</strong></p><p>عملت كمهندس Backend وقائد فريق، حيث طوّرت واجهات Laravel قابلة للتوسع لتطبيقات الويب والموبايل في <strong>مجالات التجارة الإلكترونية</strong> و<strong>إدارة الأعمال</strong> و<strong>التطبيقات الزمن الحقيقي (real-time)</strong>. قدت عملية الانتقال من نظام العملة الواحدة إلى <strong>نظام متعدد العملات</strong>، بما في ذلك إعادة تصميم المنطق المالي وإعادة هيكلة قواعد البيانات لضمان الدقة والقابلية للتوسع.<br></p><ul><li><p>المساهمة في تطوير نحو 15 مشروعاً بالتعاون مع فرق الواجهة الأمامية وفرق الجودة</p></li><li><p>تصميم قالب جاهز للـ Backend ليعتمد بواسطة الشركة يشمل الصلاحيات، إدارة المستخدمين، الإشعارات، هيكلة الـ API، ومعالجة الأخطاء</p></li><li><p>تقليل وقت بدء المشاريع بنسبة 30–40% بسبب استخدام القالب</p></li><li><p>قيادة فريق متعدد التخصصات مكوّن من 6–7 أعضاء (Flutter، Web، QA)</p></li><li><p>تخطيط المهام، والإشراف على التسليم مع الاستمرار في تطوير الـ Backend</p></li></ul>",
+            "description_ar": "<p><strong>Future Code (كانون الثاني 2025 – أيار 2026)</strong></p><br><p>عملت كمهندس Backend وقائد فريق، حيث طوّرت واجهات Laravel قابلة للتوسع لتطبيقات الويب والموبايل في <strong>مجالات التجارة الإلكترونية</strong> و<strong>إدارة الأعمال</strong> و<strong>التطبيقات الزمن الحقيقي (real-time)</strong>. قدت عملية الانتقال من نظام العملة الواحدة إلى <strong>نظام متعدد العملات</strong>، بما في ذلك إعادة تصميم المنطق المالي وإعادة هيكلة قواعد البيانات لضمان الدقة والقابلية للتوسع.</p><br><ul><li><p>المساهمة في تطوير نحو 15 مشروعاً بالتعاون مع فرق الواجهة الأمامية وفرق الجودة</p></li><li><p>تصميم قالب جاهز للـ Backend ليعتمد بواسطة الشركة يشمل الصلاحيات، إدارة المستخدمين، الإشعارات، هيكلة الـ API، ومعالجة الأخطاء</p></li><li><p>تقليل وقت بدء المشاريع بنسبة 30–40% بسبب استخدام القالب</p></li><li><p>قيادة فريق متعدد التخصصات مكوّن من 6–7 أعضاء (Flutter، Web، QA)</p></li><li><p>تخطيط المهام، والإشراف على التسليم مع الاستمرار في تطوير الـ Backend</p></li></ul>",
             "tiny_description_ar": "مهندس Backend وقائد فريق في Future Code، عملت على أنظمة Laravel قابلة للتوسع، أقود فريقاً متعدد التخصصات.",
             "name_en": "Future Code",
-            "description_en": "<p><strong>Future Code (Jan 2025 – May 2026)</strong></p><p>I worked as a Backend Software Engineer and Team Leader, where I developed scalable Laravel APIs for mobile and web applications in <strong>e‑commerce</strong>, <strong>business management</strong>, and <strong>real‑time systems</strong>. I led the migration from single‑currency platforms to a <strong>multi‑currency architecture</strong>, including redesigning financial logic and restructuring databases to ensure accuracy and scalability.<br></p><ul><li><p>Contributed to ~15 projects in collaboration with frontend and QA teams</p></li><li><p>Designed a reusable backend template adopted by the company, including roles, user management, notifications, API structure, and error handling</p></li><li><p>Reduced project startup time by 30–40% through the reusable architecture</p></li><li><p>Led a cross‑functional team of 6–7 members (Flutter, Web, QA)</p></li><li><p>Planned tasks, supervised delivery, and continued hands‑on backend development</p></li></ul>",
+            "description_en": "<p><strong>Future Code (Jan 2025 – May 2026)</strong></p><br><p>I worked as a Backend Software Engineer and Team Leader, where I developed scalable Laravel APIs for mobile and web applications in <strong>e‑commerce</strong>, <strong>business management</strong>, and <strong>real‑time systems</strong>. I led the migration from single‑currency platforms to a <strong>multi‑currency architecture</strong>, including redesigning financial logic and restructuring databases to ensure accuracy and scalability.</p><br><ul><li><p>Contributed to ~15 projects in collaboration with frontend and QA teams</p></li><li><p>Designed a reusable backend template adopted by the company, including roles, user management, notifications, API structure, and error handling</p></li><li><p>Reduced project startup time by 30–40% through the reusable architecture</p></li><li><p>Led a cross‑functional team of 6–7 members (Flutter, Web, QA)</p></li><li><p>Planned tasks, supervised delivery, and continued hands‑on backend development</p></li></ul>",
             "tiny_description_en": "Backend Software Engineer & Team Leader at Future Code, building scalable Laravel systems, leading a cross‑functional team."
         },
         {
@@ -426,6 +505,78 @@
             "name_en": "Blind Care Association",
             "description_en": "<p></p><p><strong>The Blind Care Association System</strong> is a fully automated platform developed to replace the traditional paper‑based workflow used by the Blind Care Association in Damascus. I worked as a Backend Engineer using the Laravel framework, where the system includes an administration web application along with a dedicated Android application for beneficiaries.</p><p><br></p><p>The system enables registration and management of beneficiaries, volunteers, and staff, handling aid requests, recording donations, and organizing complete aid distribution operations. It also provides a dynamic evaluation system to classify beneficiaries based on need, an automated notification system for distribution events, and detailed reporting tools covering beneficiaries, donations, and financial activities.</p><p><br></p><p>During my volunteer period from March 2023 to January 2024, I played a key role in designing and implementing the backend architecture, ensuring accessibility for blind users, high performance, multi-layered security, and reliable communication through FCM notifications. The project was successfully delivered in November 2023, and I received an official recommendation letter from the Chairman of the Blind Care Association in recognition of my efforts and the positive impact of the system.</p><p><br></p><ul><li><p>Automated registration, aid requests, and beneficiary evaluations</p></li><li><p>Integrated aid distribution system with QR-based verification</p></li><li><p>Dynamic roles, permissions, and volunteer/staff management</p></li><li><p>Comprehensive reporting (PDF/Excel) for donations and beneficiaries</p></li><li><p>Android applications for beneficiaries and administrators</p></li><li><p>Accessibility support for blind users (screen reader compatibility)</p></li><li><p>Successfully delivered and supported by an official recommendation letter</p></li></ul><p><br></p>",
             "tiny_description_en": "Blind Care Association System is a full automation platform built to manage beneficiary registration, aid distribution, volunteer workflows, and communication for the Blind Care Association in Damascus."
+        },
+        {
+            "id": 13,
+            "main_image": "https://res.cloudinary.com/djjulka78/image/upload/v1783026028/portfolio/v2/projects/13/tq6ov1rospxfshysxjve.png",
+            "slug": "rock-paper-scissors",
+            "start_date": "2023-02-01",
+            "end_date": "2023-03-01",
+            "url": "https://github.com/Philip-Droubi/Rock-Paper-Scissors",
+            "live_url": "https://philip-droubi.github.io/Rock-Paper-Scissors",
+            "is_company": false,
+            "teches": [
+                {
+                    "id": 11,
+                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781126022/portfolio/v2/teches/rkgnze6zpmio4aygw5k3.svg",
+                    "name_ar": "HTML",
+                    "name_en": "HTML"
+                },
+                {
+                    "id": 12,
+                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781125995/portfolio/v2/teches/qo6vdbizpqf5smfwhp3w.svg",
+                    "name_ar": "CSS",
+                    "name_en": "CSS"
+                },
+                {
+                    "id": 13,
+                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781125967/portfolio/v2/teches/marklkliiihrmyj5qtsn.svg",
+                    "name_ar": "JavaScript",
+                    "name_en": "JavaScript"
+                },
+                {
+                    "id": 22,
+                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1783027089/portfolio/v2/teches/xxzjcqewrpxw7zq4i4uo.svg",
+                    "name_ar": "PWA",
+                    "name_en": "PWA"
+                }
+            ],
+            "tags": [
+                {
+                    "id": 2,
+                    "name_ar": "Frontend - Web",
+                    "name_en": "Frontend - Web"
+                },
+                {
+                    "id": 3,
+                    "name_ar": "Game",
+                    "name_en": "Game"
+                }
+            ],
+            "media": [
+                {
+                    "id": 58,
+                    "media_url": "https://res.cloudinary.com/djjulka78/image/upload/v1783026064/portfolio/v2/projects/13/media/bufouda8pbmbcmymrtqw.png"
+                },
+                {
+                    "id": 59,
+                    "media_url": "https://res.cloudinary.com/djjulka78/image/upload/v1783026072/portfolio/v2/projects/13/media/l7gku8mifrhaha3xkfxj.png"
+                },
+                {
+                    "id": 60,
+                    "media_url": "https://res.cloudinary.com/djjulka78/image/upload/v1783026106/portfolio/v2/projects/13/media/jwcbqpg8tognxedtcbjo.png"
+                },
+                {
+                    "id": 61,
+                    "media_url": "https://res.cloudinary.com/djjulka78/image/upload/v1783026113/portfolio/v2/projects/13/media/j5r0i74fsax8ilibnudt.png"
+                }
+            ],
+            "name_ar": "حجرة, ورقة & مقص",
+            "description_ar": "<p><strong>Rock, Paper &amp; Scissors — لعبة واجهات أمامية (HTML, CSS, JavaScript, PWA)</strong></p><p>Rock, Paper &amp; Scissors هي لعبة ويب قمت بإعادة تصميمها بالكامل ضمن تحدي <strong>Frontend Mentor</strong>. تم بناء الواجهة باستخدام <strong>HTML وCSS وJavaScript</strong> مع إضافة تأثيرات ورسوم متحركة وتحسينات عديدة لتقديم تجربة أفضل من النسخة الأصلية.</p><br><p>تتضمن اللعبة <strong>وضعين للّعب</strong>، ونظام نقاط يعتمد على <strong>Local Storage</strong> مع إمكانية إعادة التعيين. كما قمت بإضافة دعم <strong>PWA</strong> لجعل اللعبة قابلة للتثبيت على أنظمة Windows وmacOS وLinux وAndroid وiOS كتطبيق مستقل.</p><br><ul><li><p>إعادة تصميم كاملة لواجهة اللعبة</p></li><li><p>وضعان للّعب مع واجهة مخصّصة</p></li><li><p>تأثيرات ورسوم متحركة وانتقالات</p></li><li><p>نظام نقاط باستخدام Local Storage مع إمكانية إعادة الضبط</p></li><li><p>دعم PWA للتثبيت على جميع المنصات</p></li><li><p>تم تطويرها كتحدي من Frontend Mentor مع ميزات إضافية</p></li></ul>",
+            "tiny_description_ar": "Rock, Paper & Scissors هو لعبة واجهات أمامية مطوّرة باستخدام HTML وCSS وJavaScript، قمت بإعادة تصميمها بالكامل مع إضافة تأثيرات ورسوم متحركة ونظام حفظ النقاط عبر Local Storage، بالإضافة إلى دعم PWA.",
+            "name_en": "Rock, Paper & Scissors",
+            "description_en": "<p><strong>Rock, Paper &amp; Scissors — Frontend Game (HTML, CSS, JavaScript, PWA)</strong></p><p>Rock, Paper &amp; Scissors is a fully redesigned web game built as part of a <strong>Frontend Mentor</strong> challenge. I rebuilt the entire interface using <strong>HTML, CSS, and JavaScript</strong>, added animations and effects, and introduced multiple gameplay enhancements to elevate the experience beyond the original challenge.</p><br><p>The game includes <strong>two play modes</strong>, a dynamic scoring system stored using <strong>Local Storage</strong>, and the ability to reset progress. I also implemented <strong>PWA support</strong>, allowing the game to be installed as a standalone application on Windows, macOS, Linux, Android, and iOS.</p><br><ul><li><p>Complete redesign of the game interface</p></li><li><p>Two gameplay modes with custom UI</p></li><li><p>Animations, transitions, and visual effects</p></li><li><p>Local Storage scoring system with reset option</p></li><li><p>PWA support for installation on all platforms</p></li><li><p>Developed as a Frontend Mentor challenge with extended features</p></li></ul><br>",
+            "tiny_description_en": ".Rock, Paper & Scissors is a fully redesigned frontend game built with HTML, CSS, and JavaScript. I implemented animations, effects, local‑storage scoring, two game modes, and PWA "
         },
         {
             "id": 1,

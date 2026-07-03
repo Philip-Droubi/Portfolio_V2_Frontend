@@ -62,6 +62,7 @@ export default function MediaGallery({
                     src={media[index]}
                     onClick={open}
                     sx={{
+                        userSelect: "none",
                         maxWidth: "100%",
                         maxHeight: isOpen ? "100svh" : "60svh",
                         objectFit: "contain",
