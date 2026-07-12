@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { NavLink } from "react-router-dom";
-
+import { NavLink, useLocation } from "react-router-dom";
 import PLogo from "@/assets/images/Logo/p_logo.png";
 import { getDir } from "@/utils/functions";
 import { t } from "i18next";
@@ -19,24 +18,8 @@ export default function MainNavbar() {
 
   const [isOpen, setIsOpen] = useState(false);
 
-  const navItems = [
-    {
-      label: t("aboutMe"),
-      href: `${import.meta.env.BASE_URL}#about`,
-    },
-    {
-      label: t("education"),
-      href: `${import.meta.env.BASE_URL}#education-skills`,
-    },
-    {
-      label: t("projects"),
-      href: "#projects",
-    },
-    {
-      label: t("contact"),
-      href: "#contact",
-    },
-  ];
+  const { pathname } = useLocation();
+  const navItems = getNavbarLinks(pathname);
 
   return (
     <header
@@ -133,4 +116,52 @@ export default function MainNavbar() {
       <MobileNavMenu isOpen={isOpen} navItems={navItems} setIsOpen={setIsOpen} />
     </header>
   );
+}
+
+function getNavbarLinks(pathname: string) {
+  switch (pathname) {
+    case "/certificates":
+      return certificatesLinks();
+
+    default:
+      return mainPageLinks();
+  }
+}
+
+function mainPageLinks() {
+  return [
+    {
+      label: t("aboutMe"),
+      href: `${import.meta.env.BASE_URL}#about`,
+    },
+    {
+      label: t("education"),
+      href: `${import.meta.env.BASE_URL}#education-skills`,
+    },
+    {
+      label: t("projects"),
+      href: "#projects",
+    },
+    {
+      label: t("contact"),
+      href: "#contact",
+    },
+  ];
+}
+
+function certificatesLinks() {
+  return [
+    {
+      label: t("home"),
+      href: `${import.meta.env.BASE_URL}`,
+    },
+    {
+      label: t("projects"),
+      href: `${import.meta.env.BASE_URL}projects`,
+    },
+    {
+      label: t("contact"),
+      href: "#contact",
+    },
+  ];
 }

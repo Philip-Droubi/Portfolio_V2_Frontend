@@ -968,5 +968,97 @@
             "name_ar": "Game",
             "name_en": "Game"
         }
+    ],
+    "certificate": [
+        {
+            "id": 3,
+            "source": "Google",
+            "file_url": "https://res.cloudinary.com/djjulka78/image/upload/v1783795728/portfolio/v2/certificates/3/lt9xeta9nhnhdm3gkanz.png",
+            "issue_date": "2019-08-29",
+            "title_ar": "أساسيات التسويق الرقمي من Google",
+            "description_ar": "شهادة صادرة عن Google في أساسيات التسويق الرقمي، تُمنح بعد إكمال الدورة التدريبية واجتياز الاختبار بنجاح.",
+            "title_en": "Google digital marketing basics",
+            "description_en": "A Google-issued certification in Digital Marketing Basics awarded upon completing the course and successfully passing the exam."
+        },
+        {
+            "id": 4,
+            "source": "Udacity",
+            "file_url": "https://res.cloudinary.com/djjulka78/image/upload/v1783801062/portfolio/v2/certificates/4/rhsajgc4dai8eijirz66.png",
+            "issue_date": "2021-06-01",
+            "title_ar": "مسار تطوير الواجهات الخلفية والواجهات الأمامية من Udacity",
+            "description_ar": "شهادة صادرة عن Udacity في تطوير الأنظمة الكاملة (Full Stack Development)، تُمنح بعد إكمال الدورة التدريبية واجتياز الاختبار بنجاح. شملت الدورة لغة Python ولغات وتقنيات الواجهة الأمامية الحديثة، وقد شاركت فيها عبر مبادرة مليون مبرمج عربي.",
+            "title_en": "Udacity Full Stack Development Track",
+            "description_en": "A Udacity-issued certification in Full Stack Development, awarded upon completing the course and successfully passing the exam. The program covered Python and modern front-end technologies, and I participated through the One Million Arab Coders initiative."
+        },
+        {
+            "id": 5,
+            "source": "Udacity",
+            "file_url": "https://res.cloudinary.com/djjulka78/image/upload/v1783801181/portfolio/v2/certificates/5/csklke8ecofmyeki6cjt.png",
+            "issue_date": "2021-03-01",
+            "title_ar": "المشاركة في مسار تطوير الأنظمة الكاملة من Udacity",
+            "description_ar": "شهادة مشاركة من Udacity في تطوير الأنظمة الكاملة (Full Stack Development)، مُنحت بعد إكمال متطلبات الدورة واجتياز الاختبار المتوسط بنجاح. شمل المسار لغة Python وتقنيات الواجهة الأمامية الحديثة، وقد شاركت فيه عبر مبادرة مليون مبرمج عربي.",
+            "title_en": "Udacity Full Stack Development Track Participation",
+            "description_en": "A Udacity participation certification in Full Stack Development, awarded for completing the course requirements and successfully passing the mid-program exam. The track covered Python and modern front-end technologies, and I took part in it through the One Million Arab Coders initiative."
+        },
+        {
+            "id": 6,
+            "source": "Coursera",
+            "file_url": "https://res.cloudinary.com/djjulka78/image/upload/v1783801316/portfolio/v2/certificates/6/iznhbg38tcmjnhe4uexq.png",
+            "issue_date": "2022-09-29",
+            "title_ar": "كورسيرا | مقدمة في قواعد البيانات من Meta",
+            "description_ar": "شهادة من Coursera لإكمال دورة مقدمة في قواعد البيانات المقدمة من Meta. وهي دورة تدريبية عبر الإنترنت بدون ساعات اعتماد، مُعتمدة من Meta ومقدمة عبر منصة Coursera، وتغطي المفاهيم الأساسية لقواعد البيانات ونماذج البيانات وتقنيات الاستعلام الأساسية.",
+            "title_en": "Coursera | Meta Introduction to Databases",
+            "description_en": "A certificate from Coursera for completing the Introduction to Databases course provided by Meta. This online, non‑credit course—authorized by Meta and delivered through Coursera—covered foundational database concepts, data models, and essential query techniques."
+        },
+        {
+            "id": 7,
+            "source": "Coursera",
+            "file_url": "https://res.cloudinary.com/djjulka78/image/upload/v1783801479/portfolio/v2/certificates/7/pdvhjflbyu1iskwdirga.png",
+            "issue_date": "2023-10-27",
+            "title_ar": "كورسيرا | مقدمة في نظام التحكم بالإصدارات من Meta",
+            "description_ar": "شهادة من Coursera لإكمال دورة مقدمة في نظام التحكم بالإصدارات المقدمة من Meta. وهي دورة تدريبية عبر الإنترنت بدون ساعات اعتماد، مُعتمدة من Meta ومقدمة عبر منصة Coursera، وتغطي المفاهيم الأساسية للتحكم بالإصدارات، وأساسيات Git، وآليات إنشاء الفروع، وممارسات التعاون في تطوير البرمجيات.",
+            "title_en": "Coursera | Meta Introduction to Version Control",
+            "description_en": "A certificate from Coursera for completing the Version Control course provided by Meta. This online, non‑credit course—authorized by Meta and delivered through Coursera—covered essential version control concepts, Git fundamentals, branching workflows, and collaborative development practices."
+        },
+        {
+            "id": 8,
+            "source": "Coursera",
+            "file_url": "https://res.cloudinary.com/djjulka78/image/upload/v1783801592/portfolio/v2/certificates/8/g5rq2e6srces5p2s4dxn.png",
+            "issue_date": "2023-10-29",
+            "title_ar": "كورسيرا | هياكل قواعد البيانات وإدارتها باستخدام MySQL من Meta",
+            "description_ar": "شهادة من Coursera لإكمال دورة هياكل قواعد البيانات وإدارتها باستخدام MySQL المقدمة من Meta. وهي دورة تدريبية عبر الإنترنت بدون ساعات اعتماد، مُعتمدة من Meta ومقدمة عبر منصة Coursera، وتغطي تصميم قواعد البيانات العلائقية، ونمذجة البيانات، وأساسيات MySQL، وتقنيات عملية لإدارة البيانات والاستعلام عنها.",
+            "title_en": "Coursera | Meta Databases Structures and Management with MySQL",
+            "description_en": "A certificate from Coursera for completing the Databases Structures and Management with MySQL course provided by Meta. This online, non‑credit course—authorized by Meta and delivered through Coursera—covered relational database design, data modeling, MySQL fundamentals, and practical techniques for managing and querying structured data."
+        },
+        {
+            "id": 9,
+            "source": "Coursera",
+            "file_url": "https://res.cloudinary.com/djjulka78/image/upload/v1783801704/portfolio/v2/certificates/9/w5y0d5tgfg6ucmrzbxue.png",
+            "issue_date": "2023-11-12",
+            "title_ar": "كورسيرا | البرمجة بلغة Python من Meta",
+            "description_ar": "شهادة من Coursera لإكمال دورة البرمجة بلغة Python المقدمة من Meta. وهي دورة تدريبية عبر الإنترنت بدون ساعات اعتماد، مُعتمدة من Meta ومقدمة عبر منصة Coursera، وتغطي أساسيات لغة Python، وأنواع البيانات، وتدفق التحكم، والدوال، والوحدات البرمجية، وتقنيات البرمجة العملية المستخدمة في تطوير البرمجيات الحديثة.",
+            "title_en": "Coursera | Meta Programming in Python",
+            "description_en": "A certificate from Coursera for completing the Programming in Python course provided by Meta. This online, non‑credit course—authorized by Meta and delivered through Coursera—covered Python fundamentals, data types, control flow, functions, modules, and practical programming techniques used in modern software development."
+        },
+        {
+            "id": 10,
+            "source": "Academic & Volunteer",
+            "file_url": "https://res.cloudinary.com/djjulka78/image/upload/v1783801836/portfolio/v2/certificates/10/kcp8ucuiub7mln6zgmlk.png",
+            "issue_date": "2024-01-31",
+            "title_ar": "جمعية رعاية المكفوفين – شهادة تطوّع",
+            "description_ar": "شهادة تطوّع من جمعية رعاية المكفوفين في دمشق، تقديرًا لعملي كمتطوّع في مجال هندسة البرمجيات ومساهمتي في تطوير نظام برمجي متكامل يُسهّل عمليات الإدارة داخل الجمعية ويُحسّن التواصل مع المستفيدين.",
+            "title_en": "Blind Care Association – Volunteer Certificate",
+            "description_en": "A volunteer certificate from the Blind Care Association in Damascus, awarded in recognition of my work as a volunteer software engineer and my contribution to developing a complete software system that enhances the association’s management processes and improves communication with its beneficiaries."
+        },
+        {
+            "id": 11,
+            "source": "Academic & Volunteer",
+            "file_url": "https://res.cloudinary.com/djjulka78/image/upload/v1783802072/portfolio/v2/certificates/11/wjrnt4hbrt0h19nojyhu.jpg",
+            "issue_date": "2024-01-31",
+            "title_ar": "جمعية رعاية المكفوفين – رسالة توصية",
+            "description_ar": "رسالة توصية من السيد شفيق حماصنة، رئيس مجلس إدارة جمعية رعاية المكفوفين في دمشق، تقديرًا لمساهمتي وأدائي خلال فترة عملي التطوعي كمهندس برمجيات في الجمعية.",
+            "title_en": "Blind Care Association – Recommendation Letter",
+            "description_en": "A recommendation letter from Mr. Shafiq Hamassna, the Chairman of the Board of Directors of the Blind Care Association in Damascus, recognizing my contributions and performance during my volunteer work as a software engineer."
+        }
     ]
 }

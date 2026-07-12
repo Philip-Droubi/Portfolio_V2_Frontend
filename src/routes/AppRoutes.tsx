@@ -7,6 +7,7 @@ import {
   Route,
 } from "react-router-dom";
 import ProjectPage from "@/modules/projects/pages/ProjectPage";
+import CertificatesPage from "@/modules/certificates/pages/CertificatesPage";
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
@@ -14,6 +15,7 @@ export const router = createBrowserRouter(
       <Route path="/" element={<MainLayout />}>
         <Route index element={<HomePage />} />
         <Route path="/projects" element={<ProjectPage />} />
+        <Route path="/certificates" element={<CertificatesPage />} />
       </Route>
       <Route path="*" element={<NotFound />}></Route>
     </Route>

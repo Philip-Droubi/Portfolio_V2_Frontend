@@ -15,6 +15,7 @@ export default function MediaGallery({
     next,
     handleTouchStart,
     handleTouchEnd,
+    hasThumbnails = true,
 }: {
     isOpen: boolean,
     media: string[],
@@ -22,11 +23,12 @@ export default function MediaGallery({
     setIndex: (i: number) => void,
     zoom: number,
     setZoom: (z: number) => void,
-    open: () => void,
-    previous: () => void,
-    next: () => void,
-    handleTouchStart: (e: React.TouchEvent) => void,
-    handleTouchEnd: (e: React.TouchEvent) => void,
+    open?: () => void,
+    previous?: () => void,
+    next?: () => void,
+    handleTouchStart?: (e: React.TouchEvent) => void,
+    handleTouchEnd?: (e: React.TouchEvent) => void,
+    hasThumbnails?: boolean,
 }) {
     const selectImage = (i: number) => {
         setIndex(i);
@@ -109,7 +111,10 @@ export default function MediaGallery({
             )}
 
             {/* thumbnails */}
-            <MediaViewerThumbnails media={media} index={index} selectImage={selectImage} />
+            {
+                hasThumbnails &&
+                <MediaViewerThumbnails media={media} index={index} selectImage={selectImage} />
+            }
         </Box>
     )
 }
