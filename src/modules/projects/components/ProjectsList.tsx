@@ -3,12 +3,13 @@ import { Link } from "react-router-dom";
 import { fadeUpMotion } from "@/utils/motions";
 import Grid from "@mui/material/Grid";
 import { motion } from "framer-motion";
-import i18next from "i18next";
+import i18next, { t } from "i18next";
 import type { ProjectType } from "../types";
 import ProjectCard from "./projectCard/ProjectCard";
 import ProjectFilters from "./ProjectFilters";
 import ProjectPagination from "./ProjectPagination";
 import { useMemo, useState } from "react";
+import { getDir } from "@/utils/functions";
 
 export default function ProjectsList({
     itemsLimit,
@@ -63,11 +64,11 @@ export default function ProjectsList({
                 {/* Header */}
                 <div className="text-center mb-12">
                     <h2 className="text-3xl sm:text-5xl font-bold text-white">
-                        Projects & <span className="text-secondary">Experience</span>
+                        {t("Projects")} & <span className="text-secondary">{t("Experience")}</span>
                     </h2>
 
                     <p className="text-gray-400 mt-4 max-w-2xl mx-auto">
-                        Projects that reflect my experience building modern web applications.
+                        {t("ProjectsHeaderDescription")}
                     </p>
                 </div>
 
@@ -116,12 +117,17 @@ export default function ProjectsList({
                                 hover:px-8
                                 hover:shadow-[0_0_40px_rgba(34,211,238,0.15)]"
                         >
-                            View All
+                            {t("ViewAll")}
                             <span className="text-lg opacity-70">
                                 ({filteredProjects.length})
                             </span>
-                            <span className="transition-transform duration-300 group-hover:translate-x-3">
-                                →
+                            <span
+                                className={`transition-transform duration-300 ${getDir() === "rtl"
+                                    ? "group-hover:-translate-x-3"
+                                    : "group-hover:translate-x-3"
+                                    }`}
+                            >
+                                {getDir() === "rtl" ? "←" : "→"}
                             </span>
                         </Link>
                     </div>

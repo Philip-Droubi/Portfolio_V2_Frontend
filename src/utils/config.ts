@@ -4,23 +4,26 @@ export const APP_LANGUAGES = ['ar', 'en'];
 export type AppLanguage = typeof APP_LANGUAGES[number];
 
 export const INFO = {
-    name: "Philip Droubi",
+    name: "Philip_Droubi",
+    firstName: "Philip",
+    lastName: "Droubi",
+    job: "Software_Engineer",
     full_name: "Philip Marwan Droubi",
-    address: "Syria, Damascus",
+    address: "Syria_Damascus",
     birth_date: "29-08-2001",
-    university: "Damascus University",
-    faculty: "Information Technology Engineering",
+    university: "Damascus_University",
+    faculty: "Information_Technology_Engineering",
     citizenship: " Arab Syrian",
 };
 
 export const LANGUAGES = [
     {
         "lang": "Arabic",
-        "description": "Native Language",
+        "description": "Native_Language",
     },
     {
         "lang": "English",
-        "description": "Professional Proficiency Level",
+        "description": "Professional_Proficiency_Level",
     }
 ]
 
@@ -34,3 +37,15 @@ export const SOCIAL = {
     telegram: "https://t.me/PhilipDroubi",
     whatsApp: "https://wa.me/963959880596",
 };
+
+export const languages = [
+    {
+        key: "ar",
+        value: "Arabic",
+    },
+    {
+        key: "en",
+        value: "English",
+    },
+] as const;
+export type Language = (typeof languages)[number]["key"];

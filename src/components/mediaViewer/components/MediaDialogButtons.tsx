@@ -14,7 +14,7 @@ export default function MediaDialogButtons({
         <>
             <CustomCloseButton handleClose={close} sx={{
                 position: "absolute",
-                right: 20,
+                insetInlineEnd: 20,
                 top: 20,
                 zIndex: 5,
             }} />
@@ -22,7 +22,7 @@ export default function MediaDialogButtons({
             <Box
                 sx={{
                     position: "absolute",
-                    right: 80,
+                    insetInlineEnd: 80,
                     top: 20,
                     zIndex: 5
                 }}

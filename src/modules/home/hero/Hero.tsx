@@ -2,6 +2,8 @@ import { motion } from "framer-motion";
 import HeroImage from "./components/HeroImage";
 import HeroLinks from "./components/HeroLinks";
 import HeroButtons from "./components/HeroButtons";
+import { INFO } from "@/utils/config";
+import { t } from "i18next";
 
 export default function Hero() {
     return (
@@ -17,14 +19,14 @@ export default function Hero() {
         >
 
             {/* LEFT SIDE */}
-            <div className="flex-1 space-y-6 p-4 rounded text-center lg:text-left">
+            <div className="flex-1 space-y-6 p-4 rounded text-center lg:text-start" >
                 {/* Name */}
                 <motion.h1
                     initial={{ opacity: 0, y: 30 }}
                     animate={{ opacity: 1, y: 0 }}
                     className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white">
-                    PHILIP
-                    <span className="text-cyan-400"> DROUBI</span>
+                    {t(INFO.firstName)}
+                    <span className="text-cyan-400"> {t(INFO.lastName)}</span>
                 </motion.h1>
 
                 {/* Role */}
@@ -33,7 +35,7 @@ export default function Hero() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.1 }}
                     className="text-2xl sm:text-3xl text-orange-500 font-medium">
-                    Software Engineer {"< />"}
+                    {t(INFO.job)} {"< />"}
                 </motion.h2>
 
                 {/* Bio */}
@@ -42,8 +44,7 @@ export default function Hero() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.2 }}
                     className="text-gray-300 max-w-xl mx-auto lg:mx-0 leading-relaxed text-base sm:text-lg lg:text-xl backdrop-blur-xs">
-                    Hi, I'm Philip, a Software Engineer passionate about building modern web applications,
-                    creating clean user experiences, and turning ideas into real-world solutions.
+                    {t("HeroDescription")}
                 </motion.p>
 
                 {/* Buttons */}

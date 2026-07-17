@@ -1,3 +1,6 @@
+import { getDir } from "@/utils/functions";
+import { t } from "i18next";
+
 export default function HeroButtons() {
     const resumeURL = `${import.meta.env.BASE_URL}cv/Philip_Droubi_Resume.pdf`;
 
@@ -19,8 +22,8 @@ export default function HeroButtons() {
                     active:scale-95
                     "
             >
-                <span className="relative z-10">
-                    ⬇ Download CV
+                <span className="relative z-10" dir={getDir()}>
+                    ⬇ {t("DownloadCV")}
                 </span>
 
                 {/* Glass Effect */}
@@ -49,10 +52,15 @@ export default function HeroButtons() {
                     hover:border-secondary
                     hover:bg-cyan-500/10"
             >
-                <span className="flex items-center gap-2 justify-center sm:justify-start">
-                    View Projects
-                    <span className="transition-transform duration-300 group-hover:translate-x-3">
-                        →
+                <span className="flex items-center gap-2 justify-center sm:justify-start" dir={getDir()}>
+                    {t("ViewProjects")}
+                    <span
+                        className={`transition-transform duration-300 
+                            ${getDir() === "rtl" ? "group-hover:-translate-x-3" : "group-hover:translate-x-3"
+                            }`
+                        }
+                    >
+                        {getDir() === "rtl" ? "←" : "→"}
                     </span>
                 </span>
             </a>

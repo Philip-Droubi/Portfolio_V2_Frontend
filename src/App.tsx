@@ -40,12 +40,18 @@ function App() {
     }
   }, [mode]);
 
-  document.addEventListener("wheel", function () {
-    if (document.activeElement instanceof HTMLInputElement &&
-      document.activeElement.type === "number") {
-      document.activeElement.blur();
-    }
-  }, { passive: false });
+  useEffect(() => {
+    const handler = () => {
+      if (
+        document.activeElement instanceof HTMLInputElement &&
+        document.activeElement.type === "number"
+      ) {
+        document.activeElement.blur();
+      }
+    };
+    document.addEventListener("wheel", handler, { passive: false });
+    return () => document.removeEventListener("wheel", handler);
+  }, []);
 
   printPortfolioBanner();
 

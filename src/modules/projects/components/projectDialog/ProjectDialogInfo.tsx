@@ -3,6 +3,7 @@ import type { ProjectType } from "../../types"
 import { getDir, getDuration } from "@/utils/functions";
 import InfoRow from "@/components/misc/InfoRow";
 import { AccessTime, Code, DateRange, OpenInNew } from "@mui/icons-material";
+import { t } from "i18next";
 
 export default function ProjectDialogInfo({
     project,
@@ -11,22 +12,22 @@ export default function ProjectDialogInfo({
 }) {
     const items = [
         {
-            title: "Start",
+            title: "start",
             icon: <DateRange color="warning" />,
             content: project.start_date?.slice(0, 7), // "YYYY-MM"
         },
         {
-            title: "End",
+            title: "end",
             icon: <DateRange color="warning" />,
-            content: project.end_date ? project.end_date.slice(0, 7) : "Present",
+            content: project.end_date ? project.end_date.slice(0, 7) : t("present"),
         },
         {
-            title: "Techs",
+            title: "techs",
             icon: <Code color="warning" />,
-            content: String(project.teches?.length ?? 0) + ' Used',
+            content: String(project.techs?.length ?? 0) + ' ' + t('used'),
         },
         {
-            title: "Duration",
+            title: "duration",
             icon: <AccessTime color="warning" />,
             content: getDuration(project.start_date, project.end_date),
         }
@@ -46,7 +47,7 @@ export default function ProjectDialogInfo({
     return (
         <div dir={getDir()} className="border-2 rounded-xl border-primary px-4 py-2 w-full lg:w-2/7 min-w-60 h-fit">
             <Typography variant="h6" sx={{ color: "var(--color-secondary)" }}>
-                Project Info
+                {t("ProjectInfo")}
             </Typography>
 
             <Divider className="h-1" />
@@ -55,10 +56,10 @@ export default function ProjectDialogInfo({
                 {items.map(item =>
                     <InfoRow
                         key={item.title}
-                        label={item.title}
+                        label={t(item.title)}
                         value={item.content}
                         labelIcon={item.icon}
-                        minWidth={100}
+                        minWidth={120}
                         lableColor="textDisabled"
                     />
                 )}
@@ -76,7 +77,7 @@ export default function ProjectDialogInfo({
                             <a href={project.live_url} target="_blank" rel="noopener noreferrer"
                                 className={buttonClassName}
                             >
-                                <OpenInNew /> Live Website
+                                <OpenInNew /> {t("LiveWebsite")}
                             </a>
                         }
                         {/* URL */}
@@ -85,7 +86,7 @@ export default function ProjectDialogInfo({
                             <a href={project.url} target="_blank" rel="noopener noreferrer"
                                 className={buttonClassName}
                             >
-                                <OpenInNew /> Website
+                                <OpenInNew /> {t("Website")}
                             </a>
                         }
 

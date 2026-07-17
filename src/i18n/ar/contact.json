@@ -1,0 +1,15 @@
+{
+    "ContactMe_Contact": "تواصل",
+    "ContactMe_Me": "معي",
+    "ContactHeaderDescription": "هل لديك مشروع، فرصة عمل حر، أو فكرة مميزة؟ دعنا نصنع شيئاً رائعاً معاً.",
+    "AvailableForWork": "متاح للعمل",
+    "ContactMeTitle": "دعنا نبني شيئاً استثنائياً.",
+    "ContactMeDescription": "سواء كنت تحتاج إلى واجهة React، أو Backend بلغة Laravel، أو REST API، أو حل متكامل جاهز للإنتاج، يسعدني سماع فكرتك.",
+    "Backend_Development": "تطوير البرمجيات الخلفية",
+    "Frontend_Development": "تطوير الواجهات الأمامية",
+    "REST_API_Design": "تصميم واجهات REST API",
+    "Database_Architecture": "هندسة قواعد البيانات",
+    "Performance_Optimization": "تحسين الأداء",
+    "Deployment_Maintenance": "النشر والصيانة",
+    "ContactDevToDescription": "بعيداً عن بناء البرمجيات، أستمتع بمشاركة ما أتعلمه.\nأكتب مقالات عملية حول تطوير الويب، وهندسة البرمجيات، والدروس المستفادة من المشاريع الواقعية."
+}

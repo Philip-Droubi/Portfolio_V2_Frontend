@@ -1,3 +1,6 @@
+import { getDir } from "@/utils/functions";
+import { t } from "i18next";
+
 export default function FooterBottom() {
     const currentYear = new Date().getFullYear();
 
@@ -8,11 +11,11 @@ export default function FooterBottom() {
 
             {/* Bottom */}
             <div className="flex flex-col md:flex-row items-center justify-between gap-3 w-full">
-                <p className="text-sm text-description">
-                    © {currentYear} Philip Droubi. All rights reserved.
+                <p className="text-sm text-description" dir={getDir()}>
+                    © {currentYear} {t("FooterCopyRight")}
                 </p>
 
-                <p className="text-sm text-description">
+                <p className="text-sm text-description" dir={getDir()}>
                     Built with
                     <span className="inline-block animate-bounce">
                         ❤️

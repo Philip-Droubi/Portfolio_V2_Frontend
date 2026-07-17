@@ -2,6 +2,7 @@ import { fadeUpMotion } from "@/utils/motions";
 import EducationCard from "./components/EducationCard";
 import SkillsGrid from "./components/SkillsGrid";
 import { motion } from "framer-motion";
+import { t } from "i18next";
 
 export default function EducationSkills() {
     return (
@@ -16,11 +17,11 @@ export default function EducationSkills() {
             >
                 <div className="text-center mb-12">
                     <h2 className="text-3xl sm:text-5xl font-bold text-white">
-                        Education & <span className="text-secondary">Skills</span>
+                        {t("Education")} & <span className="text-secondary">{t("Skills")}</span>
                     </h2>
 
                     <p className="text-gray-400 mt-4">
-                        Academic foundation combined with hands-on development experience.
+                        {t("EducationHeaderDescription")}
                     </p>
                 </div>
             </motion.div>

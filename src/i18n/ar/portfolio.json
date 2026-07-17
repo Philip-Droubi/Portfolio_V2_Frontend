@@ -4,5 +4,16 @@
     "education": "التعليم والمهارات",
     "projects": "المشاريع",
     "contact": "اتصل بي",
-    "home": "الصفحة الرئيسية"
+    "home": "الصفحة الرئيسية",
+    "language": "اللغة",
+    "Arabic": "العربية",
+    "English": "الانجليزية",
+    "Philip_Droubi": "فيليب دروبي",
+    "Philip": "فيليب",
+    "Droubi": "دروبي",
+    "Software_Engineer": "مهندس برمجيات",
+    "I_m": "أنا",
+    "FooterCopyRight": "فيليب دروبي, جميع الحقوق محفوظة.",
+    "BuiltWith": "بني مع",
+    "BuiltUsing": "بواسطة React, TypeScript & Tailwind CSS"
 }

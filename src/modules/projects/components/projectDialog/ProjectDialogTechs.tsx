@@ -1,5 +1,6 @@
 import { Box, Divider, Typography } from "@mui/material";
 import type { TechType } from "../../types";
+import { t } from "i18next";
 
 
 export default function ProjectDialogTechs({
@@ -20,7 +21,7 @@ export default function ProjectDialogTechs({
                         color: "var(--color-secondary)"
                     }}
                 >
-                    Technologies Used
+                    {t("TechnologiesUsed")}
                 </Typography>
 
                 <Divider />

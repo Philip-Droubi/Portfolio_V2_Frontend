@@ -93,7 +93,7 @@ export default function ContactCard() {
                                         {item.label}
                                     </div>
 
-                                    <div className="text-sm text-description">
+                                    <div className="text-sm text-description" dir="ltr">
                                         {item.value}
                                     </div>
                                 </div>

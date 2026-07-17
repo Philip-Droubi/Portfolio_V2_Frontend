@@ -2,6 +2,7 @@ import { CustomCloseButton } from "@/components/buttons/CustomCloseButton";
 import { Chip, DialogTitle, Typography } from "@mui/material";
 import type { ProjectType } from "../../types";
 import { Apartment } from "@mui/icons-material";
+import { t } from "i18next";
 
 export default function ProjectDialogTitle({
     project,
@@ -41,7 +42,7 @@ export default function ProjectDialogTitle({
                     }
                     {
                         project.is_company &&
-                        <Chip label={'company'}
+                        <Chip label={t('company')}
                             icon={<Apartment className="text-orange-400!" />}
                             sx={{
                                 color: "var(--color-orange-400)",

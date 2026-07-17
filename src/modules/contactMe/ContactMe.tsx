@@ -3,6 +3,7 @@ import { fadeUpMotion } from "@/utils/motions";
 import ContactCard from "./components/ContactCard";
 import ContactServices from "./components/ContactServices";
 import ContactDevTo from "./components/ContactDevTo";
+import { t } from "i18next";
 
 export default function ContactMe() {
     return (
@@ -20,12 +21,11 @@ export default function ContactMe() {
             >
                 <div className="text-center mb-14">
                     <h2 className="text-3xl sm:text-5xl font-bold text-white">
-                        Contact <span className="text-secondary">Me</span>
+                        {t("ContactMe_Contact")} <span className="text-secondary">{t("ContactMe_Me")}</span>
                     </h2>
 
                     <p className="text-description mt-4 max-w-2xl mx-auto">
-                        Have a project, freelance opportunity, or exciting idea?
-                        Let's create something amazing.
+                        {t("ContactHeaderDescription")}
                     </p>
                 </div>
             </motion.div>
@@ -54,17 +54,15 @@ export default function ContactMe() {
                         "
                     >
                         <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
-                        Available for Work
+                        {t("AvailableForWork")}
                     </div>
 
                     <h3 className="text-3xl font-bold text-white mt-6">
-                        Let's build something exceptional.
+                        {t("ContactMeTitle")}
                     </h3>
 
                     <p className="text-description mt-6 leading-relaxed">
-                        Whether you need a React frontend, Laravel backend,
-                        REST API, or a complete production-ready solution,
-                        I'd love to hear about it.
+                        {t("ContactMeDescription")}
                     </p>
 
                     {/* Services */}

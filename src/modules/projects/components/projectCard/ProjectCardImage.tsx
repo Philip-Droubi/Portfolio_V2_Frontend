@@ -1,6 +1,8 @@
 import { Tooltip } from "@mui/material"
 import type { ProjectType } from "../../types"
 import { Apartment } from "@mui/icons-material"
+import { getDir } from "@/utils/functions"
+import { t } from "i18next"
 
 export default function ProjectCardImage({
     project,
@@ -20,17 +22,16 @@ export default function ProjectCardImage({
             {/* Comapny */}
             {
                 project.is_company &&
-                <Tooltip title='Company' >
+                <Tooltip title={t("company")} >
                     <div className="absolute top-2 inset-e-4 border border-orange-700 rounded bg-black/70">
                         <Apartment fontSize="large" className="text-oranged" />
                     </div>
                 </Tooltip>
             }
 
-            <div className="absolute bottom-2 left-5">
-                <h3 className="text-xl font-bold text-white">
+            <div className="absolute bottom-2 inset-s-5">
+                <h3 className="text-xl font-bold text-white" dir={getDir()}>
                     {name}
-
                 </h3>
             </div>
         </div>

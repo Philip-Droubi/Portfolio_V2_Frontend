@@ -2,6 +2,7 @@ import CertificateCard from "../components/CertificateCard";
 import data from "@/assets/json/data.json";
 import type { CertificateType } from "../types";
 import i18next from "i18next";
+import { t } from "i18next";
 
 export default function CertificatesPage() {
     const certificates = data.certificate as CertificateType[];
@@ -32,13 +33,12 @@ export default function CertificatesPage() {
         <>
             <div className="text-center mb-8">
                 <h2 className="text-3xl sm:text-5xl font-bold text-white">
-                    Certificates &{" "}
-                    <span className="text-secondary">Achievements</span>
+                    {t("Certificates")} &{" "}
+                    <span className="text-secondary">{t("Achievements")}</span>
                 </h2>
 
                 <p className="text-gray-400 mt-4 max-w-3xl mx-auto">
-                    Certifications that reflect my continuous learning and
-                    expertise in modern web development.
+                    {t("CertificatesDescription")}
                 </p>
             </div>
 

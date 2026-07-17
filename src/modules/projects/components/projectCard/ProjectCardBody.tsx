@@ -1,5 +1,7 @@
 import { Chip, Stack, Tooltip } from "@mui/material";
 import type { ProjectType } from "../../types";
+import { t } from "i18next";
+import { getDir } from "@/utils/functions";
 
 export default function ProjectCardBody({
     project,
@@ -32,7 +34,7 @@ export default function ProjectCardBody({
 
             {/* TECHS */}
             <Stack direction="row" spacing={1.5} sx={{ my: 2, userSelect: "none" }}>
-                {project.teches
+                {project.techs
                     ?.slice(0, 6)
                     .map(tech => (
                         <Tooltip key={tech.id} title={tech[`name_${lang}`]} placement="bottom">
@@ -51,10 +53,10 @@ export default function ProjectCardBody({
 
                         </Tooltip>
                     ))}
-                {project.teches &&
-                    project.teches.length > 5 && (
+                {project.techs &&
+                    project.techs.length > 5 && (
                         <span className="text-md text-description self-center">
-                            +{project.teches.length - 5}
+                            +{project.techs.length - 5}
                         </span>
                     )}
             </Stack>
@@ -63,10 +65,15 @@ export default function ProjectCardBody({
             < div
                 className="mt-6 text-lg flex items-center justify-between text-secondary font-semibold">
                 <span>
-                    View Project
+                    {t("ViewProject")}
                 </span>
-                <span className="transition-transform duration-300 group-hover:translate-x-2">
-                    →
+                <span
+                    className={`transition-transform duration-300 ${getDir() == "rtl"
+                        ? "group-hover:-translate-x-2"
+                        : "group-hover:translate-x-2"
+                        }`}
+                >
+                    {getDir() == "rtl" ? "←" : "→"}
                 </span>
             </div>
 

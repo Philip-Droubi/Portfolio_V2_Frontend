@@ -1,6 +1,7 @@
 import ArticleIcon from "@mui/icons-material/Article";
 import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
 import { SOCIAL } from "@/utils/config";
+import { t } from "i18next";
 
 export default function ContactDevTo() {
     return (
@@ -18,17 +19,14 @@ export default function ContactDevTo() {
                 <div className="grow border-t border-description" />
             </div>
 
-            <p className="text-description leading-relaxed mt-6">
-                Beyond building software, I enjoy sharing what I learn.
-                <span className="block">
-                    I write practical articles about web development,
-                    software architecture, and lessons learned from real-world projects.
-                </span>
-            </p>
+            <pre className="text-description leading-relaxed mt-6 text-wrap">
+                {t("ContactDevToDescription")}
+            </pre>
 
             <div className="flex items-center justify-center">
 
                 <a
+                    dir="ltr"
                     href={SOCIAL.dev_to}
                     target="_blank"
                     rel="noopener noreferrer"

@@ -85,7 +85,7 @@ export default function MediaGallery({
                         sx={{
                             ":hover": { bgcolor: "rgba(0,0,0,.7)" },
                             position: "absolute",
-                            left: 20,
+                            insetInlineStart: 20,
                             top: "50%",
                             color: "white",
                             bgcolor: "rgba(0,0,0,.4)"
@@ -99,7 +99,7 @@ export default function MediaGallery({
                         sx={{
                             ":hover": { bgcolor: "rgba(0,0,0,.7)" },
                             position: "absolute",
-                            right: 20,
+                            insetInlineEnd: 20,
                             top: "50%",
                             color: "white",
                             bgcolor: "rgba(0,0,0,.4)"

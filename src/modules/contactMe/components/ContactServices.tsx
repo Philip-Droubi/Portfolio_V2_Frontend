@@ -1,11 +1,13 @@
+import { t } from "i18next";
+
 export default function ContactServices() {
     const services = [
-        "Backend Development",
-        "Frontend Development",
-        "REST API Design",
-        "Database Architecture",
-        "Performance Optimization",
-        "Deployment & Maintenance",
+        "Backend_Development",
+        "Frontend_Development",
+        "REST_API_Design",
+        "Database_Architecture",
+        "Performance_Optimization",
+        "Deployment_Maintenance",
     ];
 
     return (
@@ -17,7 +19,7 @@ export default function ContactServices() {
                         className="flex items-center gap-3 rounded-xl bg-white/5 border border-white/10 p-4"
                     >
                         <div className="w-2 h-2 rounded-full bg-secondary" />
-                        <span className="text-gray-300">{service}</span>
+                        <span className="text-gray-300">{t(service)}</span>
                     </div>
                 ))
             }

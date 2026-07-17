@@ -24,7 +24,7 @@ export default function ProjectFilters({
     const totalProjects = projects.length;
 
     return (
-        <div className="flex justify-center mb-10">
+        <div className="flex justify-center mb-10" dir="ltr">
             <div
                 className="
                     flex items-center gap-1 p-1 rounded rounded-tl-2xl rounded-br-2xl 

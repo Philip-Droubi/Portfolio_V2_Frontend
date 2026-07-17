@@ -3,6 +3,7 @@ import AboutMeInfoCards from "./components/AboutMeInfoCards";
 import AboutTextSection from "./components/AboutTextSection";
 import { motion } from "framer-motion";
 import { fadeUpMotion } from "@/utils/motions";
+import { t } from "i18next";
 
 export default function AboutMe() {
     return (
@@ -19,11 +20,11 @@ export default function AboutMe() {
 
                 <div className="text-center mb-12">
                     <h2 className="text-3xl sm:text-5xl font-bold text-white">
-                        About <span className="text-secondary">Me</span>
+                        {t("AboutMe_About")} <span className="text-secondary">{t("AboutMe_Me")}</span>
                     </h2>
 
                     <p className="text-gray-400 mt-4 max-w-2xl mx-auto">
-                        A quick introduction to who I am, what I do, and what drives me as a software engineer.
+                        {t("AboutHeaderDescription")}
                     </p>
                 </div>
 

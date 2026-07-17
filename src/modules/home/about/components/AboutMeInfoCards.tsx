@@ -1,6 +1,7 @@
 import { INFO } from '@/utils/config'
 import SchoolIcon from "@mui/icons-material/School";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
+import { t } from 'i18next';
 
 export default function AboutMeInfoCards() {
     const cards = [
@@ -24,12 +25,12 @@ export default function AboutMeInfoCards() {
                     <div className="flex items-center gap-3 text-secondary mb-2">
                         {card.icon}
                         <span className="font-medium text-white">
-                            {card.title}
+                            {t(card.title)}
                         </span>
                     </div>
 
                     <p className="text-description">
-                        {card.description}
+                        {t(card.description)}
                     </p>
                 </div>
             ))}

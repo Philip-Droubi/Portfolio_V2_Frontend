@@ -87,56 +87,58 @@ export default function MediaViewer({
     return (
         <>
             {/* normal viewer */}
-            <Box
-                sx={{
-                    height: 420,
-                    borderRadius: 3,
-                    overflow: "hidden",
-                    position: "relative"
-                }}
-            >
-                <MediaGallery
-                    isOpen={isOpen}
-                    media={media}
-                    index={index}
-                    setIndex={setIndex}
-                    zoom={zoom}
-                    setZoom={setZoom}
-                    open={open}
-                    previous={previous}
-                    next={next}
-                    handleTouchStart={handleTouchStart}
-                    handleTouchEnd={handleTouchEnd}
-                />
-            </Box>
+            <div dir="ltr">
+                <Box
+                    sx={{
+                        height: 420,
+                        borderRadius: 3,
+                        overflow: "hidden",
+                        position: "relative"
+                    }}
+                >
+                    <MediaGallery
+                        isOpen={isOpen}
+                        media={media}
+                        index={index}
+                        setIndex={setIndex}
+                        zoom={zoom}
+                        setZoom={setZoom}
+                        open={open}
+                        previous={previous}
+                        next={next}
+                        handleTouchStart={handleTouchStart}
+                        handleTouchEnd={handleTouchEnd}
+                    />
+                </Box>
 
-            {/* fullscreen */}
-            <Dialog
-                fullScreen
-                open={isOpen}
-                onClose={close}
-                slotProps={{
-                    paper: {
-                        sx: { bgcolor: "black" },
-                    },
-                }}
-            >
-                <MediaDialogButtons close={close} setZoom={setZoom} />
+                {/* fullscreen */}
+                <Dialog
+                    fullScreen
+                    open={isOpen}
+                    onClose={close}
+                    slotProps={{
+                        paper: {
+                            sx: { bgcolor: "black" },
+                        },
+                    }}
+                >
+                    <MediaDialogButtons close={close} setZoom={setZoom} />
 
-                <MediaGallery
-                    media={media}
-                    isOpen={isOpen}
-                    index={index}
-                    setIndex={setIndex}
-                    zoom={zoom}
-                    setZoom={setZoom}
-                    open={open}
-                    previous={previous}
-                    next={next}
-                    handleTouchStart={handleTouchStart}
-                    handleTouchEnd={handleTouchEnd}
-                />
-            </Dialog>
+                    <MediaGallery
+                        media={media}
+                        isOpen={isOpen}
+                        index={index}
+                        setIndex={setIndex}
+                        zoom={zoom}
+                        setZoom={setZoom}
+                        open={open}
+                        previous={previous}
+                        next={next}
+                        handleTouchStart={handleTouchStart}
+                        handleTouchEnd={handleTouchEnd}
+                    />
+                </Dialog>
+            </div>
         </>
     );
 }

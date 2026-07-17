@@ -1,7 +1,9 @@
 import SchoolIcon from "@mui/icons-material/School";
 import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
 import { Link } from "react-router-dom";
-import { LANGUAGES } from "@/utils/config";
+import { INFO, LANGUAGES } from "@/utils/config";
+import { t } from "i18next";
+import { getDir } from "@/utils/functions";
 
 export default function EducationCard() {
     return (
@@ -9,22 +11,20 @@ export default function EducationCard() {
             <SchoolIcon className="text-secondary mb-4" fontSize="large" />
 
             <h3 className="text-xl font-semibold text-white">
-                Damascus University
+                {t(INFO.university)}
             </h3>
 
             <p className="text-gray-400 mt-2">
-                Information Technology Engineering
+                {t(INFO.faculty)}
             </p>
 
             <div className="flex items-center gap-2 mt-2 text-gray-400">
                 <CalendarMonthIcon fontSize="small" />
-                2019 - Graduated 2024
+                2019 - {t("Graduated")} 2024
             </div>
 
             <p className="text-gray-300 mt-4 leading-relaxed">
-                Studied software engineering, databases,
-                system analysis, software architecture,
-                and web application development.
+                {t("EducationDescription")}
             </p>
 
             <div className="space-y-2 mt-4">
@@ -34,10 +34,10 @@ export default function EducationCard() {
                         className="flex items-center justify-between rounded-lg bg-white/5 px-3 py-2"
                     >
                         <span className="text-secondary font-bold text-lg">
-                            {language.lang}
+                            {t(language.lang)}
                         </span>
                         <span className="text-sm text-gray-300">
-                            {language.description}
+                            {t(language.description)}
                         </span>
                     </div>
                 ))}
@@ -45,6 +45,7 @@ export default function EducationCard() {
 
             <div className="flex justify-center lg:justify-end mt-6">
                 <Link
+                    dir={getDir()}
                     to="/certificates"
                     className="
                         text-center w-full
@@ -57,7 +58,7 @@ export default function EducationCard() {
                         hover:bg-secondary/10
                         hover:border-secondary
                         ">
-                    View Certificates →
+                    {t("ViewCertificate")}
                 </Link>
             </div>
         </div>

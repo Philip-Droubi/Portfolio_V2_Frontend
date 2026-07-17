@@ -1,0 +1,19 @@
+{
+    "AboutMe_About": "About",
+    "AboutMe_Me": "Me",
+    "AboutHeaderDescription": "A quick introduction to who I am, what I do, and what drives me as a software engineer.",
+    "AboutHeader": "More Than Just Code.",
+    "AboutSec_1": ", a Software Engineer passionate about building modern web applications and solving real-world problems through technology.",
+    "AboutSec_2": "I focus on building software that is maintainable, scalable, and aligned with real business requirements. My interests extend beyond writing code to system design, database architecture, and software analysis.",
+    "AboutSec_3": "Having worked on both professional and freelance projects, I value clear communication, thoughtful planning, and delivering practical solutions that create real impact.",
+    "Location": "Location",
+    "Education": "Education",
+    "Syria_Damascus": "Syria, Damascus",
+    "Damascus_University": "Damascus University",
+    "Full_Stack_Development": "Full-Stack Development",
+    "Full_Stack_Development_Desc": "Building responsive frontend experiences and robust backend systems using modern technologies.",
+    "Backend_Databases": "Backend & Databases",
+    "Backend_Database_Desc": "Developing business logic, designing databases, and creating scalable systems that solve real-world problems.",
+    "Continuous_Learning": "Continuous Learning",
+    "Continuous_Learning_Desc": "Continuously improving my skills through projects, experimentation, and exploring emerging technologies."
+}

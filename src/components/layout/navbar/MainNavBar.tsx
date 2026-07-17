@@ -6,6 +6,8 @@ import { t } from "i18next";
 import MobileNavMenu from "./MobileNavMenu";
 import MobileMenuButton from "./MobileMenuButton";
 import { useCursor } from "@/context/CursorContext";
+import LanguageButton from "./LanguageButton";
+import { INFO } from "@/utils/config";
 
 export default function MainNavbar() {
   const ref = useRef<HTMLDivElement>(null);
@@ -62,10 +64,10 @@ export default function MainNavbar() {
             <div className="">
               <h1
                 className="text-title font-bold text-lg tracking-wide">
-                Philip Droubi
+                {t(INFO.name)}
               </h1>
 
-              <p className="text-xs text-description">Software Engineer</p>
+              <p className="text-xs text-description">{t(INFO.job)}</p>
             </div>
           </div>
         </NavLink>
@@ -106,6 +108,7 @@ export default function MainNavbar() {
               {item.label}
             </a>
           ))}
+          <LanguageButton />
         </nav>
 
         {/* Mobile Menu Button */}

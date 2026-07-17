@@ -1,26 +1,27 @@
 import CodeIcon from "@mui/icons-material/Code";
 import SchoolIcon from "@mui/icons-material/School";
 import StorageIcon from "@mui/icons-material/Storage";
+import { t } from "i18next";
 
 export default function AboutMeCards() {
     const cards = [
         {
             icon: <CodeIcon />,
-            title: "Full-Stack Development",
+            title: "Full_Stack_Development",
             description:
-                "Building responsive frontend experiences and robust backend systems using modern technologies.",
+                "Full_Stack_Development_Desc",
         },
         {
             icon: <StorageIcon />,
-            title: "Backend & Databases",
+            title: "Backend_Databases",
             description:
-                "Developing business logic, designing databases, and creating scalable systems that solve real-world problems.",
+                "Backend_Database_Desc",
         },
         {
             icon: <SchoolIcon />,
-            title: "Continuous Learning",
+            title: "Continuous_Learning",
             description:
-                "Continuously improving my skills through projects, experimentation, and exploring emerging technologies.",
+                "Continuous_Learning_Desc",
         },
     ];
 
@@ -47,11 +48,11 @@ export default function AboutMeCards() {
                     </div>
 
                     <h4 className="text-xl font-semibold text-white mb-2">
-                        {card.title}
+                        {t(card.title)}
                     </h4>
 
                     <p className="text-description leading-relaxed">
-                        {card.description}
+                        {t(card.description)}
                     </p>
                 </div>
             ))}

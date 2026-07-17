@@ -70,7 +70,7 @@ export default function ProjectDialog({
                 </div>
 
                 {/* TECH */}
-                <ProjectDialogTechs techs={project.teches ?? []} lang={lang} />
+                <ProjectDialogTechs techs={project.techs ?? []} lang={lang} />
             </DialogContent>
         </Dialog>
     );

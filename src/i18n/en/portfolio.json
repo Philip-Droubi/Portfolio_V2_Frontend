@@ -4,5 +4,16 @@
     "education": "Education & Skills",
     "projects": "Projects",
     "contact": "Contact Me",
-    "home": "Home"
+    "home": "Home",
+    "language": "Language",
+    "Arabic": "Arabic",
+    "English": "English",
+    "Philip_Droubi": "Philip Droubi",
+    "Philip": "Philip",
+    "Droubi": "Droubi",
+    "Software_Engineer": "Software Engineer",
+    "I_m": "I'm",
+    "FooterCopyRight": "Philip Droubi. All rights reserved.",
+    "BuiltWith": "Built with",
+    "BuiltUsing": "using React, TypeScript & Tailwind CSS"
 }

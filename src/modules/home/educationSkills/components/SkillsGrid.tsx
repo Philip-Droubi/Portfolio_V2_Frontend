@@ -2,7 +2,7 @@ import data from "@/assets/json/data.json";
 import i18next from "i18next";
 
 export default function SkillsGrid() {
-    const teches = data.teches;
+    const techs = data.techs;
     const lang = i18next.language;
 
     return (
@@ -10,7 +10,7 @@ export default function SkillsGrid() {
 
             <div
                 className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
-                {teches.map((tech) => (
+                {techs.map((tech) => (
                     <div
                         key={tech.id}
                         className="group rounded-xl border border-white/10 bg-white/5

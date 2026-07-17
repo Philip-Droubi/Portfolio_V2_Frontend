@@ -1,0 +1,15 @@
+{
+    "ContactMe_Contact": "Contact",
+    "ContactMe_Me": "Me",
+    "ContactHeaderDescription": "Have a project, freelance opportunity, or exciting idea? Let's create something amazing.",
+    "AvailableForWork": "Available For Work",
+    "ContactMeTitle": "Let's build something exceptional.",
+    "ContactMeDescription": "Whether you need a React frontend, Laravel backend, REST API, or a complete production-ready solution, I'd love to hear about it.",
+    "Backend_Development": "Backend Development",
+    "Frontend_Development": "Frontend Development",
+    "REST_API_Design": "REST API Design",
+    "Database_Architecture": "Database Architecture",
+    "Performance_Optimization": "Performance Optimization",
+    "Deployment_Maintenance": "Deployment & Maintenance",
+    "ContactDevToDescription": "Beyond building software, I enjoy sharing what I learn. \nI write practical articles about web development, software architecture, and lessons learned from real-world projects."
+}

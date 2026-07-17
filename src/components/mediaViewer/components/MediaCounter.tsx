@@ -12,7 +12,7 @@ export default function MediaCounter({
             sx={{
                 position: "absolute",
                 top: 15,
-                left: 20,
+                insetInlineStart: 20,
                 zIndex: 3,
                 color: "white",
                 background: "rgba(0,0,0,.5)",

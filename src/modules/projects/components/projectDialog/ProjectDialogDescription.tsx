@@ -2,6 +2,7 @@ import { Box, Typography } from "@mui/material";
 import type { ProjectType } from "../../types";
 import DOMPurify from "dompurify";
 import HtmlElementViewer from "@/components/misc/HtmlElementViewer";
+import { t } from "i18next";
 
 export default function ProjectDialogDescription({
     project,
@@ -13,11 +14,11 @@ export default function ProjectDialogDescription({
 
     const sections = [
         {
-            title: "Summary",
+            title: "summary",
             content: project[`tiny_description_${lang}`],
         },
         {
-            title: "About The Project",
+            title: "aboutTheProject",
             content: project[`description_${lang}`],
         }
     ];
@@ -40,7 +41,7 @@ export default function ProjectDialogDescription({
                     >
 
                         <Typography variant="h6" sx={{ color: "var(--color-secondary)", }}>
-                            {section.title}
+                            {t(section.title)}
                         </Typography>
 
                         <Box

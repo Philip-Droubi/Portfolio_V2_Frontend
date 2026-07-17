@@ -143,16 +143,16 @@ export function getDuration(startDate: string, endDate?: string | null): string 
     const parts: string[] = [];
 
     if (years > 0) {
-        parts.push(`${years} ${years === 1 ? "year" : "years"}`);
+        parts.push(`${years} ${years === 1 ? t("year") : t("years")}`);
     }
 
     if (months > 0) {
-        parts.push(`${months} ${months === 1 ? "month" : "months"}`);
+        parts.push(`${months} ${months === 1 ? t("month") : t("months")}`);
     }
 
     // If both are zero
     if (parts.length === 0) {
-        return "Couple Weeks";
+        return t("coupleWeeks");
     }
 
     return parts.join(" & ");

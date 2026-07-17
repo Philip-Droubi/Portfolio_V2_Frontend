@@ -9,7 +9,7 @@ export type ProjectType = {
     url: string | null,
     live_url: string | null,
     is_company: boolean,
-    teches?: TechType[],
+    techs?: TechType[],
     tags?: TagType[],
     media?: mediaType[],
 } & TranslatedAttr<'name'>
