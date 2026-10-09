@@ -12,7 +12,7 @@ export default function HeroImage() {
                 {/* image container */}
                 <img
                     src={profileImg}
-                    alt="Profile Image"
+                    alt="Philip Droubi"
                     className="w-56 h-56 sm:w-72 sm:h-72 lg:w-80 lg:h-80 object-cover rounded-2xl border-4 lg:border-6 border-dashed border-primary shadow-xl" />
             </div>
         </div>

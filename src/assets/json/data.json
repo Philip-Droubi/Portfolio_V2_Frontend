@@ -1,6 +1,62 @@
 {
     "projects": [
         {
+            "id": 14,
+            "main_image": "https://res.cloudinary.com/djjulka78/image/upload/v1791509917/portfolio/v2/projects/14/or6qtuh8aahbfmdqlcmo.jpg",
+            "slug": "alburaq-group",
+            "start_date": "2026-08-01",
+            "end_date": null,
+            "url": null,
+            "live_url": null,
+            "is_company": true,
+            "techs": [
+                {
+                    "id": 5,
+                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781126294/portfolio/v2/teches/g0o7ycoypjdudyoj4lou.svg",
+                    "name_ar": "React JS",
+                    "name_en": "React JS"
+                },
+                {
+                    "id": 1,
+                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781725972/portfolio/v2/teches/ari32s0fgm5jgbsovpnw.svg",
+                    "name_ar": "PHP",
+                    "name_en": "PHP"
+                },
+                {
+                    "id": 24,
+                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1791509572/portfolio/v2/teches/ydp6vf1jydzugqmuszva.svg",
+                    "name_ar": "Next.js",
+                    "name_en": "Next.js"
+                },
+                {
+                    "id": 2,
+                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781126319/portfolio/v2/teches/yz3uuyf4ve5khzopnhxi.svg",
+                    "name_ar": "Laravel",
+                    "name_en": "Laravel"
+                },
+                {
+                    "id": 25,
+                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1791509668/portfolio/v2/teches/nuy5il2bmuslgdqz6nlt.svg",
+                    "name_ar": "Nest.js",
+                    "name_en": "Nest.js"
+                }
+            ],
+            "tags": [
+                {
+                    "id": 1,
+                    "name_ar": "Backend",
+                    "name_en": "Backend"
+                }
+            ],
+            "media": [],
+            "name_ar": "مجموعة البراق",
+            "description_ar": "<p>أعمل كمهندس برمجيات ومطوّر Backend على نظام <strong>Alburaq Brain</strong>، وهو نظام ERP داخلي للشركة يشمل طلبات التوريد، عروض الأسعار، المشتريات، الشحن، المالية والموارد البشرية. كما أعمل على موقع الشركة وبوابة العملاء.</p><br><ul><li><p>بناء <strong>مساعد ذكي (AI)</strong> يجيب الموظفين بالكتابة أو بالصوت خطوة بخطوة، ويدلّهم على مكان الضغط في الشاشة</p></li><li><p>بناء <strong>دورة الطلب</strong> كاملة: طلب التوريد ← عروض الأسعار ← أمر الشراء ← الفاتورة ← الشحنة</p></li><li><p>بناء <strong>استيراد ملفات Excel</strong> لأسعار المصانع (بالعربية والإنجليزية والصينية) لإنشاء المنتجات وعروض الأسعار تلقائياً</p></li><li><p>إنشاء <strong>مستندات PDF وExcel</strong> (فواتير، عروض أسعار) تدعم النص العربي والصيني</p></li><li><p>العمل على النظام المالي، ونظام الأدوار والصلاحيات، وصفحات الموارد البشرية</p></li><li><p>ربط <strong>بوابة العملاء</strong> (Django، 8 لغات) مع نظام الـ ERP: تسجيل الدخول، الطلبات، الشحنات والفواتير</p></li><li><p>العمل على <strong>مشروع Titan</strong> ومشاريع تجارة إلكترونية أخرى</p></li></ul>",
+            "tiny_description_ar": "مهندس برمجيات ومطوّر Backend في مجموعة البراق، أعمل على نظام ERP الخاص بالشركة وموقعها الإلكتروني.",
+            "name_en": "Alburaq Group",
+            "description_en": "<p>I work as a Software Engineer and Backend Developer on <strong>Alburaq Brain</strong>, the company&#039;s internal ERP system that covers sourcing, quotations, purchasing, shipping, finance and HR. I also work on the company website and its customer portal.</p><br><ul><li><p>Built an <strong>AI help assistant</strong> that answers employees by text or voice, step by step, and shows them where to click on the screen</p></li><li><p>Built the full <strong>order flow</strong>: sourcing request → quotations → purchase order → invoice → shipment</p></li><li><p>Built <strong>Excel import</strong> for factory price sheets (English, Arabic and Chinese) that creates products and quotations automatically</p></li><li><p>Generated <strong>PDF and Excel documents</strong> (invoices, quotations) with Arabic and Chinese text</p></li><li><p>Worked on the finance module, the roles and permissions system, and the HR pages</p></li><li><p>Connected the <strong>customer portal</strong> (Django, 8 languages) to the ERP: login, orders, shipments and invoices</p></li><li><p>Worked on the <strong>Titan Project</strong> and other e-commerce projects</p></li></ul>",
+            "tiny_description_en": "Software Engineer & Backend Developer at Alburaq Group, working on the company’s ERP system and its website."
+        },
+        {
             "id": 11,
             "main_image": "https://res.cloudinary.com/djjulka78/image/upload/v1782934502/portfolio/v2/projects/11/ueiussh6wg34e09jtntd.png",
             "slug": "wayak-taxi",
@@ -871,6 +927,12 @@
             "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1781726092/portfolio/v2/teches/xnzxgdmncpk5l9suvbsx.svg",
             "name_ar": "JIRA",
             "name_en": "JIRA"
+        },
+        {
+            "id": 23,
+            "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1791509294/portfolio/v2/teches/xirqeoymqpoqkchwnfjw.svg",
+            "name_ar": "Claude",
+            "name_en": "Claude"
         }
     ],
     "tags": [

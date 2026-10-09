@@ -1,0 +1,93 @@
+{
+    "siteUrl": "https://philip-droubi.github.io/Philip_Droubi_portfolio",
+    "siteName": {
+        "en": "Philip Droubi",
+        "ar": "فيليب دروبي"
+    },
+    "image": "og-image.png",
+    "imageAlt": "Philip Droubi – Software Engineer & Backend Developer",
+    "themeColor": "#0b1120",
+    "person": {
+        "name": "Philip Droubi",
+        "alternateName": "فيليب دروبي",
+        "givenName": "Philip",
+        "familyName": "Droubi",
+        "jobTitle": "Software Engineer & Backend Developer",
+        "image": "philip-droubi.jpg",
+        "worksFor": "Alburaq Group for Import & Export",
+        "alumniOf": "Damascus University",
+        "locality": "Damascus",
+        "country": "SY",
+        "sameAs": [
+            "https://www.linkedin.com/in/philip-droubi",
+            "https://github.com/Philip-Droubi",
+            "https://dev.to/philipdroubi",
+            "https://www.frontendmentor.io/profile/Philip-Droubi",
+            "https://www.facebook.com/philipp.droubi.1"
+        ],
+        "knowsAbout": [
+            "Software Engineering",
+            "Backend Development",
+            "Laravel",
+            "PHP",
+            "NestJS",
+            "Node.js",
+            "TypeScript",
+            "Django",
+            "Python",
+            "REST APIs",
+            "MySQL",
+            "PostgreSQL",
+            "React",
+            "Next.js",
+            "AI integration",
+            "System analysis"
+        ]
+    },
+    "pages": {
+        "home": {
+            "path": "",
+            "en": {
+                "title": "Philip Droubi | Software Engineer & Backend Developer",
+                "description": "Philip Droubi is a Software Engineer and Backend Developer in Damascus, Syria, building web apps, APIs and AI features with Laravel, NestJS, Django and React."
+            },
+            "ar": {
+                "title": "فيليب دروبي | مهندس برمجيات ومطوّر Backend",
+                "description": "فيليب دروبي مهندس برمجيات ومطوّر Backend من دمشق، سوريا. أبني تطبيقات الويب والـ APIs وميزات الذكاء الاصطناعي باستخدام Laravel وNestJS وDjango وReact."
+            }
+        },
+        "projects": {
+            "path": "projects/",
+            "en": {
+                "title": "Projects & Experience | Philip Droubi",
+                "description": "Projects and work experience of Philip Droubi: ERP systems, real-time taxi apps, e-commerce platforms and more, built with Laravel, NestJS, React and Next.js."
+            },
+            "ar": {
+                "title": "المشاريع والخبرات | فيليب دروبي",
+                "description": "مشاريع وخبرات فيليب دروبي: أنظمة ERP، تطبيقات تاكسي لحظية، منصات تجارة إلكترونية وغيرها، مبنية باستخدام Laravel وNestJS وReact وNext.js."
+            }
+        },
+        "certificates": {
+            "path": "certificates/",
+            "en": {
+                "title": "Certificates & Achievements | Philip Droubi",
+                "description": "Certificates and achievements of Philip Droubi, Software Engineer and Backend Developer from Damascus, Syria."
+            },
+            "ar": {
+                "title": "الشهادات والإنجازات | فيليب دروبي",
+                "description": "شهادات وإنجازات فيليب دروبي، مهندس برمجيات ومطوّر Backend من دمشق، سوريا."
+            }
+        },
+        "notFound": {
+            "path": "",
+            "en": {
+                "title": "Page not found | Philip Droubi",
+                "description": "This page does not exist on Philip Droubi's portfolio."
+            },
+            "ar": {
+                "title": "الصفحة غير موجودة | فيليب دروبي",
+                "description": "هذه الصفحة غير موجودة في موقع فيليب دروبي."
+            }
+        }
+    }
+}

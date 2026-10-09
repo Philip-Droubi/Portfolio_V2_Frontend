@@ -15,6 +15,7 @@ export const router = createBrowserRouter(
       <Route path="/" element={<MainLayout />}>
         <Route index element={<HomePage />} />
         <Route path="/projects" element={<ProjectPage />} />
+        <Route path="/projects/:slug" element={<ProjectPage />} />
         <Route path="/certificates" element={<CertificatesPage />} />
       </Route>
       <Route path="*" element={<NotFound />}></Route>

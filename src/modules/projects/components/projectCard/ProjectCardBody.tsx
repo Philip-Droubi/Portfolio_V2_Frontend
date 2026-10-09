@@ -48,7 +48,7 @@ export default function ProjectCardBody({
                                     hover:border-secondary/50
                                     hover:-translate-y-1"
                             >
-                                <img src={tech.icon} className="w-7 h-7" />
+                                <img src={tech.icon} alt={tech[`name_${lang}`] ?? ""} loading="lazy" className="w-7 h-7" />
                             </div>
 
                         </Tooltip>

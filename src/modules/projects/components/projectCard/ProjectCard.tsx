@@ -9,15 +9,24 @@ import ProjectDialog from "../projectDialog/ProjectDialog";
 export default function ProjectCard({
     project,
     lang,
+    defaultOpen = false,
+    onClose,
 }: {
     project: ProjectType;
     lang: string;
+    defaultOpen?: boolean;
+    onClose?: () => void;
 }) {
     const {
         isOpen,
         open,
         close,
-    } = useDisclosure(false);
+    } = useDisclosure(defaultOpen);
+
+    const handleClose = () => {
+        close();
+        onClose?.();
+    };
 
     const mouseX = useMotionValue(0);
     const mouseY = useMotionValue(0);
@@ -84,7 +93,7 @@ export default function ProjectCard({
 
             <ProjectDialog
                 open={isOpen}
-                close={close}
+                close={handleClose}
                 project={project}
                 lang={lang}
             />

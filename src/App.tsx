@@ -29,6 +29,7 @@ function App() {
   // Sync Zustand language with i18next only when language changes
   useEffect(() => {
     i18n.changeLanguage(language);
+    document.documentElement.lang = language;
   }, [language]);
 
   //Handle Mode 

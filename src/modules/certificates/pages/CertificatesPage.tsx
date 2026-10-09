@@ -3,10 +3,14 @@ import data from "@/assets/json/data.json";
 import type { CertificateType } from "../types";
 import i18next from "i18next";
 import { t } from "i18next";
+import { useSeo } from "@/hooks/useSeo";
+import { useLangStore } from "@/store/useLangStore";
+import { pageSeo } from "@/utils/seo";
 
 export default function CertificatesPage() {
     const certificates = data.certificate as CertificateType[];
     const lang = i18next.language;
+    useSeo(pageSeo("certificates", useLangStore((s) => s.language)));
 
     const groupedCertificates = [...certificates]
         .sort((a, b) => {
@@ -32,10 +36,10 @@ export default function CertificatesPage() {
     return (
         <>
             <div className="text-center mb-8">
-                <h2 className="text-3xl sm:text-5xl font-bold text-white">
+                <h1 className="text-3xl sm:text-5xl font-bold text-white">
                     {t("Certificates")} &{" "}
                     <span className="text-secondary">{t("Achievements")}</span>
-                </h2>
+                </h1>
 
                 <p className="text-gray-400 mt-4 max-w-3xl mx-auto">
                     {t("CertificatesDescription")}

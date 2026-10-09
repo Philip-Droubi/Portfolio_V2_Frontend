@@ -16,19 +16,29 @@ export default function ProjectsList({
     fromProjectsPage = false,
     hasFilters = false,
     hasPagination = false,
+    openSlug,
+    onProjectClose,
 }: {
     itemsLimit?: number;
     fromProjectsPage?: boolean;
     hasFilters?: boolean;
     hasPagination?: boolean;
+    openSlug?: string;
+    onProjectClose?: () => void;
 }) {
-    const [selectedTag, setSelectedTag] = useState<number | null>(null);
-    const [currentPage, setCurrentPage] = useState(1);
-
     const lang = i18next.language;
     const pageSize = 15;
 
     const allProjects = data.projects as ProjectType[];
+
+    const [selectedTag, setSelectedTag] = useState<number | null>(null);
+    // Start on the page that holds the project opened from the URL
+    const [currentPage, setCurrentPage] = useState(() => {
+        const index = allProjects.findIndex(p => p.slug === openSlug);
+        return index > 0 ? Math.floor(index / pageSize) + 1 : 1;
+    });
+
+    const Heading = fromProjectsPage ? "h1" : "h2";
 
     // 1. FILTER
     const filteredProjects = useMemo(() => {
@@ -63,9 +73,9 @@ export default function ProjectsList({
             >
                 {/* Header */}
                 <div className="text-center mb-12">
-                    <h2 className="text-3xl sm:text-5xl font-bold text-white">
+                    <Heading className="text-3xl sm:text-5xl font-bold text-white">
                         {t("Projects")} & <span className="text-secondary">{t("Experience")}</span>
-                    </h2>
+                    </Heading>
 
                     <p className="text-gray-400 mt-4 max-w-2xl mx-auto">
                         {t("ProjectsHeaderDescription")}
@@ -87,7 +97,12 @@ export default function ProjectsList({
                 <Grid container spacing={4}>
                     {paginatedProjects.map((project) => (
                         <Grid key={project.id} size={{ xs: 12, sm: 6, lg: 4 }}>
-                            <ProjectCard project={project} lang={lang} />
+                            <ProjectCard
+                                project={project}
+                                lang={lang}
+                                defaultOpen={project.slug === openSlug}
+                                onClose={project.slug === openSlug ? onProjectClose : undefined}
+                            />
                         </Grid>
                     ))}
                 </Grid>

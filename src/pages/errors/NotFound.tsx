@@ -12,8 +12,12 @@ import {
     useTransform,
 } from "framer-motion";
 import { useEffect, useState } from "react";
+import { useSeo } from "@/hooks/useSeo";
+import { useLangStore } from "@/store/useLangStore";
+import { pageSeo } from "@/utils/seo";
 
 export default function NotFound() {
+    useSeo(pageSeo("notFound", useLangStore((s) => s.language)));
     const theme = useTheme();
     const isDark = theme.palette.mode === "dark";
 

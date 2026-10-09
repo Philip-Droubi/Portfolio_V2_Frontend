@@ -1,73 +1,56 @@
-# React + TypeScript + Vite
+# Philip Droubi – Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio of **Philip Droubi**, Software Engineer & Backend Developer from Damascus, Syria.
+It shows my projects, work experience, skills and certificates, in **English and Arabic**.
 
-Currently, two official plugins are available:
+**Live site:** https://philip-droubi.github.io/Philip_Droubi_portfolio/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+![Philip Droubi – Software Engineer & Backend Developer](public/og-image.png)
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Projects & experience with filters, pagination and a details dialog (images, description, tech stack)
+- Every project has its own link, for example `/projects/alburaq-group/`
+- Certificates page grouped by source
+- English / Arabic with full RTL support (`?lang=ar` opens the Arabic version)
+- Download CV button
+- Animated, responsive UI
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+React 19 · TypeScript · Vite · Material UI · Tailwind CSS · React Router · TanStack Query · Zustand · i18next · Framer Motion
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## SEO
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+GitHub Pages only serves files, so a normal React app gets a 404 status on every page except the home page.
+`scripts/seo-pages.mjs` runs after `vite build` and fixes that:
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- writes a real `index.html` for `/projects/`, `/certificates/` and every project page
+- gives each page its own title, description, Open Graph / Twitter preview and hreflang (English / Arabic) links
+- adds JSON-LD structured data (Person, WebSite, ProfilePage, breadcrumbs)
+- adds a `<noscript>` copy of the content for crawlers that don't run JavaScript
+- writes `sitemap.xml` and a `noindex` `404.html`
+
+Page titles and descriptions live in [`src/assets/json/seo.json`](src/assets/json/seo.json).
+Project data comes from [`src/assets/json/data.json`](src/assets/json/data.json) (my portfolio API response) and is only read.
+
+## Run locally
+
+```bash
+npm install
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Build
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm run build
 ```
+
+The `dist/` folder is ready to upload to GitHub Pages.
+
+## Contact
+
+- LinkedIn: https://www.linkedin.com/in/philip-droubi
+- GitHub: https://github.com/Philip-Droubi
+- Email: philipdroubi@gmail.com

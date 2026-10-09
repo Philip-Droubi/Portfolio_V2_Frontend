@@ -3,6 +3,7 @@ import type { ProjectType } from "../../types"
 import { Apartment } from "@mui/icons-material"
 import { getDir } from "@/utils/functions"
 import { t } from "i18next"
+import { Link } from "react-router-dom"
 
 export default function ProjectCardImage({
     project,
@@ -31,7 +32,17 @@ export default function ProjectCardImage({
 
             <div className="absolute bottom-2 inset-s-5">
                 <h3 className="text-xl font-bold text-white" dir={getDir()}>
-                    {name}
+                    {/* Real link so search engines find /projects/:slug.
+                        A plain click still opens the dialog through the card. */}
+                    <Link
+                        to={`/projects/${project.slug}/`}
+                        onClick={(e) => {
+                            if (e.ctrlKey || e.metaKey || e.shiftKey || e.altKey) e.stopPropagation();
+                            else e.preventDefault();
+                        }}
+                    >
+                        {name}
+                    </Link>
                 </h3>
             </div>
         </div>
