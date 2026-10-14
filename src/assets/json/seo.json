@@ -16,8 +16,6 @@
         "image": "philip-droubi.jpg",
         "worksFor": "Alburaq Group for Import & Export",
         "alumniOf": "Damascus University",
-        "locality": "Damascus",
-        "country": "SY",
         "sameAs": [
             "https://www.linkedin.com/in/philip-droubi",
             "https://github.com/Philip-Droubi",
@@ -45,11 +43,11 @@
             "path": "",
             "en": {
                 "title": "Philip Droubi | Software Engineer & Backend Developer",
-                "description": "Philip Droubi is a Software Engineer and Backend Developer in Damascus, Syria, building web apps, APIs and AI features with Laravel, and React."
+                "description": "Philip Droubi is a Software Engineer and Backend Developer, building web apps, APIs and AI features with Laravel, and React."
             },
             "ar": {
                 "title": "فيليب دروبي | مهندس برمجيات ومطوّر Backend",
-                "description": "فيليب دروبي مهندس برمجيات ومطوّر Backend من دمشق، سوريا. أبني تطبيقات الويب والـ APIs وميزات الذكاء الاصطناعي باستخدام Laravel وReact."
+                "description": "فيليب دروبي مهندس برمجيات ومطوّر Backend . أبني تطبيقات الويب والـ APIs وميزات الذكاء الاصطناعي باستخدام Laravel وReact."
             }
         },
         "projects": {
@@ -67,11 +65,11 @@
             "path": "certificates/",
             "en": {
                 "title": "Certificates & Achievements | Philip Droubi",
-                "description": "Certificates and achievements of Philip Droubi, Software Engineer and Backend Developer from Damascus, Syria."
+                "description": "Certificates and achievements of Philip Droubi, Software Engineer and Backend Developer."
             },
             "ar": {
                 "title": "الشهادات والإنجازات | فيليب دروبي",
-                "description": "شهادات وإنجازات فيليب دروبي، مهندس برمجيات ومطوّر Backend من دمشق، سوريا."
+                "description": "شهادات وإنجازات فيليب دروبي، مهندس برمجيات ومطوّر Backend."
             }
         },
         "notFound": {

@@ -1,6 +1,6 @@
 # Philip Droubi – Portfolio
 
-Personal portfolio of **Philip Droubi**, Software Engineer & Backend Developer from Damascus, Syria.
+Personal portfolio of **Philip Droubi**, Software Engineer & Backend Developer.
 It shows my projects, work experience, skills and certificates, in **English and Arabic**.
 
 **Live site:** https://philip-droubi.github.io/Philip_Droubi_portfolio/
