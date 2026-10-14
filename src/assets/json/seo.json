@@ -30,16 +30,12 @@
             "Backend Development",
             "Laravel",
             "PHP",
-            "NestJS",
-            "Node.js",
             "TypeScript",
-            "Django",
             "Python",
             "REST APIs",
             "MySQL",
             "PostgreSQL",
             "React",
-            "Next.js",
             "AI integration",
             "System analysis"
         ]
@@ -49,22 +45,22 @@
             "path": "",
             "en": {
                 "title": "Philip Droubi | Software Engineer & Backend Developer",
-                "description": "Philip Droubi is a Software Engineer and Backend Developer in Damascus, Syria, building web apps, APIs and AI features with Laravel, NestJS, Django and React."
+                "description": "Philip Droubi is a Software Engineer and Backend Developer in Damascus, Syria, building web apps, APIs and AI features with Laravel, and React."
             },
             "ar": {
                 "title": "فيليب دروبي | مهندس برمجيات ومطوّر Backend",
-                "description": "فيليب دروبي مهندس برمجيات ومطوّر Backend من دمشق، سوريا. أبني تطبيقات الويب والـ APIs وميزات الذكاء الاصطناعي باستخدام Laravel وNestJS وDjango وReact."
+                "description": "فيليب دروبي مهندس برمجيات ومطوّر Backend من دمشق، سوريا. أبني تطبيقات الويب والـ APIs وميزات الذكاء الاصطناعي باستخدام Laravel وReact."
             }
         },
         "projects": {
             "path": "projects/",
             "en": {
                 "title": "Projects & Experience | Philip Droubi",
-                "description": "Projects and work experience of Philip Droubi: ERP systems, real-time taxi apps, e-commerce platforms and more, built with Laravel, NestJS, React and Next.js."
+                "description": "Projects and work experience of Philip Droubi: ERP systems, real-time taxi apps, e-commerce platforms and more, built with Laravel, React."
             },
             "ar": {
                 "title": "المشاريع والخبرات | فيليب دروبي",
-                "description": "مشاريع وخبرات فيليب دروبي: أنظمة ERP، تطبيقات تاكسي لحظية، منصات تجارة إلكترونية وغيرها، مبنية باستخدام Laravel وNestJS وReact وNext.js."
+                "description": "مشاريع وخبرات فيليب دروبي: أنظمة ERP، تطبيقات تاكسي لحظية، منصات تجارة إلكترونية وغيرها، مبنية باستخدام Laravel وReact."
             }
         },
         "certificates": {
