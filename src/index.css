@@ -108,6 +108,11 @@ body::-webkit-scrollbar-thumb:hover {
   padding: revert;
 }
 
+.html-element a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
 @keyframes blinkCursor {
   50% {
     opacity: .3;

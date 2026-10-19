@@ -1,6 +1,74 @@
 {
     "projects": [
         {
+            "id": 15,
+            "main_image": "https://res.cloudinary.com/djjulka78/image/upload/v1792413511/portfolio/v2/projects/15/gowhdsjpncymubf1m9en.jpg",
+            "slug": "disk-cleanup-helper",
+            "start_date": "2026-10-01",
+            "end_date": null,
+            "url": "https://github.com/Philip-Droubi/disk-cleanup-helper",
+            "live_url": "https://philip-droubi.github.io/disk-cleanup-helper/",
+            "is_company": false,
+            "techs": [
+                {
+                    "id": 26,
+                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1792413127/portfolio/v2/teches/lnz08oqqpg51atfwaazu.png",
+                    "name_ar": "C#",
+                    "name_en": "C#"
+                },
+                {
+                    "id": 23,
+                    "icon": "https://res.cloudinary.com/djjulka78/image/upload/v1791509294/portfolio/v2/teches/xirqeoymqpoqkchwnfjw.svg",
+                    "name_ar": "Claude",
+                    "name_en": "Claude"
+                }
+            ],
+            "tags": [
+                {
+                    "id": 2,
+                    "name_ar": "Frontend - Web",
+                    "name_en": "Frontend - Web"
+                },
+                {
+                    "id": 4,
+                    "name_ar": "Windows - Desktop",
+                    "name_en": "Windows - Desktop"
+                }
+            ],
+            "media": [
+                {
+                    "id": 62,
+                    "media_url": "https://res.cloudinary.com/djjulka78/image/upload/v1792413513/portfolio/v2/projects/15/media/yedcwxgwrlupecgejgqr.png"
+                },
+                {
+                    "id": 63,
+                    "media_url": "https://res.cloudinary.com/djjulka78/image/upload/v1792413515/portfolio/v2/projects/15/media/s1cpqkxoltgnynejt8qf.png"
+                },
+                {
+                    "id": 64,
+                    "media_url": "https://res.cloudinary.com/djjulka78/image/upload/v1792413517/portfolio/v2/projects/15/media/aqfkqoiiru4sqatjhjb8.png"
+                },
+                {
+                    "id": 65,
+                    "media_url": "https://res.cloudinary.com/djjulka78/image/upload/v1792413519/portfolio/v2/projects/15/media/wzfnb9cu9x1quasbgocm.png"
+                },
+                {
+                    "id": 66,
+                    "media_url": "https://res.cloudinary.com/djjulka78/image/upload/v1792413521/portfolio/v2/projects/15/media/vqimwlzpkqifwvnxog4m.png"
+                },
+                {
+                    "id": 67,
+                    "media_url": "https://res.cloudinary.com/djjulka78/image/upload/v1792413523/portfolio/v2/projects/15/media/v5ygo3atofr6jcd4ylbm.png"
+                }
+            ],
+            "name_ar": "Disk Cleanup Helper",
+            "description_ar": "<p>Disk Cleanup Helper هو تطبيق مجاني ومفتوح المصدر لنظامي Windows 10 و Windows 11، يساعد المستخدمين على تحرير المساحة بأمان، ومعرفة ما يملأ أقراصهم، وفحص صحة هذه الأقراص.</p><p><br></p><h2>1. ما هو Disk Cleanup Helper؟</h2><p>هو برنامج واحد صغير يضم سبع علامات تبويب رئيسية: التنظيف، وتحليل القرص، وصحة القرص، وتفاصيل SMART، وأداء القرص، وتفاصيل الجهاز، ونصائح وأسئلة شائعة. كُتب بلغة <strong>C# 5 وتقنية WPF على Microsoft .NET Framework 4.8</strong> المدمج في Windows، ويُبنى بمترجم C# 5 المرفق مع Windows نفسه، دون Visual Studio أو SDK أو NuGet.</p><p><br></p><h2>2. الميزات الرئيسية</h2><h3>• تنظيف آمن</h3><ul><li><p>تنظيف ذاكرات المتصفحات والتطبيقات المؤقتة، والملفات المؤقتة، وملفات التحديث القديمة، وبقايا Windows.</p></li><li><p>العناصر مجمّعة حسب مدى الحذر المطلوب: <strong>آمن، مسؤول، القرار لك، إعداد، للعرض فقط</strong>.</p></li><li><p>يوضّح كل عنصر ما تحتفظ به وما تفقده، ولا يُحذف أي شيء حتى تحدده وتؤكد.</p></li><li><p>لا يمسّ التنظيف أبدًا المستندات والصور والموسيقى ومقاطع الفيديو وسطح المكتب والتنزيلات، ويُبقي تنظيف المتصفحات على كلمات المرور وتسجيلات الدخول.</p></li><li><p>يكتفي بعرض تثبيت Windows السابق، واستعادة النظام، و Docker، و WSL، ولا يحذفها أبدًا.</p></li></ul><p><br></p><h3>• تحليل القرص وصحته</h3><ul><li><p>يعرض أكبر المجلدات والملفات على أي محرك أقراص، مع حماية ملفات Windows والبرامج.</p></li><li><p>يقرأ بيانات SMART لكل قرص (أو سجل الصحة في أقراص NVMe) ليعرض تقديرًا لصحته، ودرجة حرارته المباشرة، ومخططات السجل.</p></li><li><p>نشاط القرص المباشر، واختبار للسرعة، وتقرير عن الجهاز يمكنك نسخه أو حفظه.</p></li></ul><p><br></p><h3>• الخصوصية والتحديث الذاتي</h3><ul><li><p>لا يرسل أي شيء عن الكمبيوتر الخاص بك: بلا حساب وبلا إعلانات.</p></li><li><p>يسأل GitHub عن وجود إصدار جديد مرة واحدة في اليوم على الأكثر (ويمكن للمستخدم إيقاف ذلك)، ويتحقق من قيمة SHA256 ورقم الإصدار لكل ملف منزَّل قبل أن يستبدل النسخة قيد التشغيل.</p></li></ul><p><br></p><h3>• 18 لغة واختبار الواجهة</h3><ul><li><p>طبقة ترجمة واحدة تراعي صيغ الجمع لكل النصوص الظاهرة، وواجهة من اليمين إلى اليسار للعربية والفارسية والأردية، ووضعان فاتح وداكن.</p></li><li><p>فحص للترجمات يعمل مع كل عملية بناء ويوقفها عند وجود أي خطأ في الترجمة.</p></li><li><p>خيارات اختبار في سطر الأوامر تحفظ صورة لأي علامة تبويب بأي لغة وأي وضع، وتسرد كل نص مقطوع.</p></li></ul><p><br></p><h3>• المصدر المفتوح والموقع الإلكتروني</h3><ul><li><p>طرحت الإصدار 1.0 على GitHub في 18 أكتوبر 2026، ونشرت <a href=\"https://github.com/Philip-Droubi/disk-cleanup-helper\">الشيفرة المصدرية</a> في اليوم التالي بموجب رخصة GNU GPL v3 مع شرط إضافي يحفظ نسبة العمل إلى مؤلفه.</p></li><li><p><a href=\"https://philip-droubi.github.io/disk-cleanup-helper/\">موقع إلكتروني</a> ثابت مبني باستخدام Next.js باللغات الـ 18 نفسها وبالوضعين الفاتح والداكن، مع تحسين محركات البحث SEO (صفحة لكل لغة، و hreflang، وبيانات منظمة، وخريطة للموقع)، وهو منشور على GitHub Pages.</p></li></ul>",
+            "tiny_description_ar": "تطبيق مجاني ومفتوح المصدر لنظامي Windows 10 و Windows 11 يحرّر المساحة بأمان ويفحص صحة الأقراص وبيانات SMART، ويدعم 18 لغة.",
+            "name_en": "Disk Cleanup Helper",
+            "description_en": "<p>Disk Cleanup Helper is a free, open-source app for Windows 10 and 11. It helps people free up space safely, see what fills their drives and check their disks&#039; health.</p><p><br></p><h2>1. What is Disk Cleanup Helper?</h2><p>It is one small program with seven main tabs: Clean up, Analyze disk, Disk health, SMART details, Disk performance, Device details, and Tips &amp; FAQ. It is written in <strong>C# 5 and WPF on .NET Framework 4.8</strong>, which Windows already includes, and compiled with the C# compiler that ships with Windows: no Visual Studio, SDK or NuGet.</p><p><br></p><h2>2. Key Features</h2><h3>• Safe Cleanup</h3><ul><li><p>Cleans browser and app caches, temp files, old update files and Windows leftovers.</p></li><li><p>Items grouped by how careful to be: <strong>Safe, Admin, Your call, Setting, Info only</strong>.</p></li><li><p>Each item says what you keep and lose; nothing is deleted until you select it and confirm.</p></li><li><p>Never touches documents, photos, music, videos, desktop or downloads; browser cleanup keeps passwords and logins.</p></li><li><p>A previous Windows installation, System Restore, Docker and WSL are only shown, never deleted.</p></li></ul><p><br></p><h3>• Disk Analysis &amp; Health</h3><ul><li><p>Finds the biggest folders and files on any drive, with Windows and program files protected.</p></li><li><p>Reads each disk&#039;s SMART data (or the NVMe health log) for a health estimate, live temperature and history charts.</p></li><li><p>Live disk activity, a speed test, and a device report you can copy or save.</p></li></ul><p><br></p><h3>• Privacy &amp; Self-Updater</h3><ul><li><p>Sends nothing about your PC: no account, no ads.</p></li><li><p>Checks GitHub at most once a day (users can turn this off) and verifies each download&#039;s SHA256 and version number before replacing the running copy.</p></li></ul><p><br></p><h3>• 18 Languages &amp; Layout Testing</h3><ul><li><p>One translation layer with plural rules for every on-screen text, right-to-left layouts for Arabic, Persian and Urdu, and light and dark themes.</p></li><li><p>A language check runs with every build and stops it on translation errors.</p></li><li><p>Test switches save a picture of any tab in any language and theme, and list every cut-off text.</p></li></ul><p><br></p><h3>• Open Source &amp; Website</h3><ul><li><p>I released version 1.0 on GitHub on 18 October 2026 and the <a href=\"https://github.com/Philip-Droubi/disk-cleanup-helper\">source code</a> the next day, under the GNU GPL v3 with an attribution term.</p></li><li><p>A static Next.js <a href=\"https://philip-droubi.github.io/disk-cleanup-helper/\">website</a> in the same 18 languages and both themes, with SEO (per-language pages, hreflang, structured data, sitemap), on GitHub Pages.</p></li></ul>",
+            "tiny_description_en": "Disk Cleanup Helper, a free, open-source Windows 10 and 11 in 18 languages app that frees up space safely and checks disk health and SMART data."
+        },
+        {
             "id": 14,
             "main_image": "https://res.cloudinary.com/djjulka78/image/upload/v1791509917/portfolio/v2/projects/14/or6qtuh8aahbfmdqlcmo.jpg",
             "slug": "alburaq-group",
@@ -950,6 +1018,11 @@
             "id": 3,
             "name_ar": "Game",
             "name_en": "Game"
+        },
+        {
+            "id": 4,
+            "name_ar": "Windows - Desktop",
+            "name_en": "Windows - Desktop"
         }
     ],
     "certificate": [
